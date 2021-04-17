@@ -10,20 +10,20 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: Reinforcement Learning Model platform.
 author:
-  name:
-  email:
+  name: ybbaek
+  email: yummybum@gmail.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: toybag
   links:
     - https://github.com/CloudCannon/frisco-jekyll-template
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Seoul
 
 permalink: pretty
 
