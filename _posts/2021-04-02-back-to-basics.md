@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title: "SRC 란, what is SRC?"
+title: "자율주행 플랫폼 SRC 란, what is SRC (Self Driving Rc Car?"
 date: 2021-04-02
 img: posts/20210402/SRC-B2_2.jpg # post7-header.webp
 tags: [Robot, RC, GPS, Camera, Lidar]
@@ -10,17 +10,14 @@ category: theory
 author: Ybbaek
 description: "SRC 모바일로봇 이란: SRC Intro."
 ---
-The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today's headlines, and I get:
+SRC 로봇은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:
 - [This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.](https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew)
 - [How A.I.-powered companies dodged the worst damage from COVID](https://fortune.com/2021/04/02/ai-forecasting-supply-chain-factories-caterpillar-agco/)
 - [AI technology detects ‘ticking time bomb’ arteries](https://www.mobihealthnews.com/news/emea/ai-technology-detects-ticking-time-bomb-arteries)
-- [AI in Drug Discovery Starts to Live Up to the Hype](https://www.genengnews.com/insights/ai-in-drug-discovery-starts-to-live-up-to-the-hype/)
-- [Pentagon seeks commercial solutions to get its data ready for AI](https://www.c4isrnet.com/artificial-intelligence/2021/04/02/pentagon-seeks-commercial-solutions-to-get-its-data-ready-for-ai/)
-  
 
-RL Connect 는 무료로 제공하여 배포하는 Free Ntrip client 프로그램 입니다. 
+차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.
 
-They say that the best way to learn something is to try to explain it, so in a personal exercise I will try to do an ELI5 (**E**xplain it **L**ike **I** am **5**) version of what is a neural network.
+They say that the best way to learn something is to try to explain it, so in a personal exercise I will try to do an SRC (**S**elf driving **R**emote control **C**ar) version of what is a neural network.
 
 Let's start with a little history, humans have been tinkering with the idea of an intelligent machine for a while now, some even say that the idea of artificial intelligence was conceived by the ancient greeks ([source](https://www.thinkautomation.com/bots-and-ai/a-history-of-automation-the-rise-of-robots-and-ai/)), and several attempts at devising "intelligent" machines have been made through history, a notable one was 'The Analytical Engine' created by Charles Babbage in 1837:
 
