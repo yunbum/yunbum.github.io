@@ -2,13 +2,13 @@
 layout: post
 read_time: true
 show_date: true
-title: "RL Connect 란, what is RL Connect?"
+title: "SRC 란, what is SRC?"
 date: 2021-04-02
-img: posts/20210402/RL Connect.jpg # post7-header.webp
-tags: [RTK, Ntrip, RTCM message]
+img: posts/20210402/SRC-B2_2.jpg # post7-header.webp
+tags: [Robot, RC, GPS, Camera, Lidar]
 category: theory
 author: Ybbaek
-description: "ELI5: what is a 'RL Connect'."
+description: "SRC 모바일로봇 이란: SRC Intro."
 ---
 The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today's headlines, and I get:
 - [This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.](https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew)
@@ -80,12 +80,6 @@ To the number of layers, their type and how many neurons each have, is what we c
 ### Output
 
 At the very end of the chain, another layer lies (which behaves just like a hidden layer), but has the peculiarity that it is the final layer, and therefore whatever it calculates will be the output values of the whole network. The number of outputs the network has is a function of the problem we would like to solve. It could be as simple as one output, with its value representing a probability of an action (like in the case of the flee reaction of the housefly), to many outputs, perhaps if our network is trying to distinguish images of animals, one would have an output for each animal species, and the output would represent how much confidence the network has that the particular image belongs to the corresponding species.
-
-As we said, the neural network is just a collection of individual neurons, doing basic math operations on certain inputs in series of layers that eventually generate an output. This mesh of neurons is then "trained" on certain output values from known cases of the inputs; once it has learned it can then process new inputs, values that it has never seen before with surprisingly accurate results.
-
-Many of the problems neural networks solve, could be certainly worked out by other algorithms, however, since neural networks are in their core very basic operations, once trained, they are extremely efficient, hence much quicker and economical to produce results.
-
-There are a few more details on how a simple neural network operate that I purposedly left out to make this explanation as simple as possible. Thinks like biases, the activation functions and the math behind learning, the backpropagation algorithm, I will leave to a more in depth article. I will also write (perhaps in a series) about the more complex topologies combining different types of layers and other building blocks, a part from the perceptron.
 
 ![Alexa recognizing speach](./assets/img/posts/20210402/post7-alexa.png)
 

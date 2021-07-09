@@ -2,14 +2,13 @@
 layout: post
 read_time: true
 show_date: true
-title: "Starting the LabVIEW"
+title: "자율운항 보트 / ASV Autonomous Surface Vehicle"
 date: 2021-03-24
-img: posts/20210324/SRC main.jpg
+img: posts/20210324/usv-a1.jpg
 tags: [general blogging, thoughts, life]
 author: Armando Maynez
-description: "Midlife career change: a disaster or an opportunity?"
+description: "무인 자율운항 보트/선박 ASV"
 ---
-In the midst of a global pandemic caused by the SARS-COV2 coronavirus; I decided to start blogging. I wanted to blog since a long time, I have always enjoyed writing, but many unknowns and having "no time" for it prevented me from taking it up. Things like: "I don't really know who my target audience is", "what would my topic or topics be?", "I don't think I am a world-class expert in anything", and many more kept stopping me from setting up my own blog. Now seemed like a good time as any so with those and tons of other questions in my mind I decided it was time to start.
 
 Funnily, this is not my first post. The birth of the blog came very natural as a way to "document" my newly established pursuit for getting myself into Machine Learning. This new adventure of mine comprises several things, and if I want to succeed I need to be serious about them all:
 - I want to start coding again! I used to code a long time ago, starting when I was 8 years old in a Tandy Color Computer hooked up to my parent's TV.

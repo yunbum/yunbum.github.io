@@ -2,16 +2,16 @@
 layout: post
 read_time: true
 show_date: true
-title:  Self Sailing RC Boat
+title:  RL Connect tool SW - Free Ntrip client Network RTK
 date:   2021-03-18 15:14:20 -0600
 description: "Inspired by Deep Mind's astonishing feats of having their Alpha Go, Alpha Zero and Alpha Star programs learn (and be amazing at it) Go, Chess, Atari games and lately Starcraft; I set myself to the task of programming a neural network that will learn by itself how to play the ancient game of tic tac toe. How hard could it be?"
-img: posts/20210318/usv-a1.jpg
-tags: [machine learning, artificial intelligence, reinforcement learning, coding, python]
-author: Armando Maynez
+img: posts/20210318/C94-M8P.png
+tags: [GPS, Network rtk, Ntrip client, GNSS, fkp, vrs]
+author: Ybbaek
 github: amaynez/TicTacToe/
 toc: yes # leave empty or erase for no TOC
 ---
-<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/Game_Screen.png' width="310" height="300"></center>
+<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/RL_Connect.jpg' width="310" height="300"></center>
 
 ## Background
 After many years of a corporate career (17) diverging from computer science, I have now decided to learn Machine Learning and in the process return to coding (something I have always loved!).

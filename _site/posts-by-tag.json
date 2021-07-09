@@ -3,7 +3,7 @@
 [   
       
   {
-  "tag" : "Ntrip",
+  "tag" : "Camera",
   "posts" : [
       
       "./back-to-basics.html"
@@ -13,7 +13,29 @@
     
       
   {
-  "tag" : "RTCM message",
+  "tag" : "GNSS",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "GPS",
+  "posts" : [
+      
+      "./back-to-basics.html",
+      
+      "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Lidar",
   "posts" : [
       
       "./back-to-basics.html"
@@ -23,7 +45,37 @@
     
       
   {
-  "tag" : "RTK",
+  "tag" : "Network rtk",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Ntrip client",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "RC",
+  "posts" : [
+      
+      "./back-to-basics.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Robot",
   "posts" : [
       
       "./back-to-basics.html"
@@ -36,9 +88,7 @@
   "tag" : "artificial intelligence",
   "posts" : [
       
-      "./AI-and-intellectual-property.html",
-      
-      "./deep-q-learning-tic-tac-toe.html"
+      "./AI-and-intellectual-property.html"
       
     ]
   } ,
@@ -47,8 +97,6 @@
   {
   "tag" : "coding",
   "posts" : [
-      
-      "./deep-q-learning-tic-tac-toe.html",
       
       "./neural-network-optimization-methods.html",
       
@@ -93,6 +141,16 @@
     
       
   {
+  "tag" : "fkp",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "general blogging",
   "posts" : [
       
@@ -117,8 +175,6 @@
   "posts" : [
       
       "./AI-and-intellectual-property.html",
-      
-      "./deep-q-learning-tic-tac-toe.html",
       
       "./neural-network-optimization-methods.html",
       
@@ -158,21 +214,9 @@
   "tag" : "python",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html",
-      
       "./ML-Library-from-scratch.html",
       
       "./conways-game-of-life.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "reinforcement learning",
-  "posts" : [
-      
-      "./deep-q-learning-tic-tac-toe.html"
       
     ]
   } ,
@@ -183,6 +227,16 @@
   "posts" : [
       
       "./starting-the-adventure.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "vrs",
+  "posts" : [
+      
+      "./deep-q-learning-tic-tac-toe.html"
       
     ]
   } 

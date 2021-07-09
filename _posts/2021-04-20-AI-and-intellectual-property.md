@@ -2,9 +2,9 @@
 layout: post
 read_time: true
 show_date: true
-title: "How Self Driving RC robot SRC works!"
+title: "RLmodel 자율주행 차량 이력 / History!"
 date: 2021-04-20
-img: posts/20210420/src-b2-rside.jpg # post8-rembrandt.jpg
+img: posts/20210420/src_history.jpg # post8-rembrandt.jpg
 tags: [copyright, creativity, neural networks, machine learning, artificial intelligence]
 category: opinion
 author: Ybbaek
@@ -12,7 +12,7 @@ description: "자율주행관련 Mobile robot 개발자로써 관련 알고리�
 ---
 자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 [check github repo](https://github.com/yunbum/SRC/) .
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OcdVl3k5qS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qJrNXtsEzZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Legacy SRC Mobile robots 테스트 차량들
 
@@ -21,7 +21,11 @@ Legacy SRC Mobile robots 테스트 차량들
 
 SRC 로봇은 약 소형 RC 자동차 개량으로 출발해서, 다양한 RC 차량을 별도의 모터드라이버, 아두이노, 라즈베리파이, 카메라, 라이다 등을 부착하여 튜닝하는 것을 시작으로, GPS, Lidar 등을 추가하고 Waypoint 제어등을 거쳐 현재의 완벽한 자율주행 차량으로 업그레이드 되게 되었습니다.
 
-They are using Google's [Magenta](https://magenta.tensorflow.org), which is a neural network that precisely was conceived to explore the role of machine learning within the creative process. Magenta has been used to create a brand new "Beatles" song or even there was a band that [used it to write a full album](https://arstechnica.com/gaming/2019/08/yachts-chain-tripping-is-a-new-landmark-for-ai-music-an-album-that-doesnt-suck/) in 2019.
+
+![Metal frame](./assets/img/posts/20210420/metal_frame.jpg)
+<small>[Metal frame] 전체 메탈 프레임 초기 모델중 하나.</small>
+
+다양한 프레임 소재 및 차량 종류의 테스트를 거처 최종으로 전체 메탈프레임 구조를 갖추고 완성이 되게 되어 매우 강한 강성과 함께 파손우려가 없고 수리, 보완에도 용이하도록 개발이 완료되었습니다.
 
 So as we currently stand, a human author is required to grant a copyright, which makes sense, there is no point of having a neural network be the beneficiary of royalties of a creative work (no bank would open an account for them anyways, lol).
 
