@@ -4,9 +4,9 @@ description: 'Artificial Intelligence trends and concepts made easy.' # this mea
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://github.com/yunbum/yunbum.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/MVM-logo-full.svg"
-logo-icon: "/assets/img/branding/MVM-symbol.svg" # "/assets/img/branding/MVM-symbol.svg"
-logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # "/assets/img/branding/MVM-symbol-black.png" must be a non SVG file
+logo: "/assets/img/branding/rlmodel icon-3.jpg" # "/assets/img/branding/MVM-logo-full.svg"
+logo-icon: "/assets/img/branding/rlmodel icon-3.jpg" # "/assets/img/branding/MVM-symbol.svg" # "/assets/img/branding/MVM-symbol.svg"
+logo-icon-SEO: "/assets/img/branding/rlmodel icon-3.jpg" # "/assets/img/branding/MVM-symbol-black.png" must be a non SVG file
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -25,11 +25,11 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 
 # Author settings
 author: Ybbaek # add your name
-author-pic: Myself_Neon_grey.jpg
+author-pic: ybbaek.jpg # Myself_Neon_grey.jpg
 about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
 
 # Contact links
-email: armando.maynez@gmail.com # Add your Email address
+email: yummybum76@gmail.com # Add your Email address
 phone: # Add your Phone number
 website: https://amaynez.github.io # Add your website
 linkedin: amaynez # Add your Linkedin handle
