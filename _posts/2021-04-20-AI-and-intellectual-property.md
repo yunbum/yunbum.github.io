@@ -14,13 +14,10 @@ description: "자율주행관련 Mobile robot 개발자로써 관련 알고리�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OcdVl3k5qS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The project was created by [Over the Bridge](https://overthebridge.org), an organization dedicated to increase awareness on mental health and substance abuse in the music industry, trying to denormalize and remove the glamour around such illnesses within the music community.
+![The Next SRC](./assets/img/posts/20210420/src_history.jpg)
+SRC 로봇은 약 소형 RC 자동차 개량으로 출발해서, 다양한 RC 차량을 별도의 모터드라이버, 아두이노, 라즈베리파이, 카메라, 라이다 등을 부착하여 튜닝하는 것을 시작으로, GPS, Lidar 등을 추가하고 Waypoint 제어등을 거쳐 현재의 완벽한 자율주행 차량으로 업그레이드 되게 되었습니다.
 
 They are using Google's [Magenta](https://magenta.tensorflow.org), which is a neural network that precisely was conceived to explore the role of machine learning within the creative process. Magenta has been used to create a brand new "Beatles" song or even there was a band that [used it to write a full album](https://arstechnica.com/gaming/2019/08/yachts-chain-tripping-is-a-new-landmark-for-ai-music-an-album-that-doesnt-suck/) in 2019.
-
-Think about it, imagine one of this new songs becomes a massive hit with millions of youtube views and spotify streams, who can claim the royalties generated?
-
-Now, creative works qualify for copyright protection if they are original, with most definitions of originality requiring a human author.  “register an original work of authorship, provided that the work was created by a human being.” 
 
 So as we currently stand, a human author is required to grant a copyright, which makes sense, there is no point of having a neural network be the beneficiary of royalties of a creative work (no bank would open an account for them anyways, lol).
 
