@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "How Self Driving RC robot works"
 date: 2021-04-20
-img: posts/20210420/post8-rembrandt.jpg
+img: posts/20210420/src-b2-rside.jpg # post8-rembrandt.jpg
 tags: [copyright, creativity, neural networks, machine learning, artificial intelligence]
 category: opinion
 author: Armando Maynez

@@ -3,12 +3,40 @@
 [   
       
   {
+  "tag" : "Ntrip",
+  "posts" : [
+      
+      "./back-to-basics.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "RTCM message",
+  "posts" : [
+      
+      "./back-to-basics.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "RTK",
+  "posts" : [
+      
+      "./back-to-basics.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "artificial intelligence",
   "posts" : [
       
       "./AI-and-intellectual-property.html",
-      
-      "./back-to-basics.html",
       
       "./deep-q-learning-tic-tac-toe.html"
       
@@ -90,8 +118,6 @@
       
       "./AI-and-intellectual-property.html",
       
-      "./back-to-basics.html",
-      
       "./deep-q-learning-tic-tac-toe.html",
       
       "./neural-network-optimization-methods.html",
@@ -109,8 +135,6 @@
   "posts" : [
       
       "./AI-and-intellectual-property.html",
-      
-      "./back-to-basics.html",
       
       "./ML-Library-from-scratch.html",
       
