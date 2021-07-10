@@ -1,4 +1,4 @@
-I"�<p>Funnily, this is not my first post. The birth of the blog came very natural as a way to “document” my newly established pursuit for getting myself into Machine Learning. This new adventure of mine comprises several things, and if I want to succeed I need to be serious about them all:</p>
+I"u<p>Funnily, this is not my first post. The birth of the blog came very natural as a way to “document” my newly established pursuit for getting myself into Machine Learning. This new adventure of mine comprises several things, and if I want to succeed I need to be serious about them all:</p>
 <ul>
   <li>Setting up a blog to document my journey and share it:</li>
   <li>Establish a learning and blogging routine.</li>
@@ -40,23 +40,23 @@
 
 <p>I have tried <a href="https://www.wix.com/">wix</a> and <a href="https://www.squarespace.com/">squarespace</a> before, they are fantastic for quick and easy website generation, but their free offering has ads, so again, a big no for me.</p>
 
-<p>I discovered <a href="https://ghost.org/">ghost</a> as the platform used by one of the bloggers I follow (<a href="https://ruder.io/">Sebastian Ruder</a>), turns out is a fantastic evolution over wordpress. It runs on the latest technologies, its interface is quite modern, and it is focused on one thing only: publishing. They have a paid hosting service, but the software is open sourced, therefore free to use in any hosting.</p>
+<p>I discovered <a href="https://ghost.org/">ghost</a> as the platform used by one of the bloggers I follow (<a href="https://ruder.io/">Sebastian Ruder</a>), therefore free to use in any hosting.</p>
 
 <p>Next were the generators that don’t have a web interface, but can be easily set up:</p>
 
-<p>I also tested <a href="https://www.gatsbyjs.com/docs/glossary/static-site-generator/">gatsby</a> with it’s own Gatsby Cloud hosting service, <a href="https://amaynez.gatsbyjs.io/">here is my test site</a>. They also use GitHub as a base to host the source files to build the website, so you create a repository, and it is connected to it. I found the free template offerings quite limited for what I was looking for.</p>
+<p>I also tested <a href="https://www.gatsbyjs.com/docs/glossary/static-site-generator/">gatsby</a> with it’s own Gatsby Cloud hosting service, <a href="https://amaynez.gatsbyjs.io/">here is my test site</a>.</p>
 
-<p>Finally it came the turn for <a href="https://jekyllrb.com/">jekyll</a>, although an older, and slower generator (compared to Hugo and Gatsby), it was created by one of the founders of GitHub, so it’s integration with GitHub Pages is quite natural and painless, so much so, that to use them together you don’t even have to install Jekyll in your machine! You have two choices:</p>
+<p>Finally it came self sailing boat</p>
 <ol>
   <li>keep it all online, special <code class="language-plaintext highlighter-rouge">gh-pages</code> .</li>
   <li>Have a synchronized local copy of the source files for the website.</li>
 </ol>
 
-<p>I picked up a template, just forked the repository and started modifying the files to customize it, it was fast and easy, I even took it upon myself to add some functionality to the template (it served as a coding little project) like:</p>
+<p>I picked up a template, like:</p>
 <ul>
   <li>SEO meta tags</li>
-  <li>Dark mode (<a href="https://github.com/the-mvm/the-mvm.github.io/blob/a8d4f781bfbc4107b4842433701d28f5bbf1c520/_config.yml#L10">configurable in _config.yml file</a>)</li>
-  <li>comments ‘courtain’ to mask the disqus interface until the user clicks on it (<a href="https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/_config.yml#L13">configurable in _config.yml</a>)</li>
+  <li>Dark mode</li>
+  <li>comments ‘courtain’ to mask the disqus interface</li>
 </ul>
 
 <p><img src="./assets/img/template_screenshots/homepage-responsive.jpg" alt="my new blog" /></p>

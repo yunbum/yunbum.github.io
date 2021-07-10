@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-10T16:34:35+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 자율주행 차량 이력 / History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 자율주행 차량 이력 / History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-10T16:47:08+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 자율주행 차량 이력 / History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 자율주행 차량 이력 / History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qJrNXtsEzZo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -105,23 +105,23 @@
 
 &lt;p&gt;I have tried &lt;a href=&quot;https://www.wix.com/&quot;&gt;wix&lt;/a&gt; and &lt;a href=&quot;https://www.squarespace.com/&quot;&gt;squarespace&lt;/a&gt; before, they are fantastic for quick and easy website generation, but their free offering has ads, so again, a big no for me.&lt;/p&gt;
 
-&lt;p&gt;I discovered &lt;a href=&quot;https://ghost.org/&quot;&gt;ghost&lt;/a&gt; as the platform used by one of the bloggers I follow (&lt;a href=&quot;https://ruder.io/&quot;&gt;Sebastian Ruder&lt;/a&gt;), turns out is a fantastic evolution over wordpress. It runs on the latest technologies, its interface is quite modern, and it is focused on one thing only: publishing. They have a paid hosting service, but the software is open sourced, therefore free to use in any hosting.&lt;/p&gt;
+&lt;p&gt;I discovered &lt;a href=&quot;https://ghost.org/&quot;&gt;ghost&lt;/a&gt; as the platform used by one of the bloggers I follow (&lt;a href=&quot;https://ruder.io/&quot;&gt;Sebastian Ruder&lt;/a&gt;), therefore free to use in any hosting.&lt;/p&gt;
 
 &lt;p&gt;Next were the generators that don’t have a web interface, but can be easily set up:&lt;/p&gt;
 
-&lt;p&gt;I also tested &lt;a href=&quot;https://www.gatsbyjs.com/docs/glossary/static-site-generator/&quot;&gt;gatsby&lt;/a&gt; with it’s own Gatsby Cloud hosting service, &lt;a href=&quot;https://amaynez.gatsbyjs.io/&quot;&gt;here is my test site&lt;/a&gt;. They also use GitHub as a base to host the source files to build the website, so you create a repository, and it is connected to it. I found the free template offerings quite limited for what I was looking for.&lt;/p&gt;
+&lt;p&gt;I also tested &lt;a href=&quot;https://www.gatsbyjs.com/docs/glossary/static-site-generator/&quot;&gt;gatsby&lt;/a&gt; with it’s own Gatsby Cloud hosting service, &lt;a href=&quot;https://amaynez.gatsbyjs.io/&quot;&gt;here is my test site&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Finally it came the turn for &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt;, although an older, and slower generator (compared to Hugo and Gatsby), it was created by one of the founders of GitHub, so it’s integration with GitHub Pages is quite natural and painless, so much so, that to use them together you don’t even have to install Jekyll in your machine! You have two choices:&lt;/p&gt;
+&lt;p&gt;Finally it came self sailing boat&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;keep it all online, special &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; .&lt;/li&gt;
   &lt;li&gt;Have a synchronized local copy of the source files for the website.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I picked up a template, just forked the repository and started modifying the files to customize it, it was fast and easy, I even took it upon myself to add some functionality to the template (it served as a coding little project) like:&lt;/p&gt;
+&lt;p&gt;I picked up a template, like:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;SEO meta tags&lt;/li&gt;
-  &lt;li&gt;Dark mode (&lt;a href=&quot;https://github.com/the-mvm/the-mvm.github.io/blob/a8d4f781bfbc4107b4842433701d28f5bbf1c520/_config.yml#L10&quot;&gt;configurable in _config.yml file&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;comments ‘courtain’ to mask the disqus interface until the user clicks on it (&lt;a href=&quot;https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/_config.yml#L13&quot;&gt;configurable in _config.yml&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Dark mode&lt;/li&gt;
+  &lt;li&gt;comments ‘courtain’ to mask the disqus interface&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/template_screenshots/homepage-responsive.jpg&quot; alt=&quot;my new blog&quot; /&gt;&lt;/p&gt;
