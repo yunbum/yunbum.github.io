@@ -2,19 +2,23 @@
 layout: post
 read_time: true
 show_date: true
-title:  RL Connect tool SW - Free Ntrip client Network RTK
+title:  RL Connect 프로그램 제공 - Free Ntrip client Network RTK
 date:   2021-03-18 15:14:20 -0600
-description: "Inspired by Deep Mind's astonishing feats of having their Alpha Go, Alpha Zero and Alpha Star programs learn (and be amazing at it) Go, Chess, Atari games and lately Starcraft; I set myself to the task of programming a neural network that will learn by itself how to play the ancient game of tic tac toe. How hard could it be?"
+description: Free Ntrip client 'RL Connect'
 img: posts/20210318/C94-M8P.png
 tags: [GPS, Network rtk, Ntrip client, GNSS, fkp, vrs]
 author: Ybbaek
 github: amaynez/TicTacToe/
 toc: yes # leave empty or erase for no TOC
 ---
-<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/RL_Connect.jpg' width="310" height="300"></center>
 
 ## Background
-After many years of a corporate career (17) diverging from computer science, I have now decided to learn Machine Learning and in the process return to coding (something I have always loved!).
+GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..
+
+![RL_Connect](./assets/img/posts/20210318/RL_Connect.jpg)
+<small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small>
+
+<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/RL_Connect.jpg' width="310" height="300"></center>
 
 To fully grasp the essence of ML I decided to start by [coding a ML library myself](./ML-Library-from-scratch.html), so I can fully understand the inner workings, linear algebra and calculus involved in Stochastic Gradient Descent. And on top learn Python (I used to code in C++ 20 years ago).
 

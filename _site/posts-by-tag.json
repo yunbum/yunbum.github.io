@@ -45,6 +45,16 @@
     
       
   {
+  "tag" : "NMEA",
+  "posts" : [
+      
+      "./neural-network-optimization-methods.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "Network rtk",
   "posts" : [
       
@@ -98,8 +108,6 @@
   "tag" : "coding",
   "posts" : [
       
-      "./neural-network-optimization-methods.html",
-      
       "./ML-Library-from-scratch.html",
       
       "./conways-game-of-life.html",
@@ -125,16 +133,6 @@
   "posts" : [
       
       "./AI-and-intellectual-property.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "deep Neural networks",
-  "posts" : [
-      
-      "./neural-network-optimization-methods.html"
       
     ]
   } ,
@@ -171,12 +169,20 @@
     
       
   {
+  "tag" : "log",
+  "posts" : [
+      
+      "./neural-network-optimization-methods.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "machine learning",
   "posts" : [
       
       "./AI-and-intellectual-property.html",
-      
-      "./neural-network-optimization-methods.html",
       
       "./ML-Library-from-scratch.html",
       
@@ -201,7 +207,19 @@
     
       
   {
-  "tag" : "optimization",
+  "tag" : "python",
+  "posts" : [
+      
+      "./ML-Library-from-scratch.html",
+      
+      "./conways-game-of-life.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "replay",
   "posts" : [
       
       "./neural-network-optimization-methods.html"
@@ -211,12 +229,10 @@
     
       
   {
-  "tag" : "python",
+  "tag" : "statistics",
   "posts" : [
       
-      "./ML-Library-from-scratch.html",
-      
-      "./conways-game-of-life.html"
+      "./neural-network-optimization-methods.html"
       
     ]
   } ,

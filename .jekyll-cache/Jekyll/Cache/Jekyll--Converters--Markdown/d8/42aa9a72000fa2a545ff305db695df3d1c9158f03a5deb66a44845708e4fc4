@@ -1,7 +1,13 @@
-I"�o<center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/RL_Connect.jpg" width="310" height="300" /></center>
+I"qq<h2 id="background">Background</h2>
+<p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p>
 
-<h2 id="background">Background</h2>
-<p>After many years of a corporate career (17) diverging from computer science, I have now decided to learn Machine Learning and in the process return to coding (something I have always loved!).</p>
+<p><img src="./assets/img/posts/20210318/RL_Connect.jpg" alt="RL_Connect" />
+<small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p>
+
+<center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/RL_Connect.jpg" width="310" height="300" /></center>
+
+<h2 id="background-1">Background</h2>
+<p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p>
 
 <p>To fully grasp the essence of ML I decided to start by <a href="./ML-Library-from-scratch.html">coding a ML library myself</a>, so I can fully understand the inner workings, linear algebra and calculus involved in Stochastic Gradient Descent. And on top learn Python (I used to code in C++ 20 years ago).</p>
 
