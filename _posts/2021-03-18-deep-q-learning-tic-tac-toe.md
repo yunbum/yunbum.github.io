@@ -47,11 +47,11 @@ static const char encodingTable [64] = {
   'Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f',
   'g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v',
   'w','x','y','z','0','1','2','3','4','5','6','7','8','9','+','/'
-};
+}
 ```
-<br>GNSS/GP 모듈은 uBlox F9P M8P, Sententrio Mosaic X5, MBC MRP, 등에 적용하여 테스트.
+GNSS/GP 모듈은 uBlox F9P M8P, Sententrio Mosaic X5, MBC MRP, 등에 적용하여 테스트.
 
-<center><img src='./assets/img/posts/20210318/hw_block.jpg' width="540">
+<center><img src='./assets/img/posts/20210318/hw_block.JPG' width="540">
 <small>RL Connect Hardware Function block</small></center>
 
 After **24 hours!**, my computer 
