@@ -10,27 +10,34 @@ category: theory
 author: Ybbaek
 description: "SRC 모바일로봇 이란: SRC Intro."
 ---
-SRC 로봇은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:
-- [This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.](https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew)
-- [How A.I.-powered companies dodged the worst damage from COVID](https://fortune.com/2021/04/02/ai-forecasting-supply-chain-factories-caterpillar-agco/)
-- [AI technology detects ‘ticking time bomb’ arteries](https://www.mobihealthnews.com/news/emea/ai-technology-detects-ticking-time-bomb-arteries)
+SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:
+- [This Powerful Self Driving HW Led to Developer and students in this field.](https://github.com/yunbum/SRC)
+- [Check detail picture, code examples and hw information](https://cafe.naver.com/iltech)
+- [Other videos on Youtube for SRC](https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos)
+
+![HW SW 모듈개발 및 주행테스트](./assets/img/posts/20210402/src_hw-sw.png)
+<small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small>
 
 차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.
 
-They say that the best way to learn something is to try to explain it, so in a personal exercise I will try to do an SRC (**S**elf driving **R**emote control **C**ar) version of what is a neural network.
+SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영어 약자 이면 현재 SRC-A,B,C,D 등의 타입이 있습니다.
+![SRC models](./assets/img/posts/20210402/SRC_models.png)
+<small>개발시간 전체 약 10여년. 최종 전체 금속기반의 구조는 2019년 완성</small>
 
-Let's start with a little history, humans have been tinkering with the idea of an intelligent machine for a while now, some even say that the idea of artificial intelligence was conceived by the ancient greeks ([source](https://www.thinkautomation.com/bots-and-ai/a-history-of-automation-the-rise-of-robots-and-ai/)), and several attempts at devising "intelligent" machines have been made through history, a notable one was 'The Analytical Engine' created by Charles Babbage in 1837:
+주요특징: 프레임은 전체가 알루미늄, 철 등의 금속. 일반 휴대용 보조배터리 파워. 통 고무 타이어.  ([source](https://www.thinkautomation.com/bots-and-ai/a-history-of-automation-the-rise-of-robots-and-ai/)), 구조와 강성이 상당히 개량되어 전체적인 안정성은 일반 플라스틱 RC 카에 비할 수 없고, 현재 수십 km 실외 운행으로 내구성 검증도 완료:
 
-![The Analytical Engine](./assets/img/posts/20210402/post7-analytical-engine.jpg)
-<small>The Analytical Engine of Charles Babbage - 1837</small>
+![Frame body](./assets/img/posts/20210402/src-b2_3.jpg)
+<small>개발시간 전체 약 10여년. 최종 전체 금속기반의 구조는 2019년 완성</small>
 
-Then, in the middle of last century by trying to create a model of how our brain works, Neural Networks were born. Around that time, Frank Rosenblatt at Cornell trying to understand the simple decision system present in the eye of a common housefly,  proposed the idea of a [perceptron](./single-neuron-perceptron.html), a very simple system that processes certain inputs with basic math operations and produces an output.
+개별 모듈들의 구성은 맞춤형으로 제공 될 수 있으며, 기본 모터와 모터드라이버, 상위제어기(아두이노) 만으로도 제공이 되며 제어명령은 USB 을 통한 시리얼 통신으로 제어가 가능합니다..
 
-![A perceptron](./assets/img/posts/20210125/Perceptron.png)
+![sensors & modules](./assets/img/posts/20210402/SRC-B_parts.png)
+<small>Full option 상태의 센서 및 기타 모듈 구성도</small>
 
-To illustrate, let's say that the brain of the housefly is a perceptron, its inputs are whatever values are produced by the multiple cells in its eyes, when the eye cell detects "something" it's output will be a 1, and if there is nothing a 0. Then the combination of all those inputs can be processed by the perceptron (the fly brain), and the output is a simple 0 or 1 value. If it is a 1 then the brain is telling the fly to flee and if it is a 0 it means it is safe to stay where it is.
+SRC model / SRC 차량의 모델은 A,B,C,D 타입등으로 모터사양, 크기, 디자인 등으로 구분이 되어 나뉘고 동일한 모델에서는 이중모터로 업그레이드가 가능합니다. (Dual moter) .
 
-![A housefly eye](./assets/img/posts/20210402/post7-housefly-eye.jpg)
+![A perceptron](./assets/img/posts/20210402/SRC_models.png)
+<small>Full option 상태의 센서 및 기타 모듈 구성도</small>
 
 We can imagine then that if many of the eye cells of the fly produce 1s, it means that an object is quite near, and therefore the perceptron will calculate a 1, it is time to flee.
 
