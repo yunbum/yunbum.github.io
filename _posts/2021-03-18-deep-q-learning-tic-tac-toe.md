@@ -62,6 +62,8 @@ After **24 hours!**, my computer
 
 **Fully support Any GNSS/GPS module and FKP,VRS mode** 다른 무료 Ntrip client 프로그램들이 제조사 판매제품만을 지원하거나 FKP/VRS 모드에 제한이 있는 것과는 차별화 해서 모두 가능하도록 지원.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ir2g4bBHfGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 추가 포함기능 :
 - GPS 모듈 2개를 동시에 연동하여 NMEA 데이타 표시 가능
 - 위와 같은 모드로 2 지점이 있을 경우, 두 지점간의 거리와 각도를 표시
