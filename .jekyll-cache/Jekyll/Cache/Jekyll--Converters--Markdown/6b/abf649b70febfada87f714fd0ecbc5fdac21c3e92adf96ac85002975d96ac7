@@ -1,0 +1,59 @@
+I"�<p>자율운항 선박개발 및 알고리즘 테스트 목적으로 RLmodel ASV-A1 을 출시, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.
+사양:</p>
+<ul>
+  <li>수중모터(Thruster) 2개의 속도제어를 이용하여 방향제어</li>
+  <li>GPS, Lidar 를 활용하여 주행경로, 충돌회피 등에 적용</li>
+</ul>
+
+<p>추가옵션:</p>
+<ul>
+  <li>방향제어를 위한 키 추가 장착가능</li>
+  <li>사양에 맞게 배터리 옵션, 제어기 설정등 맞춤형 제작 가능</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PfX4jajMRxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>For my next project I think I will start to do the basic hand-written digits recognition, which is the Machine Learning Hello World, for this I think I will start to use Tensorflow already.</p>
+
+<h3 id="자율운항-보트-대회등의-목적에-적합하도록-기본-제어-매뉴얼-및-예제-코드-제공">자율운항 보트 대회등의 목적에 적합하도록 기본 제어 매뉴얼 및 예제 코드 제공.</h3>
+
+<h4 id="esc-calibration-instruction">ESC Calibration instruction</h4>
+<p>초기에 제공되는 ESC 는 기본적으로 초기 Calibration 이 필요하며 Arduino 를 활용하여 모터의 Min/Max speed 설정을 하여 사용을 해야 합니다..</p>
+
+<p>There is a myriad of website generators nowadays, after a lengthy search the ones I ended up considering are:</p>
+<ul>
+  <li><a href="https://wordpress.com/">wordpress</a></li>
+  <li><a href="https://www.wix.com/">wix</a></li>
+  <li><a href="https://www.squarespace.com/">squarespace</a></li>
+  <li><a href="https://ghost.org/">ghost</a></li>
+</ul>
+
+<p>I started with the web interfaced generators with included hosting in their offerings:</p>
+
+<p>I have tried <a href="https://www.wix.com/">wix</a> and <a href="https://www.squarespace.com/">squarespace</a> before, they are fantastic for quick and easy website generation, but their free offering has ads, so again, a big no for me.</p>
+
+<p>Finally it came self sailing boat</p>
+<ol>
+  <li>keep it all online, special <code class="language-plaintext highlighter-rouge">gh-pages</code> .</li>
+  <li>Have a synchronized local copy of the source files for the website.</li>
+</ol>
+
+<p>I picked up a template, like:</p>
+<ul>
+  <li>SEO meta tags</li>
+  <li>Dark mode</li>
+  <li>comments ‘courtain’ to mask the disqus interface</li>
+</ul>
+
+<p><img src="./assets/img/template_screenshots/homepage-responsive.jpg" alt="my new blog" /></p>
+
+<p><img src="./assets/img/template_screenshots/light-toggle.png" alt="night theme toggle" /></p>
+
+<p>As a summary, Hugo and Gatsby might be much faster than Jekyll to build the sites.</p>
+
+<p>You can use the modified template yourself by <a href="https://github.com/the-mvm/the-mvm.github.io/fork/">forking my repository</a>.</p>
+
+<h4 id="hosting">Hosting</h4>
+<p>Since I decided on Jekyll to generate my site, the choice for hosting was quite obvious, <strong><a href="https://pages.github.com">Github Pages</a></strong> is very nicely integrated with it, it is free, and it has no ads! Plus the domain name isn’t too terrible (<a href="https://the-mvm.github.io">the-mvm.github.io</a>).</p>
+
+:ET
