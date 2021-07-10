@@ -20,20 +20,18 @@ GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 
 
 <center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/tm_circle.png' width="310" height="300"></center>
 
-Ntrip client 기능을 테스트해 본 하드웨어로는 uBlox(F9P, M8P), Septentrio(Mosaic X5) 등의 제품이 있습니다.
+위도/경도 를 TM 좌표계로 변환한 위치에 Array 지점들을 표시하여 모든 점들을 포함하는 최소원을 그래프에 나타내고 원의 반경을 계산하여 결과 표시
 
 <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타 로거로도 적용 (위성지도 연동) </li></ul>
 
 ## Designing TCP network codes
-
-<center><img src='./assets/img/posts/20210318/Neural_Network_Topology.png' width="540"></center><br>
+<center><img src='./assets/img/posts/20210318/tcp_block-code.png' width="540"></center><br>
+<small>[Block diagram] TCP fgv logic code</small>
 
 I started out with two hidden layers of 36 neurons each.
 
-## The many trial errors
-### 시행착오 1 - the first try
-
-At first the model was trained by playing vs. a "perfect" AI, meaning a [hard coded algorithm](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Game.py#L43) that
+## Source code / Github
+### Python -> LabVIEW
 
  참고 python 코드 깃헙 <a href="https://github.com/tridge/pyUblox/blob/master/ntrip.py">tridge/pyUblox</a> Ntrip client 소스코드. 
 
