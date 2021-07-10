@@ -10,11 +10,15 @@ category: opinion
 author: Ybbaek
 description: "자율주행관련 Mobile robot 개발자로써 관련 알고리즘 개발, 센서퓨전 테스트 등의 개발을 하는데 있어 크고 무거운 챠량 혹은 로봇등을 사용하는데 어려움을 많이 격게되어 휴대성이 좋고 쉽게 테스트,개발을 할수 있는 플랫폼을 만들게되었습니다."
 ---
+
+## 모바일로봇 개발 History
+초기 중고 RC가, KINEX 블록 등으로 개발 프로토 타입을 시작으로 개조,변형,튜닝등의 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 완성에 이르기까지 상당히 다양한 HW,SW 보완을 진행했고 현재도 진행중 입니다.
+
 자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 [check github repo](https://github.com/yunbum/SRC/) .
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJrNXtsEzZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Legacy SRC Mobile robots 테스트 차량들
+초기 개발버전 (Legacy SRC Mobile robots) 테스트 차량들
 
 ![SRC history](./assets/img/posts/20210420/src_history.jpg)
 <small>[SRC history] 여러종류의 RC 차량의 개조와 테스트를 거처, 모든 구성 부품들이 완전히 개조되고 보완되어 업그레이드 되어 개발되었습니다..</small>

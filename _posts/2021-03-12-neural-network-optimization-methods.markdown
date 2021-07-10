@@ -2,9 +2,9 @@
 layout: post
 read_time: true
 show_date: true
-title:  경로생성 GPX파일/ GPX waypoint editor 
+title:  경로파일 GPX포맷 waypoint / GPX route editor 
 date:   2021-03-12 13:32:20 -0600
-description: GPX editor tool.
+description: GPX format file editor tool.
 img: posts/20210312/Log replay.jpg
 tags: [waypoint, gpx, tm, point]
 author: Ybbaek
@@ -12,129 +12,22 @@ github: amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities
 mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
 toc: yes # leave empty or erase for no TOC
 ---
-# GPX 파일처리 / GPX format file handling
+## GPX 파일처리 / GPX format file handling
 SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.
 
-이 위도/경도 정보를 프로그램에서 file I/O 를 통해 읽고 TM 좌표 변화을 하여 실제 지상의 경로를 따라 모바일 로봇이 움직이도록 개발되었습니다.
-
-## GPX Route editor
+### GPX Route editor
 [source](http://www.gpsnote.net/)
 
-<p>다양한 online/offline gpx editor를 무료로 사용할 수 있습니다.:</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-m_t &amp;= \beta_1 m_{t-1} + (1 - \beta_1) g_t \\<br>
-v_t &amp;= \beta_2 v_{t-1} + (1 - \beta_2) g_t^2<br>
-\end{split}<br>
-\end{align}<br>
-\)</p>
-<p>\(m_t\) and \(v_t\) are estimates of the first moment (the mean) and the second moment (the uncentered variance) of the gradients respectively.</p>
-<p>They counteract these biases by computing bias-corrected first and second moment estimates:</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-\hat{m}_t &amp;= \dfrac{m_t}{1 - \beta^t_1} \\<br>
-\hat{v}_t &amp;= \dfrac{v_t}{1 - \beta^t_2} \end{split}<br>
-\end{align}<br>
-\)</p>
-<p>We then use these to update the weights and biases which yields the Adam update rule:</p>
-<p style="text-align:center">\(\theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t\).</p>
-<p>The authors propose defaults of 0.9 for \(\beta_1\), 0.999 for \(\beta_2\), and \(10^{-8}\) for \(\epsilon\).</p>
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L243)
+<center><img src='./assets/img/posts/20210312/routeeditor-small.jpg' width="540">
+<small>GPX route editor 실행화면</small></center>
 
-```python
-# decaying averages of past gradients
-self.v["dW" + str(i)] = ((c.BETA1
-                        * self.v["dW" + str(i)])
-                        + ((1 - c.BETA1)
-                        * np.array(self.gradients[i])
-                        ))
-```
+### 위도/경도 xml 데이타 추출
+gpx 파일에 있는 위도/경도 데이타를 읽고 TM 좌표변환 후에 실제 주행경로 로직에 반영하여 계산합니다.
 
-### SGD Momentum
-[source](https://ruder.io/optimizing-gradient-descent/index.html#momentum)
+<center><img src='./assets/img/posts/20210312/latlong_point.png' width="540">
+<small>GPX 파일의 위도/경도 값 읽어 TM 좌표로 표시</small></center>
 
-<p>Vanilla SGD has trouble navigating ravines, i.e.</p>
-<p>Momentum is a method that helps accelerate SGD in the relevant direction and dampens oscillations.:</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-v_t &amp;= \beta_1 v_{t-1} + \eta \nabla_\theta J( \theta) \\<br>
-\theta &amp;= \theta - v_t<br>
-\end{split}<br>
-\end{align}<br>
-\)</p>
-<p>The momentum term \(\beta_1\) is usually set to 0.9 or a similar value.</p>
-<p>Essentially, when using momentum</p>
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L210)
+gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.
+<center><img src='./assets/img/posts/20210312/tm_interpolation.png' width="540">
+<small>TM 좌표들의 점들을 interpolation 하여 최종경로 그래프</small></center>
 
-```python
-self.v["dW"+str(i)] = ((c.BETA1*self.v["dW" + str(i)])
-                       +(eta*np.array(self.gradients[i])
-                       ))
-```
-
-## Nesterov accelerated gradient (NAG)
-[source](https://ruder.io/optimizing-gradient-descent/index.html#nesterovacceleratedgradient)
-
-<p>However, a ball that rolls down a hill, blindly following the slope,.</p>
-<p>Nesterov accelerated gradient (NAG) is a way to give our momentum term this kind of prescience.:</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-v_t &amp;= \beta_1 v_{t-1} + \eta \nabla_\theta J( \theta - \beta_1 v_{t-1} ) \\<br>
-\theta &amp;= \theta - v_t<br>
-\end{split}<br>
-\end{align}<br>
-\)</p>
-<p>Again, we set the momentum term \(\beta_1\) to a value of around 0.9. While Momentum first computes the current gradient.</p>
-<p>Now that we are able to adapt our updates to the slope of our error function and speed up SGD in turn.</p>
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L219)
-
-```python
-v_prev = {"dW" + str(i): self.v["dW" + str(i)],
-          "db" + str(i): self.v["db" + str(i)]}
-```
-
-## RMSprop
-[source](https://ruder.io/optimizing-gradient-descent/index.html#rmsprop)
-
-<p>RMSprop is an unpublished, adaptive learning rate method proposed by Geoff Hinton in <a href="http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf">Lecture 6e of his Coursera Class</a>.</p>
-<p>RMSprop was developed stemming from the need to resolve other method's radically diminishing learning rates.</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-E[\theta^2]_t &amp;= \beta_1 E[\theta^2]_{t-1} + (1-\beta_1) \theta^2_t \\<br>
-\theta_{t+1} &amp;= \theta_{t} - \dfrac{\eta}{\sqrt{E[\theta^2]_t + \epsilon}} \theta_{t}<br>
-\end{split}<br>
-\end{align}<br>
-\)</p>
-<p>RMSprop divides the learning rate by an exponentially decaying average of squared gradients. Hinton suggests \(\beta_1\) to be set to 0.9, while a good default value for the learning rate \(\eta\) is 0.001.</p>
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L232)
-
-```python
-self.s["dW" + str(i)] = ((c.BETA1
-                      * self.s["dW" + str(i)])
-                      + ((1-c.BETA1)
-                      * (np.square(np.array(self.gradients[i])))
-                        ))
-```
-
-## Complete code
-All in all the code ended up like this:
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L1)
-
-```python
-@staticmethod
-def cyclic_learning_rate(learning_rate, epoch):
-    max_lr = learning_rate * c.MAX_LR_FACTOR
-    cycle = np.floor(1 + (epoch / (2
-                    * c.LR_STEP_SIZE))
-                    )
-    x = np.abs((epoch / c.LR_STEP_SIZE)
-        - (2 * cycle) + 1)
-    return learning_rate
-        + (max_lr - learning_rate)
-        * np.maximum(0, (1 - x))
-```

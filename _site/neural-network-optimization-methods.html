@@ -7,9 +7,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>경로생성 GPX파일/ GPX waypoint editor - The Minimum Viable Model</title>
+	<title>경로파일 GPX포맷 waypoint / GPX route editor - The Minimum Viable Model</title>
 	<link rel="canonical" href="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html">
-	<meta name="description" content="GPX editor tool.">
+	<meta name="description" content="GPX format file editor tool.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 <script type="application/ld+json">
@@ -19,10 +19,10 @@
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://github.com/yunbum/yunbum.github.io"},
-  "headline": "경로생성 GPX파일/ GPX waypoint editor",
-  "abstract": "GPX editor tool.",
+  "headline": "경로파일 GPX포맷 waypoint / GPX route editor",
+  "abstract": "GPX format file editor tool.",
     "keywords": "waypoint, gpx, tm, point",
-    "wordcount": "559",
+    "wordcount": "88",
     "image": ["https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/Log replay.jpg"],
   "datePublished": "2021-03-13 04:32:20 +0900",
   "dateModified": "2021-03-13 04:32:20 +0900",
@@ -42,27 +42,27 @@
 <!-- Open Graph data -->
 <meta property="og:url" content="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html"/>
 <meta property="og:type" content="article"/>
-<meta property="og:title" content="경로생성 GPX파일/ GPX waypoint editor"/>
-<meta property="og:description" content="GPX editor tool."/>
+<meta property="og:title" content="경로파일 GPX포맷 waypoint / GPX route editor"/>
+<meta property="og:description" content="GPX format file editor tool."/>
 <meta property="og:image" content="https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/Log replay.jpg"/>
-<meta property="og:image:alt" content="경로생성 GPX파일/ GPX waypoint editor"/>
+<meta property="og:image:alt" content="경로파일 GPX포맷 waypoint / GPX route editor"/>
 <meta property="og:site_name" content="The Minimum Viable Model" />
 <meta property="article:published_time" content="2021-03-13 04:32:20 +0900" />
 <meta property="article:modified_time" content="2021-03-13 04:32:20 +0900" />
 <meta property="article:tag" content="waypoint, gpx, tm, point" />
 <meta property="fb:admins" content="ar.maybach" />
 <!-- Schema.org markup for Google -->
-<meta itemprop="name" content="경로생성 GPX파일/ GPX waypoint editor">
-<meta itemprop="description" content="GPX editor tool.">
+<meta itemprop="name" content="경로파일 GPX포맷 waypoint / GPX route editor">
+<meta itemprop="description" content="GPX format file editor tool.">
 <meta itemprop="image" content="https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/Log replay.jpg">
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@MvmThe">
-<meta name="twitter:title" content="경로생성 GPX파일/ GPX waypoint editor">
-<meta name="twitter:description" content="GPX editor tool.">
+<meta name="twitter:title" content="경로파일 GPX포맷 waypoint / GPX route editor">
+<meta name="twitter:description" content="GPX format file editor tool.">
 <meta name="twitter:creator" content="">
 <meta data-rh="true" name="twitter:label1" content="Word count"/>
-<meta data-rh="true" name="twitter:data1" content="559"/>
+<meta data-rh="true" name="twitter:data1" content="88"/>
 <meta name="twitter:image:src" content="https://github.com/yunbum/yunbum.github.io/assets/img/posts/20210312/Log replay.jpg">
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#311e3e">
@@ -139,7 +139,7 @@
 
 <section class="hidden">
   <div class="post">
-      <a  class="post-list-title" href="./neural-network-optimization-methods.html">경로생성 GPX파일/ GPX waypoint editor</a>
+      <a  class="post-list-title" href="./neural-network-optimization-methods.html">경로파일 GPX포맷 waypoint / GPX route editor</a>
       
 
   <span class = "post-card-meta">
@@ -163,7 +163,7 @@
     
     <span class="page_meta-readtime">
       
-        2 minute read
+        less than 1 minute read
       
     </span>
   
@@ -171,7 +171,7 @@
   </span>
 
         <div class="post-excerpt">
-            <h1 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h1><p>SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</p><p>이 위도/경도 정보를 프로그램에서 file I/O 를 통해 읽고 TM 좌표 변화을 하여 실제 지상의 경로를 따라 모바일 로봇이 움직이도록 개발되었습니다.</p><h2 id="gpx-route-editor">GPX Route editor</h2><p><a href="http://www.gpsnote.net/">source</a></p><p>다양한 online/offline gpx editor를 무료로 사용할 수 있습니다.:</p><p style="text-align:center">\(<br />\begin{align}<br />\begin{split}<br />m_t &amp;= \beta_1 m_{t-1} + (1 - \beta_1) g_t \\<br />v_t &amp;= \beta_2 v_{t-1} + (1 - \beta_2) g_t^2<br />\end{split}<br />\end{align}<br />\)</p><p>\(m_t\) and \(v_t\) are estimates of the first moment (the mean) and...<a class="read-more" href="./neural-network-optimization-methods.html"> read more</a>
+            <h2 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h2><p>SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</p><h3 id="gpx-route-editor">GPX Route editor</h3><p><a href="http://www.gpsnote.net/">source</a></p><center><img src="./assets/img/posts/20210312/routeeditor-small.jpg" width="540" /><small>GPX route editor 실행화면</small></center><h3 id="위도경도-xml-데이타-추출">위도/경도 xml 데이타 추출</h3><p>gpx 파일에 있는 위도/경도 데이타를 읽고 TM 좌표변환 후에 실제 주행경로 로직에 반영하여 계산합니다.</p><center><img src="./assets/img/posts/20210312/latlong_point.png" width="540" /><small>GPX 파일의 위도/경도 값 읽어 TM 좌표로 표시</small></center><p>gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.</p><center><img src="./assets/img/posts/20210312/tm_interpolation.png" width="540" /><small>TM 좌표들의 점들을 interpolation 하여 최종경로 그래프</small></center><a class="read-more" href="./neural-network-optimization-methods.html"> read more</a>
         </div>
   </div>
 </section>
@@ -269,8 +269,8 @@
 </header> <!-- End Header -->
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="경로생성 GPX파일/ GPX waypoint editor">
-<meta itemprop="description" content="GPX editor tool.">
+    <meta itemprop="headline" content="경로파일 GPX포맷 waypoint / GPX route editor">
+<meta itemprop="description" content="GPX format file editor tool.">
 <meta itemprop="datePublished" content="2021-03-13T04:32:20+09:00">
 
     <div class="page-image">
@@ -279,7 +279,7 @@
     <div class="wrapper">
       <div class="page-content">
         <div class="header-page">
-          <h1 class="page-title">경로생성 GPX파일/ GPX waypoint editor</h1>
+          <h1 class="page-title">경로파일 GPX포맷 waypoint / GPX route editor</h1>
           
 
   <span class = "post-page-meta">
@@ -303,7 +303,7 @@
     
     <span class="page_meta-readtime">
       
-        2 minute read
+        less than 1 minute read
       
     </span>
   
@@ -337,11 +337,11 @@
     <div class="share-hover side">
         <span class="share-button side"><svg fill="currentColor" width="25" height="25" class="side"><g fill-rule="evenodd"><path d="M15.6 5a.42.42 0 0 0 .17-.3.42.42 0 0 0-.12-.33l-2.8-2.79a.5.5 0 0 0-.7 0l-2.8 2.8a.4.4 0 0 0-.1.32c0 .12.07.23.16.3h.02a.45.45 0 0 0 .57-.04l2-2V10c0 .28.23.5.5.5s.5-.22.5-.5V2.93l2.02 2.02c.08.07.18.12.3.13.11.01.21-.02.3-.08v.01"></path><path d="M18 7h-1.5a.5.5 0 0 0 0 1h1.6c.5 0 .9.4.9.9v10.2c0 .5-.4.9-.9.9H6.9a.9.9 0 0 1-.9-.9V8.9c0-.5.4-.9.9-.9h1.6a.5.5 0 0 0 .35-.15A.5.5 0 0 0 9 7.5a.5.5 0 0 0-.15-.35A.5.5 0 0 0 8.5 7H7a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h11a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"></path></g></svg></span>
         <div class="share-icons side" id="sidebar-icons">
-            <a class="twitter" href="https://twitter.com/intent/tweet?text=경로생성 GPX파일/ GPX waypoint editor&url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=경로파일 GPX포맷 waypoint / GPX route editor&url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a class="facebook" href="https://facebook.com/sharer.php?u=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a class="reddit" href="http://www.reddit.com/submit?url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html&title=경로생성 GPX파일/ GPX waypoint editor" title="Submit to Reddit" rel="nofollow" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>
-            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html&title=경로생성 GPX파일/ GPX waypoint editor&summary=GPX editor tool.&source=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on LinkedIn" rel="nofollow" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a class="email" href="mailto:?subject=경로생성 GPX파일/ GPX waypoint editor&body=GPX editor tool.%0A%0ARead more here: https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share via e-mail" rel="nofollow" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="reddit" href="http://www.reddit.com/submit?url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html&title=경로파일 GPX포맷 waypoint / GPX route editor" title="Submit to Reddit" rel="nofollow" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html&title=경로파일 GPX포맷 waypoint / GPX route editor&summary=GPX format file editor tool.&source=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on LinkedIn" rel="nofollow" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="email" href="mailto:?subject=경로파일 GPX포맷 waypoint / GPX route editor&body=GPX format file editor tool.%0A%0ARead more here: https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share via e-mail" rel="nofollow" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             <a class="copy-link" onclick="copyToClipboard()" title="Copy to clipboard" rel="nofollow" target="_blank"><svg width="20px" fill="currentColor" class="side" viewBox="0 0 18 18"><path d="M16.94 1.1A3.7 3.7 0 0 0 14.3 0c-1 0-1.94.39-2.64 1.1L7.43 5.3c-.91.92-2.09 3.2 0 5.27a.75.75 0 0 0 .82.16c.09-.03.17-.09.24-.15a.74.74 0 0 0 0-1.06c-1.16-1.15-.77-2.39-.02-3.16l4.24-4.22a2.2 2.2 0 0 1 1.58-.65c.6 0 1.16.23 1.58.65.86.87.86 2.29 0 3.16L12.7 8.47a.74.74 0 0 0 1.04 1.05l3.17-3.16a3.73 3.73 0 0 0 0-5.27h.03zM9.54 7.4a.74.74 0 0 0 0 1.06c1.16 1.15.76 2.39 0 3.16l-4.22 4.22c-.42.42-.99.65-1.59.65a2.23 2.23 0 0 1-1.58-3.82l3.17-3.16A.73.73 0 0 0 5.54 9a.78.78 0 0 0-.22-.52.77.77 0 0 0-1.05 0L1.1 11.64A3.72 3.72 0 0 0 3.74 18c1 0 1.94-.39 2.65-1.1l4.23-4.2c.21-.22.94-1.02 1.13-2.2.18-1.12-.2-2.15-1.12-3.07-.27-.27-.78-.27-1.06 0l-.02-.02z" clip-rule="evenodd" fill-rule="evenodd"></path></svg></a>
         </div>
     </div>
@@ -354,7 +354,7 @@
     <li class="toc-title">
       <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="align-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-align-left fa-w-14 fa-2x"><g class="fa-group"><path fill="currentColor" d="M12.83 352h262.34A12.82 12.82 0 0 0 288 339.17v-38.34A12.82 12.82 0 0 0 275.17 288H12.83A12.82 12.82 0 0 0 0 300.83v38.34A12.82 12.82 0 0 0 12.83 352zm0-256h262.34A12.82 12.82 0 0 0 288 83.17V44.83A12.82 12.82 0 0 0 275.17 32H12.83A12.82 12.82 0 0 0 0 44.83v38.34A12.82 12.82 0 0 0 12.83 96z" class="fa-secondary"></path><path fill="currentColor" d="M432 160H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0 256H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z" class="fa-primary"></path></g></svg>
     </li>
-    <ul class="toc-content" id="toc-content"><li class="toc-item-1"><a href="#gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</a><ul class="toc-submenu-1"><li class="toc-item-2"><a href="#gpx-route-editor">GPX Route editor</a><ul class="toc-submenu-2"><li class="toc-item-3"><a href="#sgd-momentum">SGD Momentum</a></li></ul></li><li class="toc-item-2"><a href="#nesterov-accelerated-gradient-nag">Nesterov accelerated gradient (NAG)</a></li><li class="toc-item-2"><a href="#rmsprop">RMSprop</a></li><li class="toc-item-2"><a href="#complete-code">Complete code</a></li></ul></li></ul>
+    <ul class="toc-content" id="toc-content"><li class="toc-item-1"><a href="#gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</a><ul class="toc-submenu-1"><li class="toc-item-2"><a href="#gpx-route-editor">GPX Route editor</a></li><li class="toc-item-2"><a href="#위도경도-xml-데이타-추출">위도/경도 xml 데이타 추출</a></li></ul></li></ul>
   </nav>
 </aside>
 
@@ -366,127 +366,25 @@
   </div>
 </div>
 
-        <h1 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h1>
+        <h2 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h2>
 <p>SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</p>
 
-<p>이 위도/경도 정보를 프로그램에서 file I/O 를 통해 읽고 TM 좌표 변화을 하여 실제 지상의 경로를 따라 모바일 로봇이 움직이도록 개발되었습니다.</p>
-
-<h2 id="gpx-route-editor">GPX Route editor</h2>
+<h3 id="gpx-route-editor">GPX Route editor</h3>
 <p><a href="http://www.gpsnote.net/">source</a></p>
 
-<p>다양한 online/offline gpx editor를 무료로 사용할 수 있습니다.:</p>
-<p style="text-align:center">\(<br />
-\begin{align}<br />
-\begin{split}<br />
-m_t &amp;= \beta_1 m_{t-1} + (1 - \beta_1) g_t \\<br />
-v_t &amp;= \beta_2 v_{t-1} + (1 - \beta_2) g_t^2<br />
-\end{split}<br />
-\end{align}<br />
-\)</p>
-<p>\(m_t\) and \(v_t\) are estimates of the first moment (the mean) and the second moment (the uncentered variance) of the gradients respectively.</p>
-<p>They counteract these biases by computing bias-corrected first and second moment estimates:</p>
-<p style="text-align:center">\(<br />
-\begin{align}<br />
-\begin{split}<br />
-\hat{m}_t &amp;= \dfrac{m_t}{1 - \beta^t_1} \\<br />
-\hat{v}_t &amp;= \dfrac{v_t}{1 - \beta^t_2} \end{split}<br />
-\end{align}<br />
-\)</p>
-<p>We then use these to update the weights and biases which yields the Adam update rule:</p>
-<p style="text-align:center">\(\theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t\).</p>
-<p>The authors propose defaults of 0.9 for \(\beta_1\), 0.999 for \(\beta_2\), and \(10^{-8}\) for \(\epsilon\).</p>
-<p><a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L243">view on github</a></p>
+<center><img src="./assets/img/posts/20210312/routeeditor-small.jpg" width="540" />
+<small>GPX route editor 실행화면</small></center>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># decaying averages of past gradients
-</span><span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)]</span> <span class="o">=</span> <span class="p">((</span><span class="n">c</span><span class="p">.</span><span class="n">BETA1</span>
-                        <span class="o">*</span> <span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)])</span>
-                        <span class="o">+</span> <span class="p">((</span><span class="mi">1</span> <span class="o">-</span> <span class="n">c</span><span class="p">.</span><span class="n">BETA1</span><span class="p">)</span>
-                        <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">gradients</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
-                        <span class="p">))</span>
-</code></pre></div></div>
+<h3 id="위도경도-xml-데이타-추출">위도/경도 xml 데이타 추출</h3>
+<p>gpx 파일에 있는 위도/경도 데이타를 읽고 TM 좌표변환 후에 실제 주행경로 로직에 반영하여 계산합니다.</p>
 
-<h3 id="sgd-momentum">SGD Momentum</h3>
-<p><a href="https://ruder.io/optimizing-gradient-descent/index.html#momentum">source</a></p>
+<center><img src="./assets/img/posts/20210312/latlong_point.png" width="540" />
+<small>GPX 파일의 위도/경도 값 읽어 TM 좌표로 표시</small></center>
 
-<p>Vanilla SGD has trouble navigating ravines, i.e.</p>
-<p>Momentum is a method that helps accelerate SGD in the relevant direction and dampens oscillations.:</p>
-<p style="text-align:center">\(<br />
-\begin{align}<br />
-\begin{split}<br />
-v_t &amp;= \beta_1 v_{t-1} + \eta \nabla_\theta J( \theta) \\<br />
-\theta &amp;= \theta - v_t<br />
-\end{split}<br />
-\end{align}<br />
-\)</p>
-<p>The momentum term \(\beta_1\) is usually set to 0.9 or a similar value.</p>
-<p>Essentially, when using momentum</p>
-<p><a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L210">view on github</a></p>
+<p>gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.</p>
+<center><img src="./assets/img/posts/20210312/tm_interpolation.png" width="540" />
+<small>TM 좌표들의 점들을 interpolation 하여 최종경로 그래프</small></center>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)]</span> <span class="o">=</span> <span class="p">((</span><span class="n">c</span><span class="p">.</span><span class="n">BETA1</span><span class="o">*</span><span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)])</span>
-                       <span class="o">+</span><span class="p">(</span><span class="n">eta</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">gradients</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
-                       <span class="p">))</span>
-</code></pre></div></div>
-
-<h2 id="nesterov-accelerated-gradient-nag">Nesterov accelerated gradient (NAG)</h2>
-<p><a href="https://ruder.io/optimizing-gradient-descent/index.html#nesterovacceleratedgradient">source</a></p>
-
-<p>However, a ball that rolls down a hill, blindly following the slope,.</p>
-<p>Nesterov accelerated gradient (NAG) is a way to give our momentum term this kind of prescience.:</p>
-<p style="text-align:center">\(<br />
-\begin{align}<br />
-\begin{split}<br />
-v_t &amp;= \beta_1 v_{t-1} + \eta \nabla_\theta J( \theta - \beta_1 v_{t-1} ) \\<br />
-\theta &amp;= \theta - v_t<br />
-\end{split}<br />
-\end{align}<br />
-\)</p>
-<p>Again, we set the momentum term \(\beta_1\) to a value of around 0.9. While Momentum first computes the current gradient.</p>
-<p>Now that we are able to adapt our updates to the slope of our error function and speed up SGD in turn.</p>
-<p><a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L219">view on github</a></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">v_prev</span> <span class="o">=</span> <span class="p">{</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">):</span> <span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)],</span>
-          <span class="s">"db"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">):</span> <span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"db"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)]}</span>
-</code></pre></div></div>
-
-<h2 id="rmsprop">RMSprop</h2>
-<p><a href="https://ruder.io/optimizing-gradient-descent/index.html#rmsprop">source</a></p>
-
-<p>RMSprop is an unpublished, adaptive learning rate method proposed by Geoff Hinton in <a href="http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf">Lecture 6e of his Coursera Class</a>.</p>
-<p>RMSprop was developed stemming from the need to resolve other method's radically diminishing learning rates.</p>
-<p style="text-align:center">\(<br />
-\begin{align}<br />
-\begin{split}<br />
-E[\theta^2]_t &amp;= \beta_1 E[\theta^2]_{t-1} + (1-\beta_1) \theta^2_t \\<br />
-\theta_{t+1} &amp;= \theta_{t} - \dfrac{\eta}{\sqrt{E[\theta^2]_t + \epsilon}} \theta_{t}<br />
-\end{split}<br />
-\end{align}<br />
-\)</p>
-<p>RMSprop divides the learning rate by an exponentially decaying average of squared gradients. Hinton suggests \(\beta_1\) to be set to 0.9, while a good default value for the learning rate \(\eta\) is 0.001.</p>
-<p><a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L232">view on github</a></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">self</span><span class="p">.</span><span class="n">s</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)]</span> <span class="o">=</span> <span class="p">((</span><span class="n">c</span><span class="p">.</span><span class="n">BETA1</span>
-                      <span class="o">*</span> <span class="bp">self</span><span class="p">.</span><span class="n">s</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)])</span>
-                      <span class="o">+</span> <span class="p">((</span><span class="mi">1</span><span class="o">-</span><span class="n">c</span><span class="p">.</span><span class="n">BETA1</span><span class="p">)</span>
-                      <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">square</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">gradients</span><span class="p">[</span><span class="n">i</span><span class="p">])))</span>
-                        <span class="p">))</span>
-</code></pre></div></div>
-
-<h2 id="complete-code">Complete code</h2>
-<p>All in all the code ended up like this:
-<a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L1">view on github</a></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="nb">staticmethod</span>
-<span class="k">def</span> <span class="nf">cyclic_learning_rate</span><span class="p">(</span><span class="n">learning_rate</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
-    <span class="n">max_lr</span> <span class="o">=</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">c</span><span class="p">.</span><span class="n">MAX_LR_FACTOR</span>
-    <span class="n">cycle</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">floor</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="p">(</span><span class="n">epoch</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span>
-                    <span class="o">*</span> <span class="n">c</span><span class="p">.</span><span class="n">LR_STEP_SIZE</span><span class="p">))</span>
-                    <span class="p">)</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nb">abs</span><span class="p">((</span><span class="n">epoch</span> <span class="o">/</span> <span class="n">c</span><span class="p">.</span><span class="n">LR_STEP_SIZE</span><span class="p">)</span>
-        <span class="o">-</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">cycle</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">learning_rate</span>
-        <span class="o">+</span> <span class="p">(</span><span class="n">max_lr</span> <span class="o">-</span> <span class="n">learning_rate</span><span class="p">)</span>
-        <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">maximum</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">x</span><span class="p">))</span>
-</code></pre></div></div>
 
         <aside class="sidebar inline" id="post-end">
     
@@ -512,11 +410,11 @@ E[\theta^2]_t &amp;= \beta_1 E[\theta^2]_{t-1} + (1-\beta_1) \theta^2_t \\<br />
     <div class="share-hover inline">
         <span class="share-button inline"><svg fill="currentColor" width="25" height="25" class="inline"><g fill-rule="evenodd"><path d="M15.6 5a.42.42 0 0 0 .17-.3.42.42 0 0 0-.12-.33l-2.8-2.79a.5.5 0 0 0-.7 0l-2.8 2.8a.4.4 0 0 0-.1.32c0 .12.07.23.16.3h.02a.45.45 0 0 0 .57-.04l2-2V10c0 .28.23.5.5.5s.5-.22.5-.5V2.93l2.02 2.02c.08.07.18.12.3.13.11.01.21-.02.3-.08v.01"></path><path d="M18 7h-1.5a.5.5 0 0 0 0 1h1.6c.5 0 .9.4.9.9v10.2c0 .5-.4.9-.9.9H6.9a.9.9 0 0 1-.9-.9V8.9c0-.5.4-.9.9-.9h1.6a.5.5 0 0 0 .35-.15A.5.5 0 0 0 9 7.5a.5.5 0 0 0-.15-.35A.5.5 0 0 0 8.5 7H7a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h11a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"></path></g></svg></span>
         <div class="share-icons inline" id="post-end-icons">
-            <a class="twitter" href="https://twitter.com/intent/tweet?text=경로생성 GPX파일/ GPX waypoint editor&url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=경로파일 GPX포맷 waypoint / GPX route editor&url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a class="facebook" href="https://facebook.com/sharer.php?u=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a class="reddit" href="http://www.reddit.com/submit?url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html&title=경로생성 GPX파일/ GPX waypoint editor" title="Submit to Reddit" rel="nofollow" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>
-            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html&title=경로생성 GPX파일/ GPX waypoint editor&summary=GPX editor tool.&source=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on LinkedIn" rel="nofollow" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a class="email" href="mailto:?subject=경로생성 GPX파일/ GPX waypoint editor&body=GPX editor tool.%0A%0ARead more here: https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share via e-mail" rel="nofollow" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="reddit" href="http://www.reddit.com/submit?url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html&title=경로파일 GPX포맷 waypoint / GPX route editor" title="Submit to Reddit" rel="nofollow" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html&title=경로파일 GPX포맷 waypoint / GPX route editor&summary=GPX format file editor tool.&source=https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share on LinkedIn" rel="nofollow" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="email" href="mailto:?subject=경로파일 GPX포맷 waypoint / GPX route editor&body=GPX format file editor tool.%0A%0ARead more here: https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" title="Share via e-mail" rel="nofollow" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             <a class="copy-link" onclick="copyToClipboard()" title="Copy to clipboard" rel="nofollow" target="_blank"><svg width="20px" fill="currentColor" class="inline" viewBox="0 0 18 18"><path d="M16.94 1.1A3.7 3.7 0 0 0 14.3 0c-1 0-1.94.39-2.64 1.1L7.43 5.3c-.91.92-2.09 3.2 0 5.27a.75.75 0 0 0 .82.16c.09-.03.17-.09.24-.15a.74.74 0 0 0 0-1.06c-1.16-1.15-.77-2.39-.02-3.16l4.24-4.22a2.2 2.2 0 0 1 1.58-.65c.6 0 1.16.23 1.58.65.86.87.86 2.29 0 3.16L12.7 8.47a.74.74 0 0 0 1.04 1.05l3.17-3.16a3.73 3.73 0 0 0 0-5.27h.03zM9.54 7.4a.74.74 0 0 0 0 1.06c1.16 1.15.76 2.39 0 3.16l-4.22 4.22c-.42.42-.99.65-1.59.65a2.23 2.23 0 0 1-1.58-3.82l3.17-3.16A.73.73 0 0 0 5.54 9a.78.78 0 0 0-.22-.52.77.77 0 0 0-1.05 0L1.1 11.64A3.72 3.72 0 0 0 3.74 18c1 0 1.94-.39 2.65-1.1l4.23-4.2c.21-.22.94-1.02 1.13-2.2.18-1.12-.2-2.15-1.12-3.07-.27-.27-.78-.27-1.06 0l-.02-.02z" clip-rule="evenodd" fill-rule="evenodd"></path></svg></a>
         </div>
     </div>
@@ -580,7 +478,7 @@ E[\theta^2]_t &amp;= \beta_1 E[\theta^2]_{t-1} + (1-\beta_1) \theta^2_t \\<br />
     
     <p class="page_meta-readtime">
       
-        less than 1 minute read
+        1 minute read
       
     </p>
   
