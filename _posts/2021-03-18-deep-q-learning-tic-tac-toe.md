@@ -15,7 +15,7 @@ toc: yes # leave empty or erase for no TOC
 ## RTK Real Time Kinematic
 GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..
 
-![RL_Connect](./assets/img/posts/20210318/RL_Connect.jpg)
+![RL_Connect](./assets/img/posts/20210318/RL_Connect_ui.jpg)
 <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small>
 
 기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능
