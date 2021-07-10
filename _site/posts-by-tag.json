@@ -45,16 +45,6 @@
     
       
   {
-  "tag" : "NMEA",
-  "posts" : [
-      
-      "./neural-network-optimization-methods.html"
-      
-    ]
-  } ,
-    
-      
-  {
   "tag" : "Network rtk",
   "posts" : [
       
@@ -95,6 +85,16 @@
     
       
   {
+  "tag" : "accessory",
+  "posts" : [
+      
+      "./ML-Library-from-scratch.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "artificial intelligence",
   "posts" : [
       
@@ -107,8 +107,6 @@
   {
   "tag" : "coding",
   "posts" : [
-      
-      "./ML-Library-from-scratch.html",
       
       "./conways-game-of-life.html",
       
@@ -159,6 +157,26 @@
     
       
   {
+  "tag" : "gpx",
+  "posts" : [
+      
+      "./neural-network-optimization-methods.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "led",
+  "posts" : [
+      
+      "./ML-Library-from-scratch.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "life",
   "posts" : [
       
@@ -169,22 +187,10 @@
     
       
   {
-  "tag" : "log",
-  "posts" : [
-      
-      "./neural-network-optimization-methods.html"
-      
-    ]
-  } ,
-    
-      
-  {
   "tag" : "machine learning",
   "posts" : [
       
       "./AI-and-intellectual-property.html",
-      
-      "./ML-Library-from-scratch.html",
       
       "./single-neuron-perceptron.html"
       
@@ -198,9 +204,17 @@
       
       "./AI-and-intellectual-property.html",
       
-      "./ML-Library-from-scratch.html",
-      
       "./single-neuron-perceptron.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "point",
+  "posts" : [
+      
+      "./neural-network-optimization-methods.html"
       
     ]
   } ,
@@ -210,8 +224,6 @@
   "tag" : "python",
   "posts" : [
       
-      "./ML-Library-from-scratch.html",
-      
       "./conways-game-of-life.html"
       
     ]
@@ -219,20 +231,10 @@
     
       
   {
-  "tag" : "replay",
+  "tag" : "speaker",
   "posts" : [
       
-      "./neural-network-optimization-methods.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "statistics",
-  "posts" : [
-      
-      "./neural-network-optimization-methods.html"
+      "./ML-Library-from-scratch.html"
       
     ]
   } ,
@@ -249,10 +251,40 @@
     
       
   {
+  "tag" : "tm",
+  "posts" : [
+      
+      "./neural-network-optimization-methods.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "trailer",
+  "posts" : [
+      
+      "./ML-Library-from-scratch.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "vrs",
   "posts" : [
       
       "./deep-q-learning-tic-tac-toe.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "waypoint",
+  "posts" : [
+      
+      "./neural-network-optimization-methods.html"
       
     ]
   } 

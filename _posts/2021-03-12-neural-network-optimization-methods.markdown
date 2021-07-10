@@ -2,25 +2,25 @@
 layout: post
 read_time: true
 show_date: true
-title:  로그파일 분석 / Log file analysis after driving
+title:  경로생성 GPX파일/ GPX waypoint editor 
 date:   2021-03-12 13:32:20 -0600
-description: Log file analysis tool.
+description: GPX editor tool.
 img: posts/20210312/Log replay.jpg
-tags: [log, NMEA, replay, statistics]
+tags: [waypoint, gpx, tm, point]
 author: Ybbaek
 github: amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities/Neural_Network.py#L199
 mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
 toc: yes # leave empty or erase for no TOC
 ---
-# NMEA / Binary data processing
-For the seemingly small project I undertook of [creating a machine learning neural network that could learn by itself to play tic-tac-toe](./deep-q-learning-tic-tac-toe.html), I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.
+# GPX 파일처리 / GPX format file handling
+SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.
 
-And since my original post for the TicTacToe project is quite large already, I decided to post separately these optimization methods and how did I implement them in my code.
+이 위도/경도 정보를 프로그램에서 file I/O 를 통해 읽고 TM 좌표 변화을 하여 실제 지상의 경로를 따라 모바일 로봇이 움직이도록 개발되었습니다.
 
-## Adam
-[source](https://ruder.io/optimizing-gradient-descent/index.html#adam)
+## GPX Route editor
+[source](http://www.gpsnote.net/)
 
-<p>Adaptive Moment Estimation (Adam) is an optimization method that computes adaptive learning rates for each weight and bias. In addition to storing an exponentially decaying average of past squared gradients \(v_t\) and an exponentially decaying average of past gradients \(m_t\), similar to momentum. Whereas momentum can be seen as a ball running down a slope, Adam behaves like a heavy ball with friction, which thus prefers flat minima in the error surface. We compute the decaying averages of past and past squared gradients \(m_t\) and \(v_t\) respectively as follows:</p>
+<p>다양한 online/offline gpx editor를 무료로 사용할 수 있습니다.:</p>
 <p style="text-align:center">\(<br>
 \begin{align}<br>
 \begin{split}<br>
@@ -29,7 +29,7 @@ v_t &amp;= \beta_2 v_{t-1} + (1 - \beta_2) g_t^2<br>
 \end{split}<br>
 \end{align}<br>
 \)</p>
-<p>\(m_t\) and \(v_t\) are estimates of the first moment (the mean) and the second moment (the uncentered variance) of the gradients respectively, hence the name of the method. As \(m_t\) and \(v_t\) are initialized as vectors of 0's, the authors of Adam observe that they are biased towards zero, especially during the initial time steps, and especially when the decay rates are small (i.e. \(\beta_1\) and \(\beta_2\) are close to 1).</p>
+<p>\(m_t\) and \(v_t\) are estimates of the first moment (the mean) and the second moment (the uncentered variance) of the gradients respectively.</p>
 <p>They counteract these biases by computing bias-corrected first and second moment estimates:</p>
 <p style="text-align:center">\(<br>
 \begin{align}<br>
@@ -75,7 +75,7 @@ self.v["dW"+str(i)] = ((c.BETA1*self.v["dW" + str(i)])
                        ))
 ```
 
-### Nesterov accelerated gradient (NAG)
+## Nesterov accelerated gradient (NAG)
 [source](https://ruder.io/optimizing-gradient-descent/index.html#nesterovacceleratedgradient)
 
 <p>However, a ball that rolls down a hill, blindly following the slope,.</p>
