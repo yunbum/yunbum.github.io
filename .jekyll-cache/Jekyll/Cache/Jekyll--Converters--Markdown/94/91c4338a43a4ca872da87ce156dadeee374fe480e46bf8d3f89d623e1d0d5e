@@ -1,0 +1,77 @@
+I"�<p>Funnily, this is not my first post. The birth of the blog came very natural as a way to “document” my newly established pursuit for getting myself into Machine Learning. This new adventure of mine comprises several things, and if I want to succeed I need to be serious about them all:</p>
+<ul>
+  <li>Setting up a blog to document my journey and share it:</li>
+  <li>Establish a learning and blogging routine.</li>
+</ul>
+
+<p>As for the focus areas I will start with:</p>
+<ul>
+  <li>Neural Networks fundamentals: history, basic architecture and math behind them</li>
+  <li>Deep Neural Networks</li>
+</ul>
+
+<p>I selected the above areas to focus on based on my personal interests, I have been fascinated by the developments in reinforcement learning for a long time, in particular <a href="https://deepmind.com/blog">Deep Mind’s</a> awesome <a href="https://deepmind.com/blog/article/innovations-alphago">Go</a>, <a href="https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go">Chess</a> and <a href="https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning">Starcraft</a> playing agents. Therefore, I started reading a lot about it and even started a personal project for coding a <a href="./deep-q-learning-tic-tac-toe.html">tic-tac-toe learning agent</a>.</p>
+
+<p>As for practical work I decided to start by <a href="./ML-Library-from-scratch.html">coding my first models from scratch</a> (without using libraries such as Tensorflow), to be able to deeply understand the math and logic behind the models, so far it has proven to be priceless.</p>
+
+<p>For my next project I think I will start to do the basic hand-written digits recognition, which is the Machine Learning Hello World, for this I think I will start to use Tensorflow already.</p>
+
+<p>Thanks for reading!</p>
+
+<h3 id="ps-for-the-geeks-like-me-here-is-a-snippet-on-the-technical-side-of-the-blog">P.S. For the geeks like me, here is a snippet on the technical side of the blog.</h3>
+
+<h4 id="static-website-generator">Static Website Generator</h4>
+<p>I researched a lot on this, when I started I didn’t even know I needed a static website generator. I was just sure of one thing, I wanted my blog site to look modern, be easy to update and not to have anything extra or additional content or functionality I did not need.</p>
+
+<p>There is a myriad of website generators nowadays, after a lengthy search the ones I ended up considering are:</p>
+<ul>
+  <li><a href="https://wordpress.com/">wordpress</a></li>
+  <li><a href="https://www.wix.com/">wix</a></li>
+  <li><a href="https://www.squarespace.com/">squarespace</a></li>
+  <li><a href="https://ghost.org/">ghost</a></li>
+  <li><a href="https:webflow.com">webflow</a></li>
+  <li><a href="https://www.netlify.com/">netlify</a></li>
+  <li><a href="https://gohugo.io/">hugo</a></li>
+  <li><a href="https://www.gatsbyjs.com/docs/glossary/static-site-generator/">gatsby</a></li>
+  <li><a href="https://jekyllrb.com/">jekyll</a></li>
+</ul>
+
+<p>I started with the web interfaced generators with included hosting in their offerings:</p>
+
+<p>I have tried <a href="https://www.wix.com/">wix</a> and <a href="https://www.squarespace.com/">squarespace</a> before, they are fantastic for quick and easy website generation, but their free offering has ads, so again, a big no for me.</p>
+
+<p>I discovered <a href="https://ghost.org/">ghost</a> as the platform used by one of the bloggers I follow (<a href="https://ruder.io/">Sebastian Ruder</a>), turns out is a fantastic evolution over wordpress. It runs on the latest technologies, its interface is quite modern, and it is focused on one thing only: publishing. They have a paid hosting service, but the software is open sourced, therefore free to use in any hosting.</p>
+
+<p>Next were the generators that don’t have a web interface, but can be easily set up:</p>
+
+<p>I also tested <a href="https://www.gatsbyjs.com/docs/glossary/static-site-generator/">gatsby</a> with it’s own Gatsby Cloud hosting service, <a href="https://amaynez.gatsbyjs.io/">here is my test site</a>. They also use GitHub as a base to host the source files to build the website, so you create a repository, and it is connected to it. I found the free template offerings quite limited for what I was looking for.</p>
+
+<p>Finally it came the turn for <a href="https://jekyllrb.com/">jekyll</a>, although an older, and slower generator (compared to Hugo and Gatsby), it was created by one of the founders of GitHub, so it’s integration with GitHub Pages is quite natural and painless, so much so, that to use them together you don’t even have to install Jekyll in your machine! You have two choices:</p>
+<ol>
+  <li>keep it all online, special <code class="language-plaintext highlighter-rouge">gh-pages</code> .</li>
+  <li>Have a synchronized local copy of the source files for the website.</li>
+</ol>
+
+<p>I picked up a template, just forked the repository and started modifying the files to customize it, it was fast and easy, I even took it upon myself to add some functionality to the template (it served as a coding little project) like:</p>
+<ul>
+  <li>SEO meta tags</li>
+  <li>Dark mode (<a href="https://github.com/the-mvm/the-mvm.github.io/blob/a8d4f781bfbc4107b4842433701d28f5bbf1c520/_config.yml#L10">configurable in _config.yml file</a>)</li>
+  <li>comments ‘courtain’ to mask the disqus interface until the user clicks on it (<a href="https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/_config.yml#L13">configurable in _config.yml</a>)</li>
+</ul>
+
+<p><img src="./assets/img/template_screenshots/homepage-responsive.jpg" alt="my new blog" /></p>
+
+<p><img src="./assets/img/template_screenshots/light-toggle.png" alt="night theme toggle" /></p>
+
+<p>As a summary, Hugo and Gatsby might be much faster than Jekyll to build the sites.</p>
+
+<p>You can use the modified template yourself by <a href="https://github.com/the-mvm/the-mvm.github.io/fork/">forking my repository</a>. Let me know in the comments or feel free to contact me if you are interested in a detailed walkthrough on how to <a href="https://github.com/the-mvm/the-mvm.github.io#Installation">set it all up</a>.</p>
+
+<h4 id="hosting">Hosting</h4>
+<p>Since I decided on Jekyll to generate my site, the choice for hosting was quite obvious, <strong><a href="https://pages.github.com">Github Pages</a></strong> is very nicely integrated with it, it is free, and it has no ads! Plus the domain name isn’t too terrible (<a href="https://the-mvm.github.io">the-mvm.github.io</a>).</p>
+
+<h5 id="interplanetary-file-system">Interplanetary File System</h5>
+<p>To contribute to and test <a href="https://github.com/ipfs/ipfs#quick-summary">IPFS</a> I also set up a <a href="https://weathered-bread-8229.on.fleek.co/">mirror</a> in IPFS by using <a href="https://fleek.co">fleek.co</a>.</p>
+
+<p>But this fix did not work for the search function, because it relies on a <code class="language-plaintext highlighter-rouge">search.json</code> file (also generated programmatically to be served as a static file), therefore when generating this file one either use the relative path for the <code class="language-plaintext highlighter-rouge">root</code> directory or for a nested directory.</p>
+:ET
