@@ -27,8 +27,6 @@ TM 좌표계로 변환 -> 점들을 포함하는 최소원을 계산하여 원�
 
 <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타 로거로도 적용 (위성지도 연동) </li></ul>
 
-I started out with two hidden layers of 36 neurons each.
-
 ## Source code / Github
 ### Python -> LabVIEW
 
@@ -44,14 +42,14 @@ header =\
 "Authorization: Basic {}\r\n\r\n".format(pwd)
 ```
 ```python
-@staticmethod
-def cyclic_learning_rate(learning_rate, epoch):
-    max_lr = learning_rate*c.MAX_LR_FACTOR
-    cycle = np.floor(1+(epoch/(2*c.LR_STEP_SIZE)))
-    x = np.abs((epoch/c.LR_STEP_SIZE)-(2*cycle)+1)
-    return learning_rate+(max_lr-learning_rate)*np.maximum(0,(1-x))
+static const char encodingTable [64] = {
+  'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P',
+  'Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f',
+  'g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v',
+  'w','x','y','z','0','1','2','3','4','5','6','7','8','9','+','/'
+};
 ```
-<br>With these many changes, I decided to restart with a fresh set of random weights and biases and try training more (much more) games.
+<br>GNSS/GP 모듈은 uBlox F9P M8P, Sententrio Mosaic X5, MBC MRP, 등에 적용하여 테스트.
 
 <center><img src='./assets/img/posts/20210318/hw_block.jpg' width="540">
 <small>RL Connect Hardware Function block</small></center>
@@ -70,24 +68,21 @@ After **24 hours!**, my computer
 - Raw RTCM 메세지를 직접 확인가능.
 - 로그파일을 기본으로 남기도록 하여 후에 데이타 확인 가능
 
-<a name='Model4'></a>
-### Model 4 - implementing momentum
+<a name='Communication'></a>
+### Communication - TCP/IP, Serial
 
-I [reached out to the reddit community](https://www.reddit.com/r/MachineLearning/comments/lzvrwp/p_help_with_a_reinforcement_learning_project/) and a kind soul pointed out that maybe what I need is to apply momentum to the optimization algorithm. 
+- Google map api 를 활용하여 실시간 위성지도 연동
+- Hardware를 포함한 Network 상태 모니터링 / USB Serial, TCP, RTCM 메세지
 
-- Stochastic Gradient Descent with Momentum
-- RMSProp: Root Mean Square Plain Momentum
+기본 Base 프로그램은 LabVIEW 언어를 활용
 
-As you can see I am reusing all of my old code, and just replacing my Neural Net library with Tensorflow/Keras, keeping even my hyper-parameter constants.
+With LabVIEW implemented, **the issue**
+<a name='LabVIEW'></a>
+### LabVIEW - National Instrument programming language
 
-With Tensorflow implemented, **the loss function was still stagnating! My code was not the issue.**
-<a name='Model7'></a>
-### Model 7 - changing the training schedule
-Next I tried to change the way the network was training as per [u/elBarto015](https://www.reddit.com/user/elBarto015) [advised me on reddit](https://www.reddit.com/r/reinforcementlearning/comments/lzzjar/i_created_an_ai_for_super_hexagon_based_on/gqc8ka6?utm_source=share&utm_medium=web2x&context=3).
-
-The way I was training initially was:
-- Games begin being simulated and the outcome recorded in the replay memory
-- Once a sufficient ammount of experiences are recorded (at least equal to the batch 
+Mode 를 지속적으로 카운팅 하여 정밀도 상태 표시:
+- 지정된 시간마다 모드의 상태를 카운팅 (N/A, Standalone, RTK float, RTK fixed)
+- 카운팅 된 회수를 바탕으로 백분율로 계산하여 % 스케일로도 표시 
 
 ![tcp_block](./assets/img/posts/20210318/statistics.jpg)
 <small>[tcp_block] LabVIEW TCP Function Block Diagram code.</small>
