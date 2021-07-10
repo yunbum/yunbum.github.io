@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-10T12:33:31+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 자율주행 차량 이력 / History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 자율주행 차량 이력 / History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-10T12:55:48+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 자율주행 차량 이력 / History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 자율주행 차량 이력 / History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qJrNXtsEzZo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -206,79 +206,31 @@
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210318/RL_Connect.jpg&quot; alt=&quot;RL_Connect&quot; /&gt;
 &lt;small&gt;[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..&lt;/small&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210318/RL_Connect.jpg&quot; width=&quot;310&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210318/tm_circle.png&quot; width=&quot;310&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;To fully grasp the essence of ML I decided to start by &lt;a href=&quot;./ML-Library-from-scratch.html&quot;&gt;coding a ML library myself&lt;/a&gt;, so I can fully understand the inner workings, linear algebra and calculus involved in Stochastic Gradient Descent. And on top learn Python (I used to code in C++ 20 years ago).&lt;/p&gt;
+&lt;p&gt;You can read the blog post for it &lt;a href=&quot;./ML-Library-from-scratch.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I built a general purpose basic ML library that creates a Neural Network (only DENSE layers), saves and loads the weights into a file, does forward propagation and training (optimization of weights and biases) using SGD. I tested the ML library with the XOR problem to make sure it worked fine. You can read the blog post for it &lt;a href=&quot;./ML-Library-from-scratch.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I created the game quite openly, in such a way that it can be played by two humans, by a human vs. an algorithmic AI, and a human vs. the neural network. And of course the neural network against a choice of 3 AI engines: random, &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimax&quot;&gt;minimax&lt;/a&gt; or hardcoded (an exercise I wanted to do since a long time).&lt;/p&gt;
 
-&lt;p&gt;For the next challenge I am interested in reinforcement learning greatly inspired by Deep Mind’s astonishing feats of having their Alpha Go, Alpha Zero and Alpha Star programs learn (and be amazing at it) Go, Chess, Atari games and lately Starcraft; I set myself to the task of programming a neural network that will learn by itself how to play the ancient game of tic tac toe (or noughts and crosses).&lt;/p&gt;
-
-&lt;p&gt;How hard could it be?&lt;/p&gt;
-
-&lt;p&gt;Of course the first thing to do was to program the game itself, so I chose Python because I am learning it, so it gives me a good practice opportunity, and PyGame for the interface.
-Coding the game was quite straightforward, albeit for the hiccups of being my first PyGame and almost my first Python program ever.
-I created the game quite openly, in such a way that it can be played by two humans, by a human vs. an algorithmic AI, and a human vs. the neural network. And of course the neural network against a choice of 3 AI engines: random, &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimax&quot;&gt;minimax&lt;/a&gt; or hardcoded (an exercise I wanted to do since a long time).&lt;/p&gt;
-
-&lt;p&gt;While training, the visuals of the game can be disabled to make training much faster.
-Now, for the fun part, training the network, I followed Deep Mind’s own DQN recommendations:&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;The network will be an approximation for the Q value function or Bellman equation, meaning that the network will be trained to predict the &quot;value&quot; of each move available in a given game state.&lt;/li&gt;&lt;li&gt;A replay experience memory was implemented. This meant that the neural network will not be trained after each move. Each move will be recorded in a special &quot;memory&quot; alongside with the state of the board and the reward it received for taking such an action (move).&lt;/li&gt;&lt;li&gt;After the memory is sizable enough, batches of random experiences sampled from the replay memory are used for every training round&lt;/li&gt;&lt;li&gt;A secondary neural network (identical to the main one) is used to calculate part of the Q value function (Bellman equation), in particular the future Q values. And then it is updated with the main network's weights every &lt;em&gt;n&lt;/em&gt; games. This is done so that we are not chasing a moving target.&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;Basic Ntirp client.&lt;/li&gt;&lt;li&gt;FKP, VRS mount 기준국 접속 가능.&lt;/li&gt;&lt;li&gt;After the memory is sizable enough, batches of random experiences sampled from the replay memory are used for every training round&lt;/li&gt;&lt;li&gt;A secondary &lt;/li&gt;&lt;/ul&gt;
 
 &lt;h2 id=&quot;designing-the-neural-network&quot;&gt;Designing the neural network&lt;/h2&gt;
 
 &lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Neural_Network_Topology.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The Neural Network chosen takes 9 inputs (the current state of the game) and outputs 9 Q values for each of the 9 squares in the board of the game (possible actions). Obviously some squares are illegal moves, hence while training there was a negative reward given to illegal moves hoping that the model would learn not to play illegal moves in a given position.&lt;/p&gt;
+&lt;p&gt;The Neural Network c&lt;/p&gt;
 
-&lt;p&gt;I started out with two hidden layers of 36 neurons each, all fully connected and activated via ReLu. The output layer was initially activated using sigmoid to ensure that we get a nice value between 0 and 1 that represents the QValue of a given state action pair.&lt;/p&gt;
+&lt;p&gt;I started out with two hidden layers of 36 neurons each.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-many-models&quot;&gt;The many models…&lt;/h2&gt;
 &lt;h3 id=&quot;model-1---the-first-try&quot;&gt;Model 1 - the first try&lt;/h3&gt;
 
-&lt;p&gt;At first the model was trained by playing vs. a “perfect” AI, meaning a &lt;a href=&quot;https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Game.py#L43&quot;&gt;hard coded algorithm&lt;/a&gt; that never looses and that will win if it is given the chance. After several thousand training rounds, I noticed that the Neural Network was not learning much; so I switched to training vs. a completely random player, so that it will also learn how to win. After training vs. the random player, the Neural Network seems to have made progress and is steadily diminishing the loss function over time.&lt;/p&gt;
+&lt;p&gt;At first the model was trained by playing vs. a “perfect” AI, meaning a &lt;a href=&quot;https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Game.py#L43&quot;&gt;hard coded algorithm&lt;/a&gt; that&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Loss_function_across_all_episodes.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;However, the model was still generating many illegal moves, so I decided to modify the reinforcement learning algorithm to punish more the illegal moves. The change consisted in populating with zeros all the corresponding illegal moves for a given position at the target values to train the network. This seemed to work very well for diminishing the illegal moves:&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Loss_function_and_Illegal_moves.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, the model was still performing quite poorly winning only around 50% of games vs. a completely random player (I expected it to win above 90% of the time). This was after only training 100,000 games, so I decided to keep training and see the results:&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Loss_function_and_Illegal_moves2.png&quot; width=&quot;540&quot; /&gt;
-&lt;small&gt;Wins: 65.46% Losses: 30.32% Ties: 4.23%&lt;/small&gt;&lt;/center&gt;
-
-&lt;p&gt;Note that when training restarts, the loss and illegal moves are still high in the beginning of the training round, and this is caused by the epsilon greedy strategy that prefers exploration (a completely random move) over exploitation, this preference diminishes over time.&lt;/p&gt;
-
-&lt;p&gt;After another round of 100,000 games, I can see that the loss function actually started to diminish, and the win rate ended up at 65%, so with little hope I decided to carry on and do another round of 100,000 games (about 2 hours in an i7 MacBook Pro):&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Loss_function_and_Illegal_moves3.png&quot; width=&quot;540&quot; /&gt;
-&lt;small&gt;Wins: 46.40% Losses: 41.33% Ties: 12.27%&lt;/small&gt;&lt;/center&gt;
-
-&lt;p&gt;As you can see in the chart, the calculated loss not even plateaued, but it seemed to increase a bit over time, which tells me the model is not learning anymore. This was confirmed by the win rate decreasing with respect of the previous round to a meek 46.4% that looks no better than a random player.&lt;/p&gt;
-
-&lt;h3 id=&quot;model-2---linear-activation-for-the-output&quot;&gt;Model 2 - Linear activation for the output&lt;/h3&gt;
-
-&lt;p&gt;After not getting the results I wanted, I decided to change the output activation function to linear, since the output is supposed to be a Q value, and not a probability of an action.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Loss_function_and_Illegal_moves4.png&quot; width=&quot;540&quot; /&gt;&lt;br /&gt;
-&lt;small&gt;Wins: 47.60% Losses: 39% Ties: 13.4%&lt;/small&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Initially I tested with only 1000 games to see if the new activation function was working, the loss function appears to be decreasing, however it reached a plateau around a value of 1, hence still not learning as expected. I came across a &lt;a href=&quot;https://github.com/bckenstler/CLR&quot;&gt;technique by Brad Kenstler, Carl Thome and Jeremy Jordan&lt;/a&gt; called Cyclical Learning Rate, which appears to solve some cases of stagnating loss functions in this type of networks. So I gave it a go using their Triangle 1 model.&lt;/p&gt;
-
-&lt;p&gt;With the cycling learning rate in place, still no luck after a quick 1,000 games training round; so I decided to implement on top a decaying learning rate as per the following formula:&lt;/p&gt;
+&lt;p&gt;I came across a &lt;a href=&quot;https://github.com/bckenstler/CLR&quot;&gt;technique by Brad Kenstler, Carl Thome and Jeremy Jordan&lt;/a&gt; called Cyclical Learning Rate, which appears to solve some cases of stagnating loss functions in this type of networks.&lt;/p&gt;
 
 &lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/lr_formula.jpeg&quot; width=&quot;280&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;The resulting learning rate combining the cycles and decay per epoch is:&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/LR_cycle_decay.png&quot; width=&quot;480&quot; /&gt;
-&lt;small&gt;Learning Rate = 0.1, Decay = 0.0001, Cycle = 2048 epochs,&lt;br /&gt;
-        max Learning Rate factor = 10x&lt;/small&gt;&lt;/center&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;true_epoch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;epoch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BATCH_SIZE&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;learning_rate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;learning_rate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DECAY_RATE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;true_epoch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -301,49 +253,22 @@ Now, for the fun part, training the network, I followed Deep Mind’s own DQN re
 &lt;small&gt;1,000,000 episodes, 7.5 million epochs with batches of 64 moves each&lt;br /&gt;
 Wins: 52.66% Losses: 36.02% Ties: 11.32%&lt;/small&gt;&lt;/center&gt;
 
-&lt;p&gt;After &lt;strong&gt;24 hours!&lt;/strong&gt;, my computer was able to run 1,000,000 episodes (games played), which represented 7.5 million training epochs of batches of 64 plays (480 million plays learned), the learning rate did decreased (a bit), but is clearly still in a plateau; interestingly, the lower boundary of the loss function plot seems to continue to decrease as the upper bound and the moving average remains constant. This led me to believe that I might have hit a local minimum.
+&lt;p&gt;After &lt;strong&gt;24 hours!&lt;/strong&gt;, my computer 
 &lt;a name=&quot;Model3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;model-3---new-network-topology&quot;&gt;Model 3 - new network topology&lt;/h3&gt;
 
 &lt;p&gt;After all the failures I figured I had to rethink the topology of the network and play around with combinations of different networks and learning rates.&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Loss_function_and_Illegal_moves7.png&quot; width=&quot;540&quot; /&gt;
-&lt;small&gt;100,000 episodes, 635,000 epochs with batches of 64 moves each&lt;br /&gt;
-&lt;b&gt;Wins: 76.83%&lt;/b&gt; Losses: 17.35% Ties: 5.82%&lt;/small&gt;&lt;/center&gt;
-
-&lt;p&gt;I increased to 200 neurons each hidden layer. In spite of this great improvement the loss function was still in a plateau at around 0.1 (Mean Squared Error). Which, although it is greatly reduced from what we had, still was giving out only 77% win rate vs. a random player, the network was playing tic tac toe as a toddler!&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Game_Screen2.png&quot; width=&quot;240&quot; height=&quot;240&quot; /&gt;
-&lt;small&gt;*I can still beat the network most of the time! (I am playing with the red X)*&lt;/small&gt;&lt;/center&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Loss_function_and_Illegal_moves10.png&quot; width=&quot;540&quot; /&gt;
-&lt;small&gt;100,000 more episodes, 620,000 epochs with batches of 64 moves each&lt;br /&gt;
-&lt;b&gt;Wins: 82.25%&lt;/b&gt; Losses: 13.28% Ties: 4.46%&lt;/small&gt;&lt;/center&gt;
-
 &lt;p&gt;&lt;strong&gt;Finally we crossed the 80% mark!&lt;/strong&gt; This is quite an achievement, it seems that the change in network topology is working, although it also looks like the loss function is stagnating at around 0.15.&lt;/p&gt;
 
-&lt;p&gt;After more training rounds and some experimenting with the learning rate and other parameters, I couldn’t improve past the 82.25% win rate.&lt;/p&gt;
-
-&lt;p&gt;These have been the results so far:&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Models1to3.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;It is quite interesting to learn how the many parameters (hyper-parameters as most authors call them) of a neural network model affect its training performance, I have played with:&lt;/p&gt;
+&lt;p&gt;It is quite interesting :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;the learning rate&lt;/li&gt;
-  &lt;li&gt;the network topology and activation functions&lt;/li&gt;
-  &lt;li&gt;the cycling and decaying learning rate parameters&lt;/li&gt;
-  &lt;li&gt;the batch size&lt;/li&gt;
-  &lt;li&gt;the target update cycle (when the target network is updated with the weights from the policy network)&lt;/li&gt;
   &lt;li&gt;the rewards policy&lt;/li&gt;
   &lt;li&gt;the epsilon greedy strategy&lt;/li&gt;
   &lt;li&gt;whether to train vs. a random player or an “intelligent” AI.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;And so far the most effective change has been the network topology, but being so close but not quite there yet to my goal of 90% win rate vs. a random player, I will still try to optimize further.&lt;/p&gt;
-
-&lt;tweet&gt;Network topology seems to have the biggest impact on a neural network's learning ability.&lt;/tweet&gt;
+&lt;p&gt;And so far the most effective change&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&quot;Model4&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;model-4---implementing-momentum&quot;&gt;Model 4 - implementing momentum&lt;/h3&gt;
@@ -353,29 +278,9 @@ Wins: 52.66% Losses: 36.02% Ties: 11.32%&lt;/small&gt;&lt;/center&gt;
 &lt;ul&gt;
   &lt;li&gt;Stochastic Gradient Descent with Momentum&lt;/li&gt;
   &lt;li&gt;RMSProp: Root Mean Square Plain Momentum&lt;/li&gt;
-  &lt;li&gt;NAG: Nezterov’s Accelerated Momentum&lt;/li&gt;
-  &lt;li&gt;Adam: Adaptive Moment Estimation&lt;/li&gt;
-  &lt;li&gt;and keep my old vanilla Gradient Descent (vGD) ☺&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a name=&quot;optimization&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://the-mvm.github.io/neural-network-optimization-methods/&quot;&gt;Click here for a detailed explanation and code of all the implemented optimization algorithms.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;So far, I have not been able to get better results with Model 4, I have tried all the momentum optimization algorithms with little to no success.
-&lt;a name=&quot;Model5&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;model-5---implementing-one-hot-encoding-and-changing-topology-again&quot;&gt;Model 5 - implementing one-hot encoding and changing topology (again)&lt;/h3&gt;
-&lt;p&gt;I came across an &lt;a href=&quot;https://github.com/AxiomaticUncertainty/Deep-Q-Learning-for-Tic-Tac-Toe/blob/master/tic_tac_toe.py&quot;&gt;interesting project in Github&lt;/a&gt; that deals exactly with Deep Q Learning, and I noticed that he used “one-hot” encoding for the input as opposed to directly entering the values of the player into the 9 input slots. So I decided to give it a try and at the same time change my topology to match his:&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Neural_Network_Topology3.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;So, ‘one hot’ encoding is basically changing the input of a single square in the tic tac toe board to three numbers, so that each state is represented with different inputs, thus the network can clearly differentiate the three of them. As the original author puts it, the way I was encoding, having 0 for empty, 1 for X and 2 for O, the network couldn’t easily tell that, for instance, O and X both meant occupied states, because one is two times as far from 0 as the other. With the new encoding, the empty state will be 3 inputs: (1,0,0), the X will be (0,1,0) and the O (0,0,1) as in the diagram.&lt;/p&gt;
-
-&lt;p&gt;Still, no luck even with Model 5, so I am starting to think that there could be a bug in my code.&lt;/p&gt;
-
-&lt;p&gt;To test this hypothesis, I decided to implement the same model using Tensorflow / Keras.&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;Model6&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;model-6---tensorflow--keras&quot;&gt;Model 6 - Tensorflow / Keras&lt;/h3&gt;
-&lt;center&gt;&lt;img src=&quot;https://www.kubeflow.org/docs/images/logos/TensorFlow.png&quot; width=&quot;100&quot; height=&quot;100&quot; /&gt;&lt;/center&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PolicyNetwork&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Sequential&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;layer&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hidden_layers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
@@ -421,33 +326,12 @@ Wins: 52.66% Losses: 36.02% Ties: 11.32%&lt;/small&gt;&lt;/center&gt;
 &lt;p&gt;The way I was training initially was:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Games begin being simulated and the outcome recorded in the replay memory&lt;/li&gt;
-  &lt;li&gt;Once a sufficient ammount of experiences are recorded (at least equal to the batch size) the Network will train with a random sample of experiences from the replay memory. The ammount of experiences to sample is the batch size.&lt;/li&gt;
-  &lt;li&gt;The games continue to be played between the random player and the network.&lt;/li&gt;
-  &lt;li&gt;Every move from either player generates a new training round, again with a random sample from the replay memory.&lt;/li&gt;
-  &lt;li&gt;This continues until the number of games set up conclude.&lt;/li&gt;
+  &lt;li&gt;Once a sufficient ammount of experiences are recorded (at least equal to the batch&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/ReplayMemoryBefore.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;The first change was to train only after every game concludes with the same ammount of data (a batch). This was still not giving any good results.&lt;/p&gt;
-
-&lt;p&gt;The second change was more drastic, it introduced the concept of epochs for every training round, it basically sampled the replay memory for epochs * batch size experiences, for instance if epochs selected were 10, and batch size was 81, then 810 experiences were sampled out of the replay memory. With this sample the network was then trained for 10 epochs randomly using the batch size.&lt;/p&gt;
-
-&lt;p&gt;This meant that I was training now effectively 10 (or the number of epochs selected) times more per game, but in batches of the same size and randomly shuffling the experiences each epoch.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/ReplayMemoryAfter.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;After still playing around with some hyperparameters I managed to get similar performance as I got before, reaching 83.15% win rate vs. the random player, so I decided to keep training in rounds of 2,000 games each to evaluate performance. With almost every round I could see improvement:&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/Model7HyperParameters.png&quot; width=&quot;540&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;./assets/img/posts/20210318/Model7.png&quot; width=&quot;480&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;As of today, my best result so far is 87.5%, I will leave it rest for a while and keep investigating to find a reason for not being able to reach at least 90%. I read about &lt;a href=&quot;https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717&quot;&gt;self play&lt;/a&gt;, and it looks like a viable option to test and a fun coding challenge. However, before embarking in yet another big change I want to ensure I have been thorough with the model and have tested every option correctly.&lt;/p&gt;
-
-&lt;p&gt;I feel the end is near… should I continue to update this post as new events unfold or shall I make it a multi post thread?&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="GPS" /><category term="Network rtk" /><category term="Ntrip client" /><category term="GNSS" /><category term="fkp" /><category term="vrs" /><summary type="html">Background GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</summary></entry><entry><title type="html">로그파일 분석 / Log file analysis after driving</title><link href="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" rel="alternate" type="text/html" title="로그파일 분석 / Log file analysis after driving" /><published>2021-03-13T04:32:20+09:00</published><updated>2021-03-13T04:32:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html">&lt;p&gt;For the seemingly small project I undertook of &lt;a href=&quot;./deep-q-learning-tic-tac-toe.html&quot;&gt;creating a machine learning neural network that could learn by itself to play tic-tac-toe&lt;/a&gt;, I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.&lt;/p&gt;
+&lt;p&gt;As of today, &lt;a href=&quot;https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717&quot;&gt;self play&lt;/a&gt;, and it looks like a viable option to test and a fun coding challenge.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="GPS" /><category term="Network rtk" /><category term="Ntrip client" /><category term="GNSS" /><category term="fkp" /><category term="vrs" /><summary type="html">Background GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</summary></entry><entry><title type="html">로그파일 분석 / Log file analysis after driving</title><link href="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" rel="alternate" type="text/html" title="로그파일 분석 / Log file analysis after driving" /><published>2021-03-13T04:32:20+09:00</published><updated>2021-03-13T04:32:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html">&lt;p&gt;For the seemingly small project I undertook of &lt;a href=&quot;./deep-q-learning-tic-tac-toe.html&quot;&gt;creating a machine learning neural network that could learn by itself to play tic-tac-toe&lt;/a&gt;, I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.&lt;/p&gt;
 
 &lt;p&gt;And since my original post for the TicTacToe project is quite large already, I decided to post separately these optimization methods and how did I implement them in my code.&lt;/p&gt;
 
