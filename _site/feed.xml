@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-10T16:47:08+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 자율주행 차량 이력 / History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 자율주행 차량 이력 / History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-10T19:37:32+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 자율주행 차량 이력 / History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 자율주행 차량 이력 / History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qJrNXtsEzZo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -19,9 +19,9 @@
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/src-b2-back1.jpg&quot; alt=&quot;The Next SRC&quot; /&gt;
 &lt;small&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;The Next SRC&lt;/a&gt; 는 보다 강력한 모터, 주행알고리즘 등으로 개량되어, 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .&lt;/small&gt;&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 check github repo .</summary></entry><entry><title type="html">자율주행 플랫폼 SRC 란, what is SRC (Self Driving Rc Car?</title><link href="https://github.com/yunbum/yunbum.github.io/back-to-basics.html" rel="alternate" type="text/html" title="자율주행 플랫폼 SRC 란, what is SRC (Self Driving Rc Car?" /><published>2021-04-02T00:00:00+09:00</published><updated>2021-04-02T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/back-to-basics</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/back-to-basics.html">&lt;p&gt;SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;This Powerful Self Driving HW Led to Developer and students in this field.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cafe.naver.com/iltech&quot;&gt;Check detail picture, code examples and hw information&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos&quot;&gt;Other videos on Youtube for SRC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cafe.naver.com/iltech&quot;&gt;10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos&quot;&gt;다른 RLmodel 유투브 영상들&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/src_hw-sw.png&quot; alt=&quot;HW SW 모듈개발 및 주행테스트&quot; /&gt;
@@ -30,14 +30,17 @@
 &lt;p&gt;차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.&lt;/p&gt;
 
 &lt;h1 id=&quot;소개intro&quot;&gt;소개/Intro&lt;/h1&gt;
+
+&lt;h2 id=&quot;모델구분-및-특징&quot;&gt;모델구분 및 특징&lt;/h2&gt;
 &lt;p&gt;SRC (&lt;strong&gt;S&lt;/strong&gt;elf driving &lt;strong&gt;R&lt;/strong&gt;emote control &lt;strong&gt;C&lt;/strong&gt;ar) 는 자율주행 차량의 영어 약자 이면 현재 SRC-A,B,C,D 등의 타입이 있습니다.
+타입별 차이는 크기, 속도, 모터토크 등으로 구분되어 나누어 집니다.
 &lt;img src=&quot;./assets/img/posts/20210402/SRC_models.png&quot; alt=&quot;SRC models&quot; /&gt;
 &lt;small&gt;개발시간 전체 약 10여년. 최종 전체 금속기반의 구조는 2019년 완성&lt;/small&gt;&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OcdVl3k5qS0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h2 id=&quot;주요특징&quot;&gt;주요특징&lt;/h2&gt;
-&lt;p&gt;프레임은 전체가 알루미늄, 철 등의 금속. 일반 휴대용 보조배터리 파워. 통 고무 타이어.  (&lt;a href=&quot;https://www.thinkautomation.com/bots-and-ai/a-history-of-automation-the-rise-of-robots-and-ai/&quot;&gt;source&lt;/a&gt;), 구조와 강성이 상당히 개량되어 전체적인 안정성은 일반 플라스틱 RC 카에 비할 수 없고, 현재 수십 km 실외 운행으로 내구성 검증도 완료:&lt;/p&gt;
+&lt;p&gt;프레임은 전체가 알루미늄, 철 등의 금속. 일반 휴대용 보조배터리 파워로 일반 USB 충전이 가능하여 편리하며. 통 고무 타이어로 구성되어 펑크날 위험이 없습니다. (&lt;a href=&quot;https://www.thinkautomation.com/bots-and-ai/a-history-of-automation-the-rise-of-robots-and-ai/&quot;&gt;source&lt;/a&gt;), 구조와 강성이 상당히 개량되어 전체적인 안정성은 일반 플라스틱 RC 카에 비할 수 없고, 현재 수십 km 실외 운행으로 내구성 검증도 완료:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/src-b2_3.jpg&quot; alt=&quot;Frame body&quot; /&gt;
 &lt;small&gt;개발시간 전체 약 10여년. 최종 전체 금속기반의 구조는 2019년 완성&lt;/small&gt;&lt;/p&gt;
@@ -48,45 +51,43 @@
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/SRC-B_parts.png&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
 &lt;small&gt;Full option 상태의 센서 및 기타 모듈 구성도&lt;/small&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;모델타입&quot;&gt;모델/타입&lt;/h2&gt;
-&lt;p&gt;SRC model / SRC 차량의 모델은 A,B,C,D 타입등으로 모터사양, 크기, 디자인 등으로 구분이 되어 나뉘고 동일한 모델에서는 이중모터로 업그레이드가 가능합니다. (Dual moter) .&lt;/p&gt;
+&lt;h2 id=&quot;튜닝-업그레이드&quot;&gt;튜닝/ 업그레이드&lt;/h2&gt;
+&lt;p&gt;동일 차량모델 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션으로 선택이 가능하여 등판능력, 속도 등을 높힘 모델로 선택이 가능합니다.&lt;/p&gt;
 
-&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210402/dual_motor.jpg&quot; width=&quot;310&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;small&gt;레이싱 모델인 이중모터(Dual motor) 구조&lt;/small&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210402/dual_motor.jpg&quot; width=&quot;210&quot; height=&quot;200&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;프레임 강성을 유지하기 위해 보완 패치들로 접속부분 추가 체결함
+모바일 로봇의 종류는 기본 SRC 차량모델에 이어 ASV 보트(선박) 모델도 있으며 교육목적의 Pendulum, Ball Balance robot 등도 있습니다.&lt;/p&gt;
 
-&lt;p&gt;모바일 로봇의 종류는 기본 SRC 차량모델에 이어 ASV 보트(선박) 모델도 있으며 교육목적의 Pendulum, Ball Balance robot 등도 있습니다.&lt;/p&gt;
+&lt;h2 id=&quot;강화학습-적용-플랫폼&quot;&gt;강화학습 적용 플랫폼&lt;/h2&gt;
 
-&lt;p&gt;The neural network.&lt;/p&gt;
+&lt;p&gt;모든 RLmodel 로봇들은 강화학습을 적용하고 테스트 해볼 수 있는 목적으로 개발이 시작되었으며 현재도 다양한 접근으로 예제들을 검토 중입니다.&lt;/p&gt;
 
-&lt;h4 id=&quot;3-replying-to-us&quot;&gt;3. Replying to us&lt;/h4&gt;
+&lt;h2 id=&quot;기타-편의사항&quot;&gt;기타 편의사항&lt;/h2&gt;
+&lt;p&gt;SRC 차량은 간단한 시리얼 프로토콜 제어가 가능하고 부가 기능으로는 스피커, LED dot matrix, Light 등을 옵션으로 창작하여 테스트 시 차량의 상태나 프로그램의 동작 세부사항 확인이 쉽도록 하였습니다.&lt;/p&gt;
 
-&lt;p&gt;Once Alexa understood what we meant, it then proceeds to execute the action of the command it interpreted and it replies to us in turn using natural language. This is accomplished using a technique called speech synthesis, things like pitch, duration and intensity of the words and phonems are selected based on the “meaning” of what Alexa will respond to us: “Playing songs by Van Halen on Spotify” sounding quite naturally. And all is accomplished with neural networks executing many simple math operations.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/post7-alexa-steps.png&quot; alt=&quot;post7-alexa-steps&quot; /&gt;
-&lt;small&gt;Although it seems quite complex, the process for AI to understand us can be boiled down to simple math operations&lt;/small&gt;&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="theory" /><category term="Robot" /><category term="RC" /><category term="GPS" /><category term="Camera" /><category term="Lidar" /><summary type="html">SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.: This Powerful Self Driving HW Led to Developer and students in this field. Check detail picture, code examples and hw information Other videos on Youtube for SRC</summary></entry><entry><title type="html">ASV 자율운항 보트 / Autonomous Surface Vehicle</title><link href="https://github.com/yunbum/yunbum.github.io/starting-the-adventure.html" rel="alternate" type="text/html" title="ASV 자율운항 보트 / Autonomous Surface Vehicle" /><published>2021-03-24T00:00:00+09:00</published><updated>2021-03-24T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/starting-the-adventure</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/starting-the-adventure.html">&lt;p&gt;Funnily, this is not my first post. The birth of the blog came very natural as a way to “document” my newly established pursuit for getting myself into Machine Learning. This new adventure of mine comprises several things, and if I want to succeed I need to be serious about them all:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/led-light.png&quot; alt=&quot;post7-alexa-steps&quot; /&gt;
+&lt;small&gt;야간주행 테스트를 위한 LED light&lt;/small&gt;
+추가적으로 ROS 환경에 적합하도록 패키지도 개발 중 입니다.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="theory" /><category term="Robot" /><category term="RC" /><category term="GPS" /><category term="Camera" /><category term="Lidar" /><summary type="html">SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.: SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다. 10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다. 다른 RLmodel 유투브 영상들</summary></entry><entry><title type="html">ASV 자율운항 보트 / Autonomous Surface Vehicle</title><link href="https://github.com/yunbum/yunbum.github.io/starting-the-adventure.html" rel="alternate" type="text/html" title="ASV 자율운항 보트 / Autonomous Surface Vehicle" /><published>2021-03-24T00:00:00+09:00</published><updated>2021-03-24T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/starting-the-adventure</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/starting-the-adventure.html">&lt;p&gt;자율운항 선박개발 및 알고리즘 테스트 목적으로 RLmodel ASV-A1 을 출시, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.
+사양:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Setting up a blog to document my journey and share it:&lt;/li&gt;
-  &lt;li&gt;Establish a learning and blogging routine.&lt;/li&gt;
+  &lt;li&gt;수중모터(Thruster) 2개의 속도제어를 이용하여 방향제어&lt;/li&gt;
+  &lt;li&gt;GPS, Lidar 를 활용하여 주행경로, 충돌회피 등에 적용&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;As for the focus areas I will start with:&lt;/p&gt;
+&lt;p&gt;추가옵션:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Neural Networks fundamentals: history, basic architecture and math behind them&lt;/li&gt;
-  &lt;li&gt;Deep Neural Networks&lt;/li&gt;
+  &lt;li&gt;방향제어를 위한 키 추가 장착가능&lt;/li&gt;
+  &lt;li&gt;사양에 맞게 배터리 옵션, 제어기 설정등 맞춤형 제작 가능&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I selected the above areas to focus on based on my personal interests, I have been fascinated by the developments in reinforcement learning for a long time, in particular &lt;a href=&quot;https://deepmind.com/blog&quot;&gt;Deep Mind’s&lt;/a&gt; awesome &lt;a href=&quot;https://deepmind.com/blog/article/innovations-alphago&quot;&gt;Go&lt;/a&gt;, &lt;a href=&quot;https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go&quot;&gt;Chess&lt;/a&gt; and &lt;a href=&quot;https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning&quot;&gt;Starcraft&lt;/a&gt; playing agents. Therefore, I started reading a lot about it and even started a personal project for coding a &lt;a href=&quot;./deep-q-learning-tic-tac-toe.html&quot;&gt;tic-tac-toe learning agent&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;As for practical work I decided to start by &lt;a href=&quot;./ML-Library-from-scratch.html&quot;&gt;coding my first models from scratch&lt;/a&gt; (without using libraries such as Tensorflow), to be able to deeply understand the math and logic behind the models, so far it has proven to be priceless.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PfX4jajMRxE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;For my next project I think I will start to do the basic hand-written digits recognition, which is the Machine Learning Hello World, for this I think I will start to use Tensorflow already.&lt;/p&gt;
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;h3 id=&quot;자율운항-보트-대회등의-목적에-적합하도록-기본-제어-매뉴얼-및-예제-코드-제공&quot;&gt;자율운항 보트 대회등의 목적에 적합하도록 기본 제어 매뉴얼 및 예제 코드 제공.&lt;/h3&gt;
 
-&lt;h3 id=&quot;ps-for-the-geeks-like-me-here-is-a-snippet-on-the-technical-side-of-the-blog&quot;&gt;P.S. For the geeks like me, here is a snippet on the technical side of the blog.&lt;/h3&gt;
-
-&lt;h4 id=&quot;static-website-generator&quot;&gt;Static Website Generator&lt;/h4&gt;
-&lt;p&gt;I researched a lot on this, when I started I didn’t even know I needed a static website generator. I was just sure of one thing, I wanted my blog site to look modern, be easy to update and not to have anything extra or additional content or functionality I did not need.&lt;/p&gt;
+&lt;h4 id=&quot;esc-calibration-instruction&quot;&gt;ESC Calibration instruction&lt;/h4&gt;
+&lt;p&gt;초기에 제공되는 ESC 는 기본적으로 초기 Calibration 이 필요하며 Arduino 를 활용하여 모터의 Min/Max speed 설정을 하여 사용을 해야 합니다..&lt;/p&gt;
 
 &lt;p&gt;There is a myriad of website generators nowadays, after a lengthy search the ones I ended up considering are:&lt;/p&gt;
 &lt;ul&gt;
@@ -94,22 +95,11 @@
   &lt;li&gt;&lt;a href=&quot;https://www.wix.com/&quot;&gt;wix&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.squarespace.com/&quot;&gt;squarespace&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://ghost.org/&quot;&gt;ghost&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https:webflow.com&quot;&gt;webflow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.netlify.com/&quot;&gt;netlify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/&quot;&gt;hugo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/glossary/static-site-generator/&quot;&gt;gatsby&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I started with the web interfaced generators with included hosting in their offerings:&lt;/p&gt;
 
 &lt;p&gt;I have tried &lt;a href=&quot;https://www.wix.com/&quot;&gt;wix&lt;/a&gt; and &lt;a href=&quot;https://www.squarespace.com/&quot;&gt;squarespace&lt;/a&gt; before, they are fantastic for quick and easy website generation, but their free offering has ads, so again, a big no for me.&lt;/p&gt;
-
-&lt;p&gt;I discovered &lt;a href=&quot;https://ghost.org/&quot;&gt;ghost&lt;/a&gt; as the platform used by one of the bloggers I follow (&lt;a href=&quot;https://ruder.io/&quot;&gt;Sebastian Ruder&lt;/a&gt;), therefore free to use in any hosting.&lt;/p&gt;
-
-&lt;p&gt;Next were the generators that don’t have a web interface, but can be easily set up:&lt;/p&gt;
-
-&lt;p&gt;I also tested &lt;a href=&quot;https://www.gatsbyjs.com/docs/glossary/static-site-generator/&quot;&gt;gatsby&lt;/a&gt; with it’s own Gatsby Cloud hosting service, &lt;a href=&quot;https://amaynez.gatsbyjs.io/&quot;&gt;here is my test site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Finally it came self sailing boat&lt;/p&gt;
 &lt;ol&gt;
@@ -130,15 +120,10 @@
 
 &lt;p&gt;As a summary, Hugo and Gatsby might be much faster than Jekyll to build the sites.&lt;/p&gt;
 
-&lt;p&gt;You can use the modified template yourself by &lt;a href=&quot;https://github.com/the-mvm/the-mvm.github.io/fork/&quot;&gt;forking my repository&lt;/a&gt;. Let me know in the comments or feel free to contact me if you are interested in a detailed walkthrough on how to &lt;a href=&quot;https://github.com/the-mvm/the-mvm.github.io#Installation&quot;&gt;set it all up&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can use the modified template yourself by &lt;a href=&quot;https://github.com/the-mvm/the-mvm.github.io/fork/&quot;&gt;forking my repository&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;hosting&quot;&gt;Hosting&lt;/h4&gt;
-&lt;p&gt;Since I decided on Jekyll to generate my site, the choice for hosting was quite obvious, &lt;strong&gt;&lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;&lt;/strong&gt; is very nicely integrated with it, it is free, and it has no ads! Plus the domain name isn’t too terrible (&lt;a href=&quot;https://the-mvm.github.io&quot;&gt;the-mvm.github.io&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h5 id=&quot;interplanetary-file-system&quot;&gt;Interplanetary File System&lt;/h5&gt;
-&lt;p&gt;To contribute to and test &lt;a href=&quot;https://github.com/ipfs/ipfs#quick-summary&quot;&gt;IPFS&lt;/a&gt; I also set up a &lt;a href=&quot;https://weathered-bread-8229.on.fleek.co/&quot;&gt;mirror&lt;/a&gt; in IPFS by using &lt;a href=&quot;https://fleek.co&quot;&gt;fleek.co&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;But this fix did not work for the search function, because it relies on a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;search.json&lt;/code&gt; file (also generated programmatically to be served as a static file), therefore when generating this file one either use the relative path for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;root&lt;/code&gt; directory or for a nested directory.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="general blogging" /><category term="thoughts" /><category term="life" /><summary type="html">Funnily, this is not my first post. The birth of the blog came very natural as a way to “document” my newly established pursuit for getting myself into Machine Learning. This new adventure of mine comprises several things, and if I want to succeed I need to be serious about them all: Setting up a blog to document my journey and share it: Establish a learning and blogging routine.</summary></entry><entry><title type="html">RL Connect 프로그램 제공 - Free Ntrip client Network RTK</title><link href="https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe.html" rel="alternate" type="text/html" title="RL Connect 프로그램 제공 - Free Ntrip client Network RTK" /><published>2021-03-19T06:14:20+09:00</published><updated>2021-03-19T06:14:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe.html">&lt;h2 id=&quot;rtk-real-time-kinematic&quot;&gt;RTK Real Time Kinematic&lt;/h2&gt;
+&lt;p&gt;Since I decided on Jekyll to generate my site, the choice for hosting was quite obvious, &lt;strong&gt;&lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;&lt;/strong&gt; is very nicely integrated with it, it is free, and it has no ads! Plus the domain name isn’t too terrible (&lt;a href=&quot;https://the-mvm.github.io&quot;&gt;the-mvm.github.io&lt;/a&gt;).&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="general blogging" /><category term="thoughts" /><category term="life" /><summary type="html">자율운항 선박개발 및 알고리즘 테스트 목적으로 RLmodel ASV-A1 을 출시, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다. 사양: 수중모터(Thruster) 2개의 속도제어를 이용하여 방향제어 GPS, Lidar 를 활용하여 주행경로, 충돌회피 등에 적용</summary></entry><entry><title type="html">RL Connect 프로그램 제공 - Free Ntrip client Network RTK</title><link href="https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe.html" rel="alternate" type="text/html" title="RL Connect 프로그램 제공 - Free Ntrip client Network RTK" /><published>2021-03-19T06:14:20+09:00</published><updated>2021-03-19T06:14:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe.html">&lt;h2 id=&quot;rtk-real-time-kinematic&quot;&gt;RTK Real Time Kinematic&lt;/h2&gt;
 &lt;p&gt;GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210318/RL_Connect.jpg&quot; alt=&quot;RL_Connect&quot; /&gt;

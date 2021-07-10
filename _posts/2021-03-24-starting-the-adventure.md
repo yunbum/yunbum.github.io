@@ -6,51 +6,37 @@ title: "ASV 자율운항 보트 / Autonomous Surface Vehicle"
 date: 2021-03-24
 img: posts/20210324/usv-a1.jpg
 tags: [general blogging, thoughts, life]
-author: Armando Maynez
+author: Ybbaek
 description: "무인 자율운항 보트/선박 ASV"
 ---
 
-Funnily, this is not my first post. The birth of the blog came very natural as a way to "document" my newly established pursuit for getting myself into Machine Learning. This new adventure of mine comprises several things, and if I want to succeed I need to be serious about them all:
-- Setting up a blog to document my journey and share it:
-- Establish a learning and blogging routine.
+자율운항 선박개발 및 알고리즘 테스트 목적으로 RLmodel ASV-A1 을 출시, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.
+사양:
+- 수중모터(Thruster) 2개의 속도제어를 이용하여 방향제어
+- GPS, Lidar 를 활용하여 주행경로, 충돌회피 등에 적용
 
-As for the focus areas I will start with:
-- Neural Networks fundamentals: history, basic architecture and math behind them
-- Deep Neural Networks
+추가옵션:
+- 방향제어를 위한 키 추가 장착가능
+- 사양에 맞게 배터리 옵션, 제어기 설정등 맞춤형 제작 가능
   
-I selected the above areas to focus on based on my personal interests, I have been fascinated by the developments in reinforcement learning for a long time, in particular [Deep Mind's](https://deepmind.com/blog) awesome [Go](https://deepmind.com/blog/article/innovations-alphago), [Chess](https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go) and [Starcraft](https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning) playing agents. Therefore, I started reading a lot about it and even started a personal project for coding a [tic-tac-toe learning agent](./deep-q-learning-tic-tac-toe.html).
-
-As for practical work I decided to start by [coding my first models from scratch](./ML-Library-from-scratch.html) (without using libraries such as Tensorflow), to be able to deeply understand the math and logic behind the models, so far it has proven to be priceless.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PfX4jajMRxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For my next project I think I will start to do the basic hand-written digits recognition, which is the Machine Learning Hello World, for this I think I will start to use Tensorflow already.
 
-Thanks for reading!
+### 자율운항 보트 대회등의 목적에 적합하도록 기본 제어 매뉴얼 및 예제 코드 제공.
 
-### P.S. For the geeks like me, here is a snippet on the technical side of the blog.
-
-#### Static Website Generator
-I researched a lot on this, when I started I didn't even know I needed a static website generator. I was just sure of one thing, I wanted my blog site to look modern, be easy to update and not to have anything extra or additional content or functionality I did not need.
+#### ESC Calibration instruction
+초기에 제공되는 ESC 는 기본적으로 초기 Calibration 이 필요하며 Arduino 를 활용하여 모터의 Min/Max speed 설정을 하여 사용을 해야 합니다..
 
 There is a myriad of website generators nowadays, after a lengthy search the ones I ended up considering are:
 - [wordpress](https://wordpress.com/)
 - [wix](https://www.wix.com/)
 - [squarespace](https://www.squarespace.com/)
 - [ghost](https://ghost.org/)
-- [webflow](https:webflow.com)
-- [netlify](https://www.netlify.com/)
-- [hugo](https://gohugo.io/)
-- [gatsby](https://www.gatsbyjs.com/docs/glossary/static-site-generator/)
-- [jekyll](https://jekyllrb.com/)
 
 I started with the web interfaced generators with included hosting in their offerings:
 
 I have tried [wix](https://www.wix.com/) and [squarespace](https://www.squarespace.com/) before, they are fantastic for quick and easy website generation, but their free offering has ads, so again, a big no for me.
-
-I discovered [ghost](https://ghost.org/) as the platform used by one of the bloggers I follow ([Sebastian Ruder](https://ruder.io/)), therefore free to use in any hosting.
-
-Next were the generators that don't have a web interface, but can be easily set up:
-
-I also tested [gatsby](https://www.gatsbyjs.com/docs/glossary/static-site-generator/) with it's own Gatsby Cloud hosting service, [here is my test site](https://amaynez.gatsbyjs.io/).
 
 Finally it came self sailing boat
 1. keep it all online, special `gh-pages` .
@@ -67,12 +53,8 @@ I picked up a template, like:
 
 As a summary, Hugo and Gatsby might be much faster than Jekyll to build the sites.
 
-You can use the modified template yourself by [forking my repository](https://github.com/the-mvm/the-mvm.github.io/fork/). Let me know in the comments or feel free to contact me if you are interested in a detailed walkthrough on how to [set it all up](https://github.com/the-mvm/the-mvm.github.io#Installation). 
+You can use the modified template yourself by [forking my repository](https://github.com/the-mvm/the-mvm.github.io/fork/). 
 
 #### Hosting
 Since I decided on Jekyll to generate my site, the choice for hosting was quite obvious, **[Github Pages](https://pages.github.com)** is very nicely integrated with it, it is free, and it has no ads! Plus the domain name isn't too terrible ([the-mvm.github.io](https://the-mvm.github.io)).
 
-##### Interplanetary File System
-To contribute to and test [IPFS](https://github.com/ipfs/ipfs#quick-summary) I also set up a [mirror](https://weathered-bread-8229.on.fleek.co/) in IPFS by using [fleek.co](https://fleek.co).
-
-But this fix did not work for the search function, because it relies on a `search.json` file (also generated programmatically to be served as a static file), therefore when generating this file one either use the relative path for the `root` directory or for a nested directory.
