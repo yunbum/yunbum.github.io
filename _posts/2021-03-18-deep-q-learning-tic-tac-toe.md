@@ -12,11 +12,14 @@ github: amaynez/TicTacToe/
 toc: yes # leave empty or erase for no TOC
 ---
 
-## Background
+## RTK Real Time Kinematic
 GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..
 
 ![RL_Connect](./assets/img/posts/20210318/RL_Connect.jpg)
 <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small>
+
+기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능
+일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원
 
 <center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/tm_circle.png' width="310" height="320"></center>
 
@@ -48,12 +51,10 @@ def cyclic_learning_rate(learning_rate, epoch):
     x = np.abs((epoch/c.LR_STEP_SIZE)-(2*cycle)+1)
     return learning_rate+(max_lr-learning_rate)*np.maximum(0,(1-x))
 ```
-
 <br>With these many changes, I decided to restart with a fresh set of random weights and biases and try training more (much more) games.
 
-<center><img src='./assets/img/posts/20210318/Loss_function_and_Illegal_moves6.png' width="540">
-<small>1,000,000 episodes, 7.5 million epochs with batches of 64 moves each<br>
-Wins: 52.66% Losses: 36.02% Ties: 11.32%</small></center>
+<center><img src='./assets/img/posts/20210318/hw_block.jpg' width="540">
+<small>RL Connect Hardware Function block</small></center>
 
 After **24 hours!**, my computer 
 <a name='Model3'></a>
@@ -91,4 +92,4 @@ The way I was training initially was:
 ![tcp_block](./assets/img/posts/20210318/statistics.jpg)
 <small>[tcp_block] LabVIEW TCP Function Block Diagram code.</small>
 
-As of today, [I converting RC Connect to Linux / Ubuntu version](https://github.com/yunbum/NtripClient), and it looks like a viable option to test and a fun coding challenge. 
+현재 지원하는 윈도우 버전 뿐만 아니라, [I converting RC Connect to Linux / Ubuntu version](https://github.com/yunbum/NtripClient), Linux Ubuntu 버전 변화작업도 진행예정. 

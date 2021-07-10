@@ -1,19 +1,17 @@
-I"�<h2 id="background">Background</h2>
+I"<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2>
 <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p>
 
 <p><img src="./assets/img/posts/20210318/RL_Connect.jpg" alt="RL_Connect" />
 <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p>
 
-<center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="300" /></center>
+<p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능
+일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p>
 
-<p>위도/경도 를 TM 좌표계로 변환한 위치에 Array 지점들을 표시하여 모든 점들을 포함하는 최소원을 그래프에 나타내고 원의 반경을 계산하여 결과 표시</p>
+<center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center>
+
+<p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p>
 
 <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타 로거로도 적용 (위성지도 연동) </li></ul>
-
-<h2 id="designing-tcp-network-codes">Designing TCP network codes</h2>
-<center><img src="./assets/img/posts/20210318/tcp_block-code.png" width="540" /></center>
-<p><br />
-<small>[Block diagram] TCP fgv logic code</small></p>
 
 <p>I started out with two hidden layers of 36 neurons each.</p>
 
@@ -37,12 +35,10 @@
     <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nb">abs</span><span class="p">((</span><span class="n">epoch</span><span class="o">/</span><span class="n">c</span><span class="p">.</span><span class="n">LR_STEP_SIZE</span><span class="p">)</span><span class="o">-</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">cycle</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">learning_rate</span><span class="o">+</span><span class="p">(</span><span class="n">max_lr</span><span class="o">-</span><span class="n">learning_rate</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="n">maximum</span><span class="p">(</span><span class="mi">0</span><span class="p">,(</span><span class="mi">1</span><span class="o">-</span><span class="n">x</span><span class="p">))</span>
 </code></pre></div></div>
-
 <p><br />With these many changes, I decided to restart with a fresh set of random weights and biases and try training more (much more) games.</p>
 
-<center><img src="./assets/img/posts/20210318/Loss_function_and_Illegal_moves6.png" width="540" />
-<small>1,000,000 episodes, 7.5 million epochs with batches of 64 moves each<br />
-Wins: 52.66% Losses: 36.02% Ties: 11.32%</small></center>
+<center><img src="./assets/img/posts/20210318/hw_block.jpg" width="540" />
+<small>RL Connect Hardware Function block</small></center>
 
 <p>After <strong>24 hours!</strong>, my computer 
 <a name="Model3"></a></p>
@@ -86,5 +82,5 @@ Wins: 52.66% Losses: 36.02% Ties: 11.32%</small></center>
 <p><img src="./assets/img/posts/20210318/statistics.jpg" alt="tcp_block" />
 <small>[tcp_block] LabVIEW TCP Function Block Diagram code.</small></p>
 
-<p>As of today, <a href="https://github.com/yunbum/NtripClient">I converting RC Connect to Linux / Ubuntu version</a>, and it looks like a viable option to test and a fun coding challenge.</p>
+<p>현재 지원하는 윈도우 버전 뿐만 아니라, <a href="https://github.com/yunbum/NtripClient">I converting RC Connect to Linux / Ubuntu version</a>, Linux Ubuntu 버전 변화작업도 진행예정.</p>
 :ET
