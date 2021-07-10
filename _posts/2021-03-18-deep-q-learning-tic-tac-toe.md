@@ -20,33 +20,31 @@ GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 
 
 <center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/tm_circle.png' width="310" height="300"></center>
 
-You can read the blog post for it [here](./ML-Library-from-scratch.html).
+Ntrip client 기능을 테스트해 본 하드웨어로는 uBlox(F9P, M8P), Septentrio(Mosaic X5) 등의 제품이 있습니다.
 
-I created the game quite openly, in such a way that it can be played by two humans, by a human vs. an algorithmic AI, and a human vs. the neural network. And of course the neural network against a choice of 3 AI engines: random, [minimax](https://en.wikipedia.org/wiki/Minimax) or hardcoded (an exercise I wanted to do since a long time).
+<ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타 로거로도 적용 (위성지도 연동) </li></ul>
 
-<ul><li>Basic Ntirp client.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>After the memory is sizable enough, batches of random experiences sampled from the replay memory are used for every training round</li><li>A secondary </li></ul>
-
-## Designing the neural network
+## Designing TCP network codes
 
 <center><img src='./assets/img/posts/20210318/Neural_Network_Topology.png' width="540"></center><br>
 
-The Neural Network c
-
 I started out with two hidden layers of 36 neurons each.
 
-## The many models...
-### Model 1 - the first try
+## The many trial errors
+### 시행착오 1 - the first try
 
 At first the model was trained by playing vs. a "perfect" AI, meaning a [hard coded algorithm](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Game.py#L43) that
 
- I came across a <a href="https://github.com/bckenstler/CLR">technique by Brad Kenstler, Carl Thome and Jeremy Jordan</a> called Cyclical Learning Rate, which appears to solve some cases of stagnating loss functions in this type of networks. 
-
-<center><img src='./assets/img/posts/20210318/lr_formula.jpeg' width="280"></center>
+ 참고 python 코드 깃헙 <a href="https://github.com/tridge/pyUblox/blob/master/ntrip.py">tridge/pyUblox</a> Ntrip client 소스코드. 
 
 ```python
-true_epoch = epoch - c.BATCH_SIZE
-learning_rate = self.learning_rate*(1/(1+c.DECAY_RATE*true_epoch))
-if c.CLR_ON: learning_rate = self.cyclic_learning_rate(learning_rate,true_epoch)
+header =\
+"GET /{} HTTP/1.1\r\n".format(mountpoint) +\
+"Host \r\n".format(server) +\
+"Ntrip-Version: Ntrip/2.0\r\n" +\
+"User-Agent: NTRIP pyUblox/0.0\r\n" +\
+"Connection: close\r\n" +\
+"Authorization: Basic {}\r\n\r\n".format(pwd)
 ```
 ```python
 @staticmethod
@@ -56,11 +54,7 @@ def cyclic_learning_rate(learning_rate, epoch):
     x = np.abs((epoch/c.LR_STEP_SIZE)-(2*cycle)+1)
     return learning_rate+(max_lr-learning_rate)*np.maximum(0,(1-x))
 ```
-```python
-c.DECAY_RATE = learning rate decay rate
-c.MAX_LR_FACTOR = multiplier that determines the max learning rate
-c.LR_STEP_SIZE = the number of epochs each cycle lasts
-```
+
 <br>With these many changes, I decided to restart with a fresh set of random weights and biases and try training more (much more) games.
 
 <center><img src='./assets/img/posts/20210318/Loss_function_and_Illegal_moves6.png' width="540">
@@ -73,7 +67,7 @@ After **24 hours!**, my computer
 
 After all the failures I figured I had to rethink the topology of the network and play around with combinations of different networks and learning rates.
 
-**Finally we crossed the 80% mark!** This is quite an achievement, it seems that the change in network topology is working, although it also looks like the loss function is stagnating at around 0.15.
+**Finally tested FKP,VRS** This is quite an achievement, it seems that the change in network topology is working, although it also looks like the loss function is stagnating at around 0.15.
 
 It is quite interesting :
 - the rewards policy
@@ -85,13 +79,11 @@ And so far the most effective change
 <a name='Model4'></a>
 ### Model 4 - implementing momentum
 
-I [reached out to the reddit community](https://www.reddit.com/r/MachineLearning/comments/lzvrwp/p_help_with_a_reinforcement_learning_project/) and a kind soul pointed out that maybe what I need is to apply momentum to the optimization algorithm. So I did some research and ended up deciding to implement various optimization methods to experiment with:
+I [reached out to the reddit community](https://www.reddit.com/r/MachineLearning/comments/lzvrwp/p_help_with_a_reinforcement_learning_project/) and a kind soul pointed out that maybe what I need is to apply momentum to the optimization algorithm. 
 
 - Stochastic Gradient Descent with Momentum
 - RMSProp: Root Mean Square Plain Momentum
 
-
-<a name='optimization'></a>[Click here for a detailed explanation and code of all the implemented optimization algorithms.](https://the-mvm.github.io/neural-network-optimization-methods/)
 
 ```python
 self.PolicyNetwork = Sequential()
@@ -117,21 +109,7 @@ self.PolicyNetwork.compile(optimizer='adam',
 ```
 As you can see I am reusing all of my old code, and just replacing my Neural Net library with Tensorflow/Keras, keeping even my hyper-parameter constants.
 
-The training function changed to:
-```python
-reduce_lr_on_plateau = ReduceLROnPlateau(monitor='loss',
-                                         factor=0.1,
-                                         patience=25)
-history = self.PolicyNetwork.fit(np.asarray(states_to_train),
-                                 np.asarray(targets_to_train),
-                                 epochs=c.EPOCHS,
-                                 batch_size=c.BATCH_SIZE,
-                                 verbose=1,
-                                 callbacks=[reduce_lr_on_plateau],
-                                 shuffle=True)
-```
-
-With Tensorflow implemented, the first thing I noticed, was that I had an error in the calculation of the loss, although this only affected reporting and didn't change a thing on the training of the network, so the results kept being the same, **the loss function was still stagnating! My code was not the issue.**
+With Tensorflow implemented, **the loss function was still stagnating! My code was not the issue.**
 <a name='Model7'></a>
 ### Model 7 - changing the training schedule
 Next I tried to change the way the network was training as per [u/elBarto015](https://www.reddit.com/user/elBarto015) [advised me on reddit](https://www.reddit.com/r/reinforcementlearning/comments/lzzjar/i_created_an_ai_for_super_hexagon_based_on/gqc8ka6?utm_source=share&utm_medium=web2x&context=3).
