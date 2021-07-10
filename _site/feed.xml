@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-10T13:47:24+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 자율주행 차량 이력 / History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 자율주행 차량 이력 / History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-10T14:23:24+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 자율주행 차량 이력 / History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 자율주행 차량 이력 / History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qJrNXtsEzZo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -206,16 +206,11 @@
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210318/RL_Connect.jpg&quot; alt=&quot;RL_Connect&quot; /&gt;
 &lt;small&gt;[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..&lt;/small&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210318/tm_circle.png&quot; width=&quot;310&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210318/tm_circle.png&quot; width=&quot;310&quot; height=&quot;320&quot; /&gt;&lt;/center&gt;
 
-&lt;p&gt;위도/경도 를 TM 좌표계로 변환한 위치에 Array 지점들을 표시하여 모든 점들을 포함하는 최소원을 그래프에 나타내고 원의 반경을 계산하여 결과 표시&lt;/p&gt;
+&lt;p&gt;TM 좌표계로 변환 -&amp;gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시&lt;/p&gt;
 
 &lt;ul&gt;&lt;li&gt;마운트 위치 테이블 정보 수신.&lt;/li&gt;&lt;li&gt;FKP, VRS mount 기준국 접속 가능.&lt;/li&gt;&lt;li&gt;접속계정 데이타 DB로 관리&lt;/li&gt;&lt;li&gt;GPS NMEA 데이타 로거로도 적용 (위성지도 연동) &lt;/li&gt;&lt;/ul&gt;
-
-&lt;h2 id=&quot;designing-tcp-network-codes&quot;&gt;Designing TCP network codes&lt;/h2&gt;
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/tcp_block-code.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;small&gt;[Block diagram] TCP fgv logic code&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;I started out with two hidden layers of 36 neurons each.&lt;/p&gt;
 
@@ -250,18 +245,17 @@ Wins: 52.66% Losses: 36.02% Ties: 11.32%&lt;/small&gt;&lt;/center&gt;
 &lt;a name=&quot;Model3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;model-3---new-network-topology&quot;&gt;Model 3 - new network topology&lt;/h3&gt;
 
-&lt;p&gt;After all the failures I figured I had to rethink the topology of the network and play around with combinations of different networks and learning rates.&lt;/p&gt;
+&lt;p&gt;고정 지점에서 정밀도 분석을 할 경우를 참고하여 ref x1,x2,x3 원을 그래프에 표시하게 하여 현재 데이타의 상태나 품질을 확인 할 수 있음.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Finally tested FKP,VRS&lt;/strong&gt; This is quite an achievement, it seems that the change in network topology is working, although it also looks like the loss function is stagnating at around 0.15.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fully support Any GNSS/GPS module and FKP,VRS mode&lt;/strong&gt; 다른 무료 Ntrip client 프로그램들이 제조사 판매제품만을 지원하거나 FKP/VRS 모드에 제한이 있는 것과는 차별화 해서 모두 가능하도록 지원.&lt;/p&gt;
 
-&lt;p&gt;It is quite interesting :&lt;/p&gt;
+&lt;p&gt;추가 포함기능 :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;the rewards policy&lt;/li&gt;
-  &lt;li&gt;the epsilon greedy strategy&lt;/li&gt;
-  &lt;li&gt;whether to train vs. a random player or an “intelligent” AI.&lt;/li&gt;
+  &lt;li&gt;GPS 모듈 2개를 동시에 연동하여 NMEA 데이타 표시 가능&lt;/li&gt;
+  &lt;li&gt;위와 같은 모드로 2 지점이 있을 경우, 두 지점간의 거리와 각도를 표시&lt;/li&gt;
+  &lt;li&gt;Raw RTCM 메세지를 직접 확인가능.&lt;/li&gt;
+  &lt;li&gt;로그파일을 기본으로 남기도록 하여 후에 데이타 확인 가능&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;And so far the most effective change&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&quot;Model4&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;model-4---implementing-momentum&quot;&gt;Model 4 - implementing momentum&lt;/h3&gt;
@@ -273,27 +267,6 @@ Wins: 52.66% Losses: 36.02% Ties: 11.32%&lt;/small&gt;&lt;/center&gt;
   &lt;li&gt;RMSProp: Root Mean Square Plain Momentum&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PolicyNetwork&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Sequential&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;layer&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hidden_layers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PolicyNetwork&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Dense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-                           &lt;span class=&quot;n&quot;&gt;units&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                           &lt;span class=&quot;n&quot;&gt;activation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'relu'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                           &lt;span class=&quot;n&quot;&gt;input_dim&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                           &lt;span class=&quot;n&quot;&gt;kernel_initializer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'random_uniform'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                           &lt;span class=&quot;n&quot;&gt;bias_initializer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'zeros'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PolicyNetwork&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Dense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-                        &lt;span class=&quot;n&quot;&gt;outputs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;n&quot;&gt;kernel_initializer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'random_uniform'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;n&quot;&gt;bias_initializer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'zeros'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;opt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Adam&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;learning_rate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LEARNING_RATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;beta_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GAMMA_OPT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;beta_2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BETA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;epsilon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EPSILON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;amsgrad&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PolicyNetwork&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'adam'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                           &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mean_squared_error'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                           &lt;span class=&quot;n&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'accuracy'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;As you can see I am reusing all of my old code, and just replacing my Neural Net library with Tensorflow/Keras, keeping even my hyper-parameter constants.&lt;/p&gt;
 
 &lt;p&gt;With Tensorflow implemented, &lt;strong&gt;the loss function was still stagnating! My code was not the issue.&lt;/strong&gt;
@@ -307,9 +280,10 @@ Wins: 52.66% Losses: 36.02% Ties: 11.32%&lt;/small&gt;&lt;/center&gt;
   &lt;li&gt;Once a sufficient ammount of experiences are recorded (at least equal to the batch&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210318/ReplayMemoryBefore.png&quot; width=&quot;540&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210318/statistics.jpg&quot; alt=&quot;tcp_block&quot; /&gt;
+&lt;small&gt;[tcp_block] LabVIEW TCP Function Block Diagram code.&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;As of today, &lt;a href=&quot;https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717&quot;&gt;self play&lt;/a&gt;, and it looks like a viable option to test and a fun coding challenge.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="GPS" /><category term="Network rtk" /><category term="Ntrip client" /><category term="GNSS" /><category term="fkp" /><category term="vrs" /><summary type="html">Background GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</summary></entry><entry><title type="html">로그파일 분석 / Log file analysis after driving</title><link href="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" rel="alternate" type="text/html" title="로그파일 분석 / Log file analysis after driving" /><published>2021-03-13T04:32:20+09:00</published><updated>2021-03-13T04:32:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html">&lt;p&gt;For the seemingly small project I undertook of &lt;a href=&quot;./deep-q-learning-tic-tac-toe.html&quot;&gt;creating a machine learning neural network that could learn by itself to play tic-tac-toe&lt;/a&gt;, I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.&lt;/p&gt;
+&lt;p&gt;As of today, &lt;a href=&quot;https://github.com/yunbum/NtripClient&quot;&gt;I converting RC Connect to Linux / Ubuntu version&lt;/a&gt;, and it looks like a viable option to test and a fun coding challenge.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="GPS" /><category term="Network rtk" /><category term="Ntrip client" /><category term="GNSS" /><category term="fkp" /><category term="vrs" /><summary type="html">Background GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</summary></entry><entry><title type="html">로그파일 분석 / Log file analysis after driving</title><link href="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html" rel="alternate" type="text/html" title="로그파일 분석 / Log file analysis after driving" /><published>2021-03-13T04:32:20+09:00</published><updated>2021-03-13T04:32:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/neural-network-optimization-methods.html">&lt;p&gt;For the seemingly small project I undertook of &lt;a href=&quot;./deep-q-learning-tic-tac-toe.html&quot;&gt;creating a machine learning neural network that could learn by itself to play tic-tac-toe&lt;/a&gt;, I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.&lt;/p&gt;
 
 &lt;p&gt;And since my original post for the TicTacToe project is quite large already, I decided to post separately these optimization methods and how did I implement them in my code.&lt;/p&gt;
 
