@@ -8,7 +8,7 @@ description: 다양한 모바일 로봇 악세사리.
 img: posts/20210228/MLLibrary.jpg 
 tags: [accessory, trailer, speaker, led]
 author: Ybbaek
-github: amaynez/GenericNeuralNetwork/
+github: amaynez/GenericNeuralNetwork/ # amaynez/GenericNeuralNetwork/
 ---
 모바일 로봇에 장착하거나 연결해서 사용할 수 있는 다양한 악세사리를 제공하고 있습니다.
 <center><img src="./assets/img/posts/20210228/ML_cloud.jpg" width="480px"></center>
