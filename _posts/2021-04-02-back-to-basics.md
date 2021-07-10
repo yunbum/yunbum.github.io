@@ -36,70 +36,12 @@ SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영
 
 SRC model / SRC 차량의 모델은 A,B,C,D 타입등으로 모터사양, 크기, 디자인 등으로 구분이 되어 나뉘고 동일한 모델에서는 이중모터로 업그레이드가 가능합니다. (Dual moter) .
 
-![A perceptron](./assets/img/posts/20210402/SRC_models.png)
-<small>Full option 상태의 센서 및 기타 모듈 구성도</small>
+<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210402/dual_motor.jpg' width="310" height="300"></center>
+<small>레이싱 모델인 이중모터(Dual motor) 구조</small>
 
-We can imagine then that if many of the eye cells of the fly produce 1s, it means that an object is quite near, and therefore the perceptron will calculate a 1, it is time to flee.
+모바일 로봇의 종류는 기본 SRC 차량모델에 이어 ASV 보트(선박) 모델도 있으며 교육목적의 Pendulum, Ball Balance robot 등도 있습니다.
 
-![The fly vision](./assets/img/posts/20210402/post7-fly-vision.jpg)
-
-The perceptron is just a math operation, one that multiplies certain input values with preset "parameters" (called weights) and adds up the resulting multiplications to generate a value.
-
-Then the magic spark was ignited, the parameters (weights) of the perceptron could be "learnt" by a process of minimizing the difference between known results of particular observations, and what the perceptron is actually calculating. It is this process of learning what we call **training the neural network**.
-
-<tweet>This idea is so powerful that even today it is one of the fundamental building blocks of what we call AI.</tweet>
-
-From this I will try to explain how this simple concept can have such diverse applications as natural language processing (think Alexa), image recognition like medical diagnosis from a CTR scan, autonomous vehicles, etc.
-
-A basic neural network is a combination of perceptrons in different arrangements, the perceptron therefore was downgraded from "fly brain" to "network neuron".
-![A multilayer perceptron](./assets/img/posts/20210402/post7-multilayer-perceptron.png)
-
-A neural network has different components, in its basic form it has:
-- Input
-- Hidden layers
-- Output
-
-![Neural network components](./assets/img/posts/20210228/nnet_flow.gif)
-
-### Input
-
-The inputs of a neural network are in their essence just numbers, therefore anything that can be converted to a number can become an input. Letters in a text, pixels in an image, frequencies in a sound wave, values from a sensor, etc. are all different things that when converted to a numerical value serve as inputs for the neural network. This is one of the reasons why applications of neural networks are so diverse.
-
-Inputs can be as many as one need for the task at hand, from maybe 9 inputs to teach a neural network how to play tic-tac-toe to thousands of pixels from a camera for an autonomous vehicle. Since the input of a perceptron needs to be a single value, if for example a color pixel is chosen as input, it most likely will be broken into three different values; its  red, green and blue components, hence each pixel will become 3 different inputs for the neural network.
-
-### Hidden layers
-
-A "layer" within a neural network is just a group of perceptrons that all perform the same exact mathematical operation to the inputs and produce an output. The catch is that each of them have different weights (parameters), therefore their output for a given input will be different amongst them. There are many types of layers, the most typical of them being a "dense" layer, which is another word to say that all the inputs are connected to all the neurons (individual perceptrons), and as said before, each of these connections have a weight associated with it, so that the operation that each neuron performs is a simple weighted sum of all the inputs.
-
-![post7-dense-layers](./assets/img/posts/20210402/post7-dense-layers.png)
-
-The hidden layer is then typically connected to another dense layer, and their connection means that each output of a neuron from the first layer is treated effectively as an input for the subsequent one, and it is thus connected to every neuron.
-
-A neural network can have from one to as many layers as one can think, and the number of layers depends solely on the experience we have gathered on the particular problem we would like to solve.
-
-Another critical parameter of a hidden layer is the number of neurons it has, and again, we need to rely on experience to determine how many neurons are needed for a given problem. I have seen networks that vary from a couple of neurons to the thousands. And of course each hidden layer can have as many neurons as we please, so the number of combinations is vast.
-
-To the number of layers, their type and how many neurons each have, is what we call the *network topology* (including the number of inputs and outputs).
-
-### Output
-
-At the very end of the chain, another layer lies (which behaves just like a hidden layer), but has the peculiarity that it is the final layer, and therefore whatever it calculates will be the output values of the whole network. The number of outputs the network has is a function of the problem we would like to solve. It could be as simple as one output, with its value representing a probability of an action (like in the case of the flee reaction of the housefly), to many outputs, perhaps if our network is trying to distinguish images of animals, one would have an output for each animal species, and the output would represent how much confidence the network has that the particular image belongs to the corresponding species.
-
-![Alexa recognizing speach](./assets/img/posts/20210402/post7-alexa.png)
-
-Things like "Alexa", are a bit more complex, but work on exactly the same principles. Let's break down for example the case of asking "Alexa" to play a song in spotify. Alexa uses several different neural networks to acomplish this:
-
-#### 1. Speech recognition
-
-As a basic input we have our speech: the command **"Alexa, play Van Halen"**. This might seem quite simple for us humans to process, but for a machine is an incredible difficult feat to be able to understand speech, things like each individual voice timbre, entonation, intention and many more nuances of human spoken language make it so that traditional algorithms have struggled a lot with this. In our simplified example let's say that we use a neural network to transform our spoken speech into text characters a computer is much more familiarized to learn.
-
-#### 2. Understanding what we mean (Natural Language Understanding)
-
-Once the previous network managed to succesfuly convert our spoken words into text, there comes the even more difficult task of making sense of what we said. Things that we humans take for granted such as context, intonation and non verbal communication, help give our words meaning in a very subtle, but powerful way, a machine will have to do with much less information to correctly understand what we mean. It has to correctly identify the intention of our sentence and the subject or entities of what we mean.
-
-![post7-alexa-natural-lang](./assets/img/posts/20210402/post7-alexa-natural-lang.png)
-
-The neural network has to identify that it received a command (by identifying its name), the command ("play music"), and our choice ("Van Halen"). And it does so by means of simple math operations as described before. Of course the network involved is quite complex and has different types of neurons and connection types, but the underlying principles remain.
+The neural network.
 
 #### 3. Replying to us
 
@@ -107,8 +49,4 @@ Once Alexa understood what we meant, it then proceeds to execute the action of t
 
 ![post7-alexa-steps](./assets/img/posts/20210402/post7-alexa-steps.png)
 <small>Although it seems quite complex, the process for AI to understand us can be boiled down to simple math operations</small>
-
-Of course Amazon's Alexa neural networks have undergone quite a lot of training to get to the level where they are, the beauty is that once trained, to perform their magic they just need a few mathematical operations.
-
-As said before, I will continue to write about the basics of neural networks, the next article in the series will dive a bit deeper into the math behind a basic neural network. 
 
