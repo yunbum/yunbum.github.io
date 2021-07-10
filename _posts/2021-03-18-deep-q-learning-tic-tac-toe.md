@@ -86,7 +86,7 @@ Mode 를 지속적으로 카운팅 하여 정밀도 상태 표시:
 - 지정된 시간마다 모드의 상태를 카운팅 (N/A, Standalone, RTK float, RTK fixed)
 - 카운팅 된 회수를 바탕으로 백분율로 계산하여 % 스케일로도 표시 
 
-![tcp_block](./assets/img/posts/20210318/statistics.jpg)
+![tcp_block](./assets/img/posts/20210318/statistics.JPG)
 <small>[tcp_block] LabVIEW TCP Function Block Diagram code.</small>
 
 현재 지원하는 윈도우 버전 뿐만 아니라, [I converting RC Connect to Linux / Ubuntu version](https://github.com/yunbum/NtripClient), Linux Ubuntu 버전 변화작업도 진행예정. 
