@@ -18,15 +18,11 @@ GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 
 ![RL_Connect](./assets/img/posts/20210318/RL_Connect.jpg)
 <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small>
 
-<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/tm_circle.png' width="310" height="300"></center>
+<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/tm_circle.png' width="310" height="320"></center>
 
-위도/경도 를 TM 좌표계로 변환한 위치에 Array 지점들을 표시하여 모든 점들을 포함하는 최소원을 그래프에 나타내고 원의 반경을 계산하여 결과 표시
+TM 좌표계로 변환 -> 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시
 
 <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타 로거로도 적용 (위성지도 연동) </li></ul>
-
-## Designing TCP network codes
-<center><img src='./assets/img/posts/20210318/tcp_block-code.png' width="540"></center><br>
-<small>[Block diagram] TCP fgv logic code</small>
 
 I started out with two hidden layers of 36 neurons each.
 
@@ -63,16 +59,15 @@ After **24 hours!**, my computer
 <a name='Model3'></a>
 ### Model 3 - new network topology
 
-After all the failures I figured I had to rethink the topology of the network and play around with combinations of different networks and learning rates.
+고정 지점에서 정밀도 분석을 할 경우를 참고하여 ref x1,x2,x3 원을 그래프에 표시하게 하여 현재 데이타의 상태나 품질을 확인 할 수 있음.
 
-**Finally tested FKP,VRS** This is quite an achievement, it seems that the change in network topology is working, although it also looks like the loss function is stagnating at around 0.15.
+**Fully support Any GNSS/GPS module and FKP,VRS mode** 다른 무료 Ntrip client 프로그램들이 제조사 판매제품만을 지원하거나 FKP/VRS 모드에 제한이 있는 것과는 차별화 해서 모두 가능하도록 지원.
 
-It is quite interesting :
-- the rewards policy
-- the epsilon greedy strategy
-- whether to train vs. a random player or an "intelligent" AI.
-
-And so far the most effective change
+추가 포함기능 :
+- GPS 모듈 2개를 동시에 연동하여 NMEA 데이타 표시 가능
+- 위와 같은 모드로 2 지점이 있을 경우, 두 지점간의 거리와 각도를 표시
+- Raw RTCM 메세지를 직접 확인가능.
+- 로그파일을 기본으로 남기도록 하여 후에 데이타 확인 가능
 
 <a name='Model4'></a>
 ### Model 4 - implementing momentum
@@ -82,29 +77,6 @@ I [reached out to the reddit community](https://www.reddit.com/r/MachineLearning
 - Stochastic Gradient Descent with Momentum
 - RMSProp: Root Mean Square Plain Momentum
 
-
-```python
-self.PolicyNetwork = Sequential()
-for layer in hidden_layers:
-    self.PolicyNetwork.add(Dense(
-                           units=layer,
-                           activation='relu',
-                           input_dim=inputs,
-                           kernel_initializer='random_uniform',
-                           bias_initializer='zeros'))
-self.PolicyNetwork.add(Dense(
-                        outputs,
-                        kernel_initializer='random_uniform',
-                        bias_initializer='zeros'))
-opt = Adam(learning_rate=c.LEARNING_RATE,
-           beta_1=c.GAMMA_OPT,
-           beta_2=c.BETA,
-           epsilon=c.EPSILON,
-           amsgrad=False)
-self.PolicyNetwork.compile(optimizer='adam',
-                           loss='mean_squared_error',
-                           metrics=['accuracy'])
-```
 As you can see I am reusing all of my old code, and just replacing my Neural Net library with Tensorflow/Keras, keeping even my hyper-parameter constants.
 
 With Tensorflow implemented, **the loss function was still stagnating! My code was not the issue.**
@@ -116,6 +88,7 @@ The way I was training initially was:
 - Games begin being simulated and the outcome recorded in the replay memory
 - Once a sufficient ammount of experiences are recorded (at least equal to the batch 
 
-<center><img src='./assets/img/posts/20210318/ReplayMemoryBefore.png' width="540"></center>
+![tcp_block](./assets/img/posts/20210318/statistics.jpg)
+<small>[tcp_block] LabVIEW TCP Function Block Diagram code.</small>
 
-As of today, [self play](https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717), and it looks like a viable option to test and a fun coding challenge. 
+As of today, [I converting RC Connect to Linux / Ubuntu version](https://github.com/yunbum/NtripClient), and it looks like a viable option to test and a fun coding challenge. 
