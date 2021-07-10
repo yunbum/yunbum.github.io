@@ -22,7 +22,7 @@
   "headline": "Single Neuron Perceptron",
   "abstract": "Single neuron perceptron that classifies elements learning quite quickly.",
     "keywords": "machine learning, coding, neural networks",
-    "wordcount": "1030",
+    "wordcount": "668",
     "image": ["https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210125/Perceptron.jpg"],
   "datePublished": "2021-01-26 04:32:20 +0900",
   "dateModified": "2021-01-26 04:32:20 +0900",
@@ -62,7 +62,7 @@
 <meta name="twitter:description" content="Single neuron perceptron that classifies elements learning quite quickly.">
 <meta name="twitter:creator" content="">
 <meta data-rh="true" name="twitter:label1" content="Word count"/>
-<meta data-rh="true" name="twitter:data1" content="1030"/>
+<meta data-rh="true" name="twitter:data1" content="668"/>
 <meta name="twitter:image:src" content="https://github.com/yunbum/yunbum.github.io/assets/img/posts/20210125/Perceptron.jpg">
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#311e3e">
@@ -163,7 +163,7 @@
     
     <span class="page_meta-readtime">
       
-        5 minute read
+        3 minute read
       
     </span>
   
@@ -303,7 +303,7 @@
     
     <span class="page_meta-readtime">
       
-        5 minute read
+        3 minute read
       
     </span>
   
@@ -390,21 +390,11 @@
 \end{align}<br />
 \)</p>
 
-<p>Typically when this value is obtained, we need to apply an “activation” function to smooth the output, but let’s say that our activation function is linear, meaning that we keep the value as it is, then that’s it, that is the output of the perceptron, -0.5.</p>
+<p>Typically when this value is obtained, we need to apply an “activation” function to smooth the output.</p>
 
-<p>In a practical application, the output means something, perhaps we want our perceptron to classify a set of data and if the perceptron outputs a negative number, then we know the data is of type A, and if it is a positive number then it is of type B.</p>
-
-<p>Once we understand this, the magic starts to happen through a process called backpropagation, where we “educate” our tiny one neuron brain to have it learn how to do its job.</p>
-
-<tweet>The magic starts to happen through a process called backpropagation, where we "educate" our tiny one neuron brain to have it learn how to do its job.</tweet>
-
-<p>For this we need a set of data that it is already classified, we call this a training set. This data has inputs and their corresponding correct output. So we can tell the little brain when it misses in its prediction, and by doing so, we also adjust the weights a bit in the direction where we know the perceptron committed the mistake hoping that after many iterations like this the weights will be so that most of the predictions will be correct.</p>
-
-<p>After the model trains successfully we can have it classify data it has never seen before, and we have a fairly high confidence that it will do so correctly.</p>
+<p>For this we need a set of data that it is already classified, we call this a training set.</p>
 
 <p>The math behind this magical property of the perceptron is called gradient descent, and is just a bit of differential calculus that helps us convert the error the brain is having into tiny nudges of value of the weights towards their optimum. <a href="https://www.youtube.com/watch?v=aircAruvnKk&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">This video series by 3 blue 1 brown explains it wonderfuly.</a></p>
-
-<p>My program creates a single neuron neural network tuned to guess if a point is above or below a randomly generated line and generates a visualization based on graphs to see how the neural network is learning through time.</p>
 
 <p>The neuron has 3 inputs and weights to calculate its output:</p>
 
@@ -460,8 +450,6 @@ Input 3 or the bias is required for lines that do not cross the origin (0,0)
 for example: New_weight_x = Old_weight_x + error * x * learning rate
 </code></pre></div></div>
 
-<p>A very useful parameter in all of neural networks is teh learning rate, which is basically a measure on how tiny our nudge to the weights is going to be.</p>
-
 <p>In this particular case, I coded the learning_rate to decrease with every iteration as follows:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>learning_rate = 0.01 / (iteration + 1)
@@ -472,10 +460,6 @@ for example: New_weight_x = Old_weight_x + error * x * learning rate
 <center><img src="./assets/img/posts/20210125/Learning_1000_points_per_iteration.jpg" /></center>
 
 <p>In the end, the perceptron always converges into a solution and finds with great precision the line we are looking for.</p>
-
-<p>Perceptrons are quite a revelation in that they can resolve equations by learning, however they are very limited. By their nature they can only resolve linear equations, so their problem space is quite narrow.</p>
-
-<p>Nowadays the neural networks consist of combinations of many perceptrons, in many layers, and other types of “neurons”, like convolution, recurrent, etc. increasing significantly the types of problems they solve.</p>
 
         <aside class="sidebar inline" id="post-end">
     

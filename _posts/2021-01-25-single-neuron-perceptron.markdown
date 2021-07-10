@@ -45,21 +45,11 @@ For instance a perceptron could get 3 different inputs as in the image, lets pre
 \end{align}<br>
 \)</p>
 
-Typically when this value is obtained, we need to apply an "activation" function to smooth the output, but let's say that our activation function is linear, meaning that we keep the value as it is, then that's it, that is the output of the perceptron, -0.5.
+Typically when this value is obtained, we need to apply an "activation" function to smooth the output.
 
-In a practical application, the output means something, perhaps we want our perceptron to classify a set of data and if the perceptron outputs a negative number, then we know the data is of type A, and if it is a positive number then it is of type B.
-
-Once we understand this, the magic starts to happen through a process called backpropagation, where we "educate" our tiny one neuron brain to have it learn how to do its job.
-
-<tweet>The magic starts to happen through a process called backpropagation, where we "educate" our tiny one neuron brain to have it learn how to do its job.</tweet>
-
-For this we need a set of data that it is already classified, we call this a training set. This data has inputs and their corresponding correct output. So we can tell the little brain when it misses in its prediction, and by doing so, we also adjust the weights a bit in the direction where we know the perceptron committed the mistake hoping that after many iterations like this the weights will be so that most of the predictions will be correct.
-
-After the model trains successfully we can have it classify data it has never seen before, and we have a fairly high confidence that it will do so correctly.
+For this we need a set of data that it is already classified, we call this a training set. 
 
 The math behind this magical property of the perceptron is called gradient descent, and is just a bit of differential calculus that helps us convert the error the brain is having into tiny nudges of value of the weights towards their optimum. [This video series by 3 blue 1 brown explains it wonderfuly.](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-
-My program creates a single neuron neural network tuned to guess if a point is above or below a randomly generated line and generates a visualization based on graphs to see how the neural network is learning through time.
 
 The neuron has 3 inputs and weights to calculate its output:
     
@@ -88,8 +78,6 @@ With every point that is learned if the error is not 0 the weights are adjusted 
     New_weight = Old_weight + error * input * learning_rate
     for example: New_weight_x = Old_weight_x + error * x * learning rate
 
-A very useful parameter in all of neural networks is teh learning rate, which is basically a measure on how tiny our nudge to the weights is going to be. 
-
 In this particular case, I coded the learning_rate to decrease with every iteration as follows:
 
     learning_rate = 0.01 / (iteration + 1)
@@ -99,7 +87,3 @@ this is important to ensure that once the weights are nearing the optimal values
 <center><img src='./assets/img/posts/20210125/Learning_1000_points_per_iteration.jpg'></center>
 
 In the end, the perceptron always converges into a solution and finds with great precision the line we are looking for.
-
-Perceptrons are quite a revelation in that they can resolve equations by learning, however they are very limited. By their nature they can only resolve linear equations, so their problem space is quite narrow. 
-
-Nowadays the neural networks consist of combinations of many perceptrons, in many layers, and other types of "neurons", like convolution, recurrent, etc. increasing significantly the types of problems they solve.

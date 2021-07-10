@@ -1,0 +1,122 @@
+I"1<h1 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h1>
+<p>SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</p>
+
+<p>이 위도/경도 정보를 프로그램에서 file I/O 를 통해 읽고 TM 좌표 변화을 하여 실제 지상의 경로를 따라 모바일 로봇이 움직이도록 개발되었습니다.</p>
+
+<h2 id="gpx-route-editor">GPX Route editor</h2>
+<p><a href="http://www.gpsnote.net/">source</a></p>
+
+<p>다양한 online/offline gpx editor를 무료로 사용할 수 있습니다.:</p>
+<p style="text-align:center">\(<br />
+\begin{align}<br />
+\begin{split}<br />
+m_t &amp;= \beta_1 m_{t-1} + (1 - \beta_1) g_t \\<br />
+v_t &amp;= \beta_2 v_{t-1} + (1 - \beta_2) g_t^2<br />
+\end{split}<br />
+\end{align}<br />
+\)</p>
+<p>\(m_t\) and \(v_t\) are estimates of the first moment (the mean) and the second moment (the uncentered variance) of the gradients respectively.</p>
+<p>They counteract these biases by computing bias-corrected first and second moment estimates:</p>
+<p style="text-align:center">\(<br />
+\begin{align}<br />
+\begin{split}<br />
+\hat{m}_t &amp;= \dfrac{m_t}{1 - \beta^t_1} \\<br />
+\hat{v}_t &amp;= \dfrac{v_t}{1 - \beta^t_2} \end{split}<br />
+\end{align}<br />
+\)</p>
+<p>We then use these to update the weights and biases which yields the Adam update rule:</p>
+<p style="text-align:center">\(\theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t\).</p>
+<p>The authors propose defaults of 0.9 for \(\beta_1\), 0.999 for \(\beta_2\), and \(10^{-8}\) for \(\epsilon\).</p>
+<p><a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L243">view on github</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># decaying averages of past gradients
+</span><span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)]</span> <span class="o">=</span> <span class="p">((</span><span class="n">c</span><span class="p">.</span><span class="n">BETA1</span>
+                        <span class="o">*</span> <span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)])</span>
+                        <span class="o">+</span> <span class="p">((</span><span class="mi">1</span> <span class="o">-</span> <span class="n">c</span><span class="p">.</span><span class="n">BETA1</span><span class="p">)</span>
+                        <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">gradients</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                        <span class="p">))</span>
+</code></pre></div></div>
+
+<h3 id="sgd-momentum">SGD Momentum</h3>
+<p><a href="https://ruder.io/optimizing-gradient-descent/index.html#momentum">source</a></p>
+
+<p>Vanilla SGD has trouble navigating ravines, i.e.</p>
+<p>Momentum is a method that helps accelerate SGD in the relevant direction and dampens oscillations.:</p>
+<p style="text-align:center">\(<br />
+\begin{align}<br />
+\begin{split}<br />
+v_t &amp;= \beta_1 v_{t-1} + \eta \nabla_\theta J( \theta) \\<br />
+\theta &amp;= \theta - v_t<br />
+\end{split}<br />
+\end{align}<br />
+\)</p>
+<p>The momentum term \(\beta_1\) is usually set to 0.9 or a similar value.</p>
+<p>Essentially, when using momentum</p>
+<p><a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L210">view on github</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)]</span> <span class="o">=</span> <span class="p">((</span><span class="n">c</span><span class="p">.</span><span class="n">BETA1</span><span class="o">*</span><span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)])</span>
+                       <span class="o">+</span><span class="p">(</span><span class="n">eta</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">gradients</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                       <span class="p">))</span>
+</code></pre></div></div>
+
+<h2 id="nesterov-accelerated-gradient-nag">Nesterov accelerated gradient (NAG)</h2>
+<p><a href="https://ruder.io/optimizing-gradient-descent/index.html#nesterovacceleratedgradient">source</a></p>
+
+<p>However, a ball that rolls down a hill, blindly following the slope,.</p>
+<p>Nesterov accelerated gradient (NAG) is a way to give our momentum term this kind of prescience.:</p>
+<p style="text-align:center">\(<br />
+\begin{align}<br />
+\begin{split}<br />
+v_t &amp;= \beta_1 v_{t-1} + \eta \nabla_\theta J( \theta - \beta_1 v_{t-1} ) \\<br />
+\theta &amp;= \theta - v_t<br />
+\end{split}<br />
+\end{align}<br />
+\)</p>
+<p>Again, we set the momentum term \(\beta_1\) to a value of around 0.9. While Momentum first computes the current gradient.</p>
+<p>Now that we are able to adapt our updates to the slope of our error function and speed up SGD in turn.</p>
+<p><a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L219">view on github</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">v_prev</span> <span class="o">=</span> <span class="p">{</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">):</span> <span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)],</span>
+          <span class="s">"db"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">):</span> <span class="bp">self</span><span class="p">.</span><span class="n">v</span><span class="p">[</span><span class="s">"db"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)]}</span>
+</code></pre></div></div>
+
+<h2 id="rmsprop">RMSprop</h2>
+<p><a href="https://ruder.io/optimizing-gradient-descent/index.html#rmsprop">source</a></p>
+
+<p>RMSprop is an unpublished, adaptive learning rate method proposed by Geoff Hinton in <a href="http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf">Lecture 6e of his Coursera Class</a>.</p>
+<p>RMSprop was developed stemming from the need to resolve other method's radically diminishing learning rates.</p>
+<p style="text-align:center">\(<br />
+\begin{align}<br />
+\begin{split}<br />
+E[\theta^2]_t &amp;= \beta_1 E[\theta^2]_{t-1} + (1-\beta_1) \theta^2_t \\<br />
+\theta_{t+1} &amp;= \theta_{t} - \dfrac{\eta}{\sqrt{E[\theta^2]_t + \epsilon}} \theta_{t}<br />
+\end{split}<br />
+\end{align}<br />
+\)</p>
+<p>RMSprop divides the learning rate by an exponentially decaying average of squared gradients. Hinton suggests \(\beta_1\) to be set to 0.9, while a good default value for the learning rate \(\eta\) is 0.001.</p>
+<p><a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L232">view on github</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">self</span><span class="p">.</span><span class="n">s</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)]</span> <span class="o">=</span> <span class="p">((</span><span class="n">c</span><span class="p">.</span><span class="n">BETA1</span>
+                      <span class="o">*</span> <span class="bp">self</span><span class="p">.</span><span class="n">s</span><span class="p">[</span><span class="s">"dW"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)])</span>
+                      <span class="o">+</span> <span class="p">((</span><span class="mi">1</span><span class="o">-</span><span class="n">c</span><span class="p">.</span><span class="n">BETA1</span><span class="p">)</span>
+                      <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">square</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">gradients</span><span class="p">[</span><span class="n">i</span><span class="p">])))</span>
+                        <span class="p">))</span>
+</code></pre></div></div>
+
+<h2 id="complete-code">Complete code</h2>
+<p>All in all the code ended up like this:
+<a href="https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L1">view on github</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="nb">staticmethod</span>
+<span class="k">def</span> <span class="nf">cyclic_learning_rate</span><span class="p">(</span><span class="n">learning_rate</span><span class="p">,</span> <span class="n">epoch</span><span class="p">):</span>
+    <span class="n">max_lr</span> <span class="o">=</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">c</span><span class="p">.</span><span class="n">MAX_LR_FACTOR</span>
+    <span class="n">cycle</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">floor</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="p">(</span><span class="n">epoch</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span>
+                    <span class="o">*</span> <span class="n">c</span><span class="p">.</span><span class="n">LR_STEP_SIZE</span><span class="p">))</span>
+                    <span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nb">abs</span><span class="p">((</span><span class="n">epoch</span> <span class="o">/</span> <span class="n">c</span><span class="p">.</span><span class="n">LR_STEP_SIZE</span><span class="p">)</span>
+        <span class="o">-</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">cycle</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">learning_rate</span>
+        <span class="o">+</span> <span class="p">(</span><span class="n">max_lr</span> <span class="o">-</span> <span class="n">learning_rate</span><span class="p">)</span>
+        <span class="o">*</span> <span class="n">np</span><span class="p">.</span><span class="n">maximum</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">x</span><span class="p">))</span>
+</code></pre></div></div>
+:ET
