@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title:  GPS/GNSS Test 
+title:  GPS/GNSS 모듈 비교평가 테스트 / GPS quality test 
 date:   2021-02-10 13:32:20 -0600
 description: 다양한 제조사의 GPS 제품들을 테스트 하여 비교평가 중.
 img: posts/20210210/GNSS_test.jpg
@@ -47,4 +47,4 @@ for cell in alive_neighbors:
     elif alive_neighbors[cell] == 3:
         self.alive_cells.add(cell)
 ```
-<p>I&nbsp;found it very interesting to implement the Game of Life like this, it was quite a refreshing challenge and I am beginning to feel my coding skills ramping up again.</p>
+<p>현재까지도 다양한 GPS/GNSS 모듈들을 테스트 하여 성능,안정성,편의성 등에 대한 비교평가도 지속적으로 진행 중입니다.</p>

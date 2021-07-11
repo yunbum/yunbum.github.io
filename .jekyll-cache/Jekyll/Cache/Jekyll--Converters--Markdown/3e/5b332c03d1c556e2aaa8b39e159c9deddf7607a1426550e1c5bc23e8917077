@@ -1,4 +1,4 @@
-I"�<h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2>
+I"�<h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2>
 <p>현재 다양한 종류의 GPS 모듈, 환경에 따른 차이, RTK mode 안정성, 가성비에 따른 효율, 이동중 특성 등의 다양한 성능을 평가하고 모바일 로봇에 반영하고 있습니다.</p>
 
 <p><img src="./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg" alt="Tandy Color Computer TRS80 III" /><small>Tandy Color Computer TRS80 III</small></p>
@@ -33,5 +33,5 @@
     <span class="k">elif</span> <span class="n">alive_neighbors</span><span class="p">[</span><span class="n">cell</span><span class="p">]</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
         <span class="bp">self</span><span class="p">.</span><span class="n">alive_cells</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">cell</span><span class="p">)</span>
 </code></pre></div></div>
-<p>I&nbsp;found it very interesting to implement the Game of Life like this, it was quite a refreshing challenge and I am beginning to feel my coding skills ramping up again.</p>
+<p>현재까지도 다양한 GPS/GNSS 모듈들을 테스트 하여 성능,안정성,편의성 등에 대한 비교평가도 지속적으로 진행 중입니다.</p>
 :ET
