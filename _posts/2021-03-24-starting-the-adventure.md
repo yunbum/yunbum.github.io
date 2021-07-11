@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title: "ASV 자율운항 보트 / Autonomous Surface Vehicle"
+title: "ASV 란 - Autonomous Surface Vehicle"
 date: 2021-03-24
 img: posts/20210324/usv-a1.jpg
 tags: [general blogging, thoughts, life]

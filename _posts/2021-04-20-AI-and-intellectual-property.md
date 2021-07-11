@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title: "RLmodel 모바일로봇 개발이력 / Mobile Robot History!"
+title: "로봇개발 이력 / History!"
 date: 2021-04-20
 img: posts/20210420/src_history.jpg # post8-rembrandt.jpg
 tags: [copyright, creativity, neural networks, machine learning, artificial intelligence]

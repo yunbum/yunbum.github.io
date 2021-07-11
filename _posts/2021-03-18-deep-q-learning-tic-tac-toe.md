@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title:  RL Connect 프로그램 제공 - Free Ntrip client Network RTK
+title:  RL Connect - 무료 Ntrip client sw
 date:   2021-03-18 15:14:20 -0600
 description: Free Ntrip client 'RL Connect'
 img: posts/20210318/C94-M8P.png

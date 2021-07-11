@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title:  경로파일 GPX포맷 waypoint / GPX route editor 
+title:  경로파일 (waypoint) / GPX route editor 
 date:   2021-03-12 13:32:20 -0600
 description: GPX format file editor tool.
 img: posts/20210312/tm_interpolation.png

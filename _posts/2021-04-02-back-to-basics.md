@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title: "자율주행 플랫폼 SRC 란, what is SRC (Self Driving Rc Car?"
+title: "SRC 란 - Self driving RC car?"
 date: 2021-04-02
 img: posts/20210402/SRC-B2_2.jpg # post7-header.webp
 tags: [Robot, RC, GPS, Camera, Lidar]
