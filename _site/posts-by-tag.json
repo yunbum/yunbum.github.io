@@ -75,6 +75,16 @@
     
       
   {
+  "tag" : "Reinforcement Learning",
+  "posts" : [
+      
+      "./RLmodel-intro-simple.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "Robot",
   "posts" : [
       
