@@ -1,4 +1,4 @@
-I"�#<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2>
+I"}#<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2>
 <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.</p>
 
 <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" />
@@ -38,8 +38,7 @@
 <center><img src="./assets/img/posts/20210318/hw_block.JPG" width="540" />
 <small>RL Connect Hardware Function block</small></center>
 
-<p>After <strong>24 hours!</strong>, my computer 
-<a name="Model3"></a></p>
+<p><a name="Model3"></a></p>
 <h3 id="정밀도-분석---gnss-accuracy-test-graph-plot">정밀도 분석 - GNSS accuracy test graph plot</h3>
 
 <p>고정 지점에서 정밀도 분석을 할 경우를 참고하여 ref x1,x2,x3 원을 그래프에 표시하게 하여 현재 데이타의 상태나 품질을 확인 할 수 있음.</p>

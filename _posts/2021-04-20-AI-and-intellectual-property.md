@@ -12,7 +12,7 @@ description: "자율주행관련 Mobile robot 개발자로써 관련 알고리�
 ---
 
 ## 모바일로봇 개발 History
-초기 중고 RC가, KINEX 블록 등으로 개발 프로토 타입을 시작으로 개조,변형,튜닝등의 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 완성에 이르기까지 상당히 다양한 HW,SW 보완을 진행했고 현재도 진행중 입니다.
+초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.
 
 자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 [check github repo](https://github.com/yunbum/SRC/) .
 
@@ -47,4 +47,3 @@ SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드
 ### 지속적인 성능개선 및 알고리즘 확대
 ![The Next SRC](./assets/img/posts/20210420/src-b2-back1.jpg)
 <small>[The Next SRC](https://github.com/yunbum/SRC) 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .</small>
-

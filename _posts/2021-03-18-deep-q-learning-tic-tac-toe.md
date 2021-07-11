@@ -8,7 +8,7 @@ description: Free Ntrip client 'RL Connect'
 img: posts/20210318/C94-M8P.png
 tags: [GPS, Network rtk, Ntrip client, GNSS, fkp, vrs]
 author: Ybbaek
-github: amaynez/TicTacToe/
+github: yunbum
 toc: yes # leave empty or erase for no TOC
 ---
 
@@ -54,7 +54,6 @@ GNSS/GP 모듈은 uBlox F9P M8P, Sententrio Mosaic X5, MBC MRP, 등에 적용하
 <center><img src='./assets/img/posts/20210318/hw_block.JPG' width="540">
 <small>RL Connect Hardware Function block</small></center>
 
-After **24 hours!**, my computer 
 <a name='Model3'></a>
 ### 정밀도 분석 - GNSS accuracy test graph plot
 
