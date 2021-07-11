@@ -105,12 +105,20 @@
     
       
   {
+  "tag" : "avoidance",
+  "posts" : [
+      
+      "./single-neuron-perceptron.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "coding",
   "posts" : [
       
-      "./conways-game-of-life.html",
-      
-      "./single-neuron-perceptron.html"
+      "./conways-game-of-life.html"
       
     ]
   } ,
@@ -131,6 +139,16 @@
   "posts" : [
       
       "./AI-and-intellectual-property.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "dynamic window approach",
+  "posts" : [
+      
+      "./single-neuron-perceptron.html"
       
     ]
   } ,
@@ -187,12 +205,20 @@
     
       
   {
+  "tag" : "local path",
+  "posts" : [
+      
+      "./single-neuron-perceptron.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "machine learning",
   "posts" : [
       
-      "./AI-and-intellectual-property.html",
-      
-      "./single-neuron-perceptron.html"
+      "./AI-and-intellectual-property.html"
       
     ]
   } ,
@@ -202,9 +228,7 @@
   "tag" : "neural networks",
   "posts" : [
       
-      "./AI-and-intellectual-property.html",
-      
-      "./single-neuron-perceptron.html"
+      "./AI-and-intellectual-property.html"
       
     ]
   } ,

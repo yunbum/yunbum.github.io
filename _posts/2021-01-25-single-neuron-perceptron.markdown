@@ -2,54 +2,23 @@
 layout: post
 read_time: true
 show_date: true
-title:  Single Neuron Perceptron
+title:  경로추종 알고리즘 / Path planning, tracking
 date:   2021-01-25 13:32:20 -0600
-description: Single neuron perceptron that classifies elements learning quite quickly.
-img: posts/20210125/Perceptron.jpg 
-tags: [machine learning, coding, neural networks]
+description: 경로처리 관련 처리관련 알고리즘 / Local path
+img: posts/20210125/dwa-small.png 
+tags: [local path, avoidance, dynamic window approach]
 author: Ybbaek
-github:  amaynez/Perceptron/
+github:  yunbum
 mathjax: yes
 ---
-As an entry point to learning python and getting into Machine Learning, I decided to code from scratch the Hello World! of the field, a single neuron perceptron.
+## Testing Path planning algorithms
+다양한 Path planning 알고리즘들을 테스트 하고 적용하고 있습니다.
+소스는 Python robotics 의 소스코드를 바탕으로 하였습니다.
 
-## What is a perceptron?
+### Dynamic Window Approach
+A Dynamic Window Approach 는 실시간으로 정해진 윈도우 영역의 cost 를 계산하여 경로를 계산하고 판단하는 알고리즘.
 
-A perceptron is the basic building block of a neural network, it can be compared to a neuron, And its conception is what detonated the vast field of Artificial Intelligence nowadays.
-
-Back in the late 1950's, a young [Frank Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt) devised a very simple algorithm as a foundation to construct a machine that could learn to perform different tasks.
-
-In its essence, a perceptron is nothing more than a collection of values and rules for passing information through them, but in its simplicity lies its power.
-
-<center><img src='./assets/img/posts/20210125/Perceptron.png'></center>
-
-Imagine you have a 'neuron' and to 'activate' it, you pass through several input signals, each signal connects to the neuron through a synapse, once the signal is aggregated in the perceptron, it is then passed on to one or as many outputs as defined. A perceptron is but a neuron and its collection of synapses to get a signal into it and to modify a signal to pass on.
-
-In more mathematical terms, a perceptron is an array of values (let's call them weights), and the rules to apply such values to an input signal.
-
-For instance a perceptron could get 3 different inputs as in the image, lets pretend that the inputs it receives as signal are: $x_1 = 1, \; x_2 = 2\; and \; x_3 = 3$, if it's weights are $w_1 = 0.5,\; w_2 = 1\; and \; w_3 = -1$ respectively, then what the perceptron will do when the signal is received is to multiply each input value by its corresponding weight, then add them up.
-
-<p style="text-align:center">\(<br>
-\begin{align}
-\begin{split}
-\left(x_1 * w_1\right) + \left(x_2 * w_2\right) + \left(x_3 * w_3\right)
-\end{split}
-\end{align}
-\)</p>
-
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-\left(0.5 * 1\right) + \left(1 * 2\right) + \left(-1 * 3\right) = 0.5 + 2 - 3 = -0.5
-\end{split}<br>
-\end{align}<br>
-\)</p>
-
-Typically when this value is obtained, we need to apply an "activation" function to smooth the output.
-
-For this we need a set of data that it is already classified, we call this a training set. 
-
-The math behind this magical property of the perceptron is called gradient descent, and is just a bit of differential calculus that helps us convert the error the brain is having into tiny nudges of value of the weights towards their optimum. [This video series by 3 blue 1 brown explains it wonderfuly.](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+<center><img src='./assets/img/posts/20210125/dwa-small.png'></center>
 
 The neuron has 3 inputs and weights to calculate its output:
     
@@ -60,29 +29,6 @@ The neuron has 3 inputs and weights to calculate its output:
     Input 3 or the bias is required for lines that do not cross the origin (0,0)
 
 The Perceptron starts with weights all set to zero and learns by using 1,000 random points per each iteration.
-
-The output of the perceptron is calculated with the following activation function:
-    if x * weight_x + y weight_y + weight_bias is positive then 1 else 0
-
-The error for each point is calculated as the expected outcome of the perceptron minus the real outcome therefore there are only 3 possible error values:
-
-|Expected  |  Calculated | Error|
-|:----:|:----:|:----:|
-|1|-1|1|
-|1|1|0|
-|-1|-1|0|
-|-1|1|-1|
-
-With every point that is learned if the error is not 0 the weights are adjusted according to:
-
-    New_weight = Old_weight + error * input * learning_rate
-    for example: New_weight_x = Old_weight_x + error * x * learning rate
-
-In this particular case, I coded the learning_rate to decrease with every iteration as follows:
-
-    learning_rate = 0.01 / (iteration + 1)
-
-this is important to ensure that once the weights are nearing the optimal values the adjustment in each iteration is subsequently more subtle.
 
 <center><img src='./assets/img/posts/20210125/Learning_1000_points_per_iteration.jpg'></center>
 

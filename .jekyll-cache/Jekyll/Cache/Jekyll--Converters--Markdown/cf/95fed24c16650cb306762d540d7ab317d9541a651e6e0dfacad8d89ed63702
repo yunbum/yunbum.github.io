@@ -1,7 +1,7 @@
-I"�<h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2>
+I"w<h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2>
 <p>현재 다양한 종류의 GPS 모듈, 환경에 따른 차이, RTK mode 안정성, 가성비에 따른 효율, 이동중 특성 등의 다양한 성능을 평가하고 모바일 로봇에 반영하고 있습니다.</p>
 
-<p><img src="./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg" alt="Tandy Color Computer TRS80 III" /><small>Tandy Color Computer TRS80 III</small></p>
+<p><img src="./assets/img/posts/20210210/GNSS_test.jpg" alt="Tandy Color Computer TRS80 III" /><small>다양한 GPS 모듈 테스트 진행.</small></p>
 
 <p>For one of my starter quick programming tasks, I&nbsp;decided to code Conway's Game of Life, a very simple cellular automata that basically plays itself.</p>
 
