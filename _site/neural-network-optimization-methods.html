@@ -23,7 +23,7 @@
   "abstract": "GPX format file editor tool.",
     "keywords": "waypoint, gpx, tm, point",
     "wordcount": "88",
-    "image": ["https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/Log replay.jpg"],
+    "image": ["https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/tm_interpolation.png"],
   "datePublished": "2021-03-13 04:32:20 +0900",
   "dateModified": "2021-03-13 04:32:20 +0900",
   "author": {
@@ -44,7 +44,7 @@
 <meta property="og:type" content="article"/>
 <meta property="og:title" content="경로파일 GPX포맷 waypoint / GPX route editor"/>
 <meta property="og:description" content="GPX format file editor tool."/>
-<meta property="og:image" content="https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/Log replay.jpg"/>
+<meta property="og:image" content="https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/tm_interpolation.png"/>
 <meta property="og:image:alt" content="경로파일 GPX포맷 waypoint / GPX route editor"/>
 <meta property="og:site_name" content="The Minimum Viable Model" />
 <meta property="article:published_time" content="2021-03-13 04:32:20 +0900" />
@@ -54,7 +54,7 @@
 <!-- Schema.org markup for Google -->
 <meta itemprop="name" content="경로파일 GPX포맷 waypoint / GPX route editor">
 <meta itemprop="description" content="GPX format file editor tool.">
-<meta itemprop="image" content="https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/Log replay.jpg">
+<meta itemprop="image" content="https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210312/tm_interpolation.png">
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@MvmThe">
@@ -63,7 +63,7 @@
 <meta name="twitter:creator" content="">
 <meta data-rh="true" name="twitter:label1" content="Word count"/>
 <meta data-rh="true" name="twitter:data1" content="88"/>
-<meta name="twitter:image:src" content="https://github.com/yunbum/yunbum.github.io/assets/img/posts/20210312/Log replay.jpg">
+<meta name="twitter:image:src" content="https://github.com/yunbum/yunbum.github.io/assets/img/posts/20210312/tm_interpolation.png">
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#311e3e">
 	<!-- iOS Safari -->
@@ -171,7 +171,7 @@
   </span>
 
         <div class="post-excerpt">
-            <h2 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h2><p>SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</p><h3 id="gpx-route-editor">GPX Route editor</h3><p><a href="http://www.gpsnote.net/">source</a></p><center><img src="./assets/img/posts/20210312/routeeditor-small.jpg" width="540" /><small>GPX route editor 실행화면</small></center><h3 id="위도경도-xml-데이타-추출">위도/경도 xml 데이타 추출</h3><p>gpx 파일에 있는 위도/경도 데이타를 읽고 TM 좌표변환 후에 실제 주행경로 로직에 반영하여 계산합니다.</p><center><img src="./assets/img/posts/20210312/latlong_point.png" width="540" /><small>GPX 파일의 위도/경도 값 읽어 TM 좌표로 표시</small></center><p>gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.</p><center><img src="./assets/img/posts/20210312/tm_interpolation.png" width="540" /><small>TM 좌표들의 점들을 interpolation 하여 최종경로 그래프</small></center><a class="read-more" href="./neural-network-optimization-methods.html"> read more</a>
+            <h2 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h2><p>SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</p><h3 id="gpx-route-editor">GPX Route editor</h3><p><a href="http://www.gpsnote.net/">source</a></p><center><img src="./assets/img/posts/20210312/route-editor-small.jpg" width="540" /><small>GPX route editor 실행화면</small></center><h3 id="위도경도-xml-데이타-추출">위도/경도 xml 데이타 추출</h3><p>gpx 파일에 있는 위도/경도 데이타를 읽고 TM 좌표변환 후에 실제 주행경로 로직에 반영하여 계산합니다.</p><center><img src="./assets/img/posts/20210312/latlong_point.png" width="540" /><small>GPX 파일의 위도/경도 값 읽어 TM 좌표로 표시</small></center><p>gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.</p><center><img src="./assets/img/posts/20210312/tm_interpolation.png" width="540" /><small>TM 좌표들의 점들을 interpolation 하여 최종경로 그래프</small></center><a class="read-more" href="./neural-network-optimization-methods.html"> read more</a>
         </div>
   </div>
 </section>
@@ -274,7 +274,7 @@
 <meta itemprop="datePublished" content="2021-03-13T04:32:20+09:00">
 
     <div class="page-image">
-      <div class="cover-image" style="background: url('./assets/img/posts/20210312/Log replay.jpg') center no-repeat; background-size: cover;"></div>
+      <div class="cover-image" style="background: url('./assets/img/posts/20210312/tm_interpolation.png') center no-repeat; background-size: cover;"></div>
     </div>
     <div class="wrapper">
       <div class="page-content">
@@ -362,7 +362,7 @@
 <div class="center-container">
   <div class="github-button">
     <span class="button-icon" aria-hidden="true"><svg aria-hidden="true" focusable="false" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"/></svg></span>
-    <a class="button-text" href="https://github.com/amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities/Neural_Network.py#L199" target="_blank" aria-label="Open on GitHub">view on <b>GitHub</b></a>
+    <a class="button-text" href="https://github.com/yunbum" target="_blank" aria-label="Open on GitHub">view on <b>GitHub</b></a>
   </div>
 </div>
 
@@ -372,7 +372,7 @@
 <h3 id="gpx-route-editor">GPX Route editor</h3>
 <p><a href="http://www.gpsnote.net/">source</a></p>
 
-<center><img src="./assets/img/posts/20210312/routeeditor-small.jpg" width="540" />
+<center><img src="./assets/img/posts/20210312/route-editor-small.jpg" width="540" />
 <small>GPX route editor 실행화면</small></center>
 
 <h3 id="위도경도-xml-데이타-추출">위도/경도 xml 데이타 추출</h3>

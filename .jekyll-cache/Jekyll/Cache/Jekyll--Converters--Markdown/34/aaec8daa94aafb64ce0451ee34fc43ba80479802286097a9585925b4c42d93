@@ -1,10 +1,10 @@
-I",<h2 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h2>
+I"-<h2 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h2>
 <p>SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</p>
 
 <h3 id="gpx-route-editor">GPX Route editor</h3>
 <p><a href="http://www.gpsnote.net/">source</a></p>
 
-<center><img src="./assets/img/posts/20210312/routeeditor-small.jpg" width="540" />
+<center><img src="./assets/img/posts/20210312/route-editor-small.jpg" width="540" />
 <small>GPX route editor 실행화면</small></center>
 
 <h3 id="위도경도-xml-데이타-추출">위도/경도 xml 데이타 추출</h3>

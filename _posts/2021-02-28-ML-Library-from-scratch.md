@@ -8,7 +8,7 @@ description: 다양한 모바일 로봇 악세사리.
 img: posts/20210228/trailer-1-c.png 
 tags: [accessory, trailer, speaker, led]
 author: Ybbaek
-github: amaynez/GenericNeuralNetwork/ # amaynez/GenericNeuralNetwork/
+github: yunbum # amaynez/GenericNeuralNetwork/
 ---
 ## Robot 악세사리 옵션 / Accessory
 ### 트레일러 / Trailer

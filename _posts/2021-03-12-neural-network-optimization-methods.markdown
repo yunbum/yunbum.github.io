@@ -5,10 +5,10 @@ show_date: true
 title:  경로파일 GPX포맷 waypoint / GPX route editor 
 date:   2021-03-12 13:32:20 -0600
 description: GPX format file editor tool.
-img: posts/20210312/Log replay.jpg
+img: posts/20210312/tm_interpolation.png
 tags: [waypoint, gpx, tm, point]
 author: Ybbaek
-github: amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities/Neural_Network.py#L199
+github: yunbum
 mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
 toc: yes # leave empty or erase for no TOC
 ---
@@ -18,7 +18,7 @@ SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX
 ### GPX Route editor
 [source](http://www.gpsnote.net/)
 
-<center><img src='./assets/img/posts/20210312/routeeditor-small.jpg' width="540">
+<center><img src='./assets/img/posts/20210312/route-editor-small.jpg' width="540">
 <small>GPX route editor 실행화면</small></center>
 
 ### 위도/경도 xml 데이타 추출

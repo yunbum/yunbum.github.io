@@ -8,10 +8,10 @@ description: 다양한 제조사의 GPS 제품들을 테스트 하여 비교평�
 img: posts/20210210/GNSS_test.jpg
 tags: [coding, python]
 author: Ybbaek
-github: amaynez/GameOfLife/
+github: yunbum
 ---
 ## 다양한 GPS/GNSS 모둘 비교테스트
-I am lately trying to take on coding again. It had always been a part of my life since my early years when 
+현재 다양한 종류의 GPS 모듈, 환경에 따른 차이, RTK mode 안정성, 가성비에 따른 효율, 이동중 특성 등의 다양한 성능을 평가하고 모바일 로봇에 반영하고 있습니다. 
 
 <img src="./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg" alt="Tandy Color Computer TRS80 III"/><small>Tandy Color Computer TRS80 III</small>
 
