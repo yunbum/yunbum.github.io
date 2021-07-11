@@ -1,23 +1,23 @@
 {
   "posts" : [
     
-    "./RLmodel-intro-simple.html",
+    "./RLmodel-intro.html",
     
-    "./AI-and-intellectual-property.html",
+    "./RLmodel-history.html",
     
-    "./back-to-basics.html",
+    "./SRC-robots.html",
     
-    "./starting-the-adventure.html",
+    "./ASV-robot.html",
     
-    "./deep-q-learning-tic-tac-toe.html",
+    "./RLConnect.html",
     
-    "./neural-network-optimization-methods.html",
+    "./neural-waypoint-gpx.html",
     
-    "./ML-Library-from-scratch.html",
+    "./accessory-parts.html",
     
-    "./conways-game-of-life.html",
+    "./GPS-test.html",
     
-    "./single-neuron-perceptron.html"
+    "./path-planning.html"
     
   ]
 }

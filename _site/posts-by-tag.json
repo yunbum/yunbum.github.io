@@ -6,7 +6,7 @@
   "tag" : "Camera",
   "posts" : [
       
-      "./back-to-basics.html"
+      "./SRC-robots.html"
       
     ]
   } ,
@@ -16,7 +16,7 @@
   "tag" : "GNSS",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html"
+      "./RLConnect.html"
       
     ]
   } ,
@@ -26,9 +26,9 @@
   "tag" : "GPS",
   "posts" : [
       
-      "./back-to-basics.html",
+      "./SRC-robots.html",
       
-      "./deep-q-learning-tic-tac-toe.html"
+      "./RLConnect.html"
       
     ]
   } ,
@@ -38,7 +38,7 @@
   "tag" : "Lidar",
   "posts" : [
       
-      "./back-to-basics.html"
+      "./SRC-robots.html"
       
     ]
   } ,
@@ -48,7 +48,7 @@
   "tag" : "Network rtk",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html"
+      "./RLConnect.html"
       
     ]
   } ,
@@ -58,7 +58,7 @@
   "tag" : "Ntrip client",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html"
+      "./RLConnect.html"
       
     ]
   } ,
@@ -68,7 +68,7 @@
   "tag" : "RC",
   "posts" : [
       
-      "./back-to-basics.html"
+      "./SRC-robots.html"
       
     ]
   } ,
@@ -78,7 +78,7 @@
   "tag" : "Reinforcement Learning",
   "posts" : [
       
-      "./RLmodel-intro-simple.html"
+      "./RLmodel-intro.html"
       
     ]
   } ,
@@ -88,7 +88,7 @@
   "tag" : "Robot",
   "posts" : [
       
-      "./back-to-basics.html"
+      "./SRC-robots.html"
       
     ]
   } ,
@@ -98,7 +98,7 @@
   "tag" : "accessory",
   "posts" : [
       
-      "./ML-Library-from-scratch.html"
+      "./accessory-parts.html"
       
     ]
   } ,
@@ -108,7 +108,7 @@
   "tag" : "artificial intelligence",
   "posts" : [
       
-      "./AI-and-intellectual-property.html"
+      "./RLmodel-history.html"
       
     ]
   } ,
@@ -118,7 +118,7 @@
   "tag" : "avoidance",
   "posts" : [
       
-      "./single-neuron-perceptron.html"
+      "./path-planning.html"
       
     ]
   } ,
@@ -128,7 +128,7 @@
   "tag" : "coding",
   "posts" : [
       
-      "./conways-game-of-life.html"
+      "./GPS-test.html"
       
     ]
   } ,
@@ -138,7 +138,7 @@
   "tag" : "copyright",
   "posts" : [
       
-      "./AI-and-intellectual-property.html"
+      "./RLmodel-history.html"
       
     ]
   } ,
@@ -148,7 +148,7 @@
   "tag" : "creativity",
   "posts" : [
       
-      "./AI-and-intellectual-property.html"
+      "./RLmodel-history.html"
       
     ]
   } ,
@@ -158,7 +158,7 @@
   "tag" : "dynamic window approach",
   "posts" : [
       
-      "./single-neuron-perceptron.html"
+      "./path-planning.html"
       
     ]
   } ,
@@ -168,7 +168,7 @@
   "tag" : "fkp",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html"
+      "./RLConnect.html"
       
     ]
   } ,
@@ -178,7 +178,7 @@
   "tag" : "general blogging",
   "posts" : [
       
-      "./starting-the-adventure.html"
+      "./ASV-robot.html"
       
     ]
   } ,
@@ -188,7 +188,7 @@
   "tag" : "gpx",
   "posts" : [
       
-      "./neural-network-optimization-methods.html"
+      "./neural-waypoint-gpx.html"
       
     ]
   } ,
@@ -198,7 +198,7 @@
   "tag" : "led",
   "posts" : [
       
-      "./ML-Library-from-scratch.html"
+      "./accessory-parts.html"
       
     ]
   } ,
@@ -208,7 +208,7 @@
   "tag" : "life",
   "posts" : [
       
-      "./starting-the-adventure.html"
+      "./ASV-robot.html"
       
     ]
   } ,
@@ -218,7 +218,7 @@
   "tag" : "local path",
   "posts" : [
       
-      "./single-neuron-perceptron.html"
+      "./path-planning.html"
       
     ]
   } ,
@@ -228,7 +228,7 @@
   "tag" : "machine learning",
   "posts" : [
       
-      "./AI-and-intellectual-property.html"
+      "./RLmodel-history.html"
       
     ]
   } ,
@@ -238,7 +238,7 @@
   "tag" : "neural networks",
   "posts" : [
       
-      "./AI-and-intellectual-property.html"
+      "./RLmodel-history.html"
       
     ]
   } ,
@@ -248,7 +248,7 @@
   "tag" : "point",
   "posts" : [
       
-      "./neural-network-optimization-methods.html"
+      "./neural-waypoint-gpx.html"
       
     ]
   } ,
@@ -258,7 +258,7 @@
   "tag" : "python",
   "posts" : [
       
-      "./conways-game-of-life.html"
+      "./GPS-test.html"
       
     ]
   } ,
@@ -268,7 +268,7 @@
   "tag" : "speaker",
   "posts" : [
       
-      "./ML-Library-from-scratch.html"
+      "./accessory-parts.html"
       
     ]
   } ,
@@ -278,7 +278,7 @@
   "tag" : "thoughts",
   "posts" : [
       
-      "./starting-the-adventure.html"
+      "./ASV-robot.html"
       
     ]
   } ,
@@ -288,7 +288,7 @@
   "tag" : "tm",
   "posts" : [
       
-      "./neural-network-optimization-methods.html"
+      "./neural-waypoint-gpx.html"
       
     ]
   } ,
@@ -298,7 +298,7 @@
   "tag" : "trailer",
   "posts" : [
       
-      "./ML-Library-from-scratch.html"
+      "./accessory-parts.html"
       
     ]
   } ,
@@ -308,7 +308,7 @@
   "tag" : "vrs",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html"
+      "./RLConnect.html"
       
     ]
   } ,
@@ -318,7 +318,7 @@
   "tag" : "waypoint",
   "posts" : [
       
-      "./neural-network-optimization-methods.html"
+      "./neural-waypoint-gpx.html"
       
     ]
   } 
