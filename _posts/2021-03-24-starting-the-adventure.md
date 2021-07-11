@@ -35,7 +35,7 @@ SRC 와 같은 자율주행 차량보다 좀더 자유로운 제어나 운항을
 - [jeonds1127](https://jdselectron.tistory.com/89/)
 
 <center><img src='./assets/img/posts/20210324/esc-cal.png' width="540">
-<small>ESC Calibation 연결 결선도</small></center>
+<small>Arduino를 활용한 ESC Calibation 연결 결선도</small></center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gZ6vESt1V6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -48,9 +48,10 @@ Finally it came self sailing boat
 - Calibration은 매번 할 필요없이 처음 1회만 하면 됩니다. 
 - Calibration 완료후 관련 Arduino 코드에는 테스트 코드도 같이 제공되니 바로 확인 가능합니다.
 
-![my new blog](./assets/img/template_screenshots/homepage-responsive.jpg)
+<center><img src='./assets/img/posts/20210324/thruster.png' width="540">
+<small>다양한 종류의 수중모터(Thruster) 테스트</small></center>
 
-As a summary, Hugo and Gatsby might be much faster than Jekyll to build the sites.
+그리고 ASV는 다양한 보트, 요트, 선박등의 디자일들을 고려하여 개량하고 모델을 추가할 예정입니다.
 
 #### 자율운항 보드 대회
 테스트 진행이 어느 정도 되고 개발이 마무리 되면 대한조선학회에서 주최하는 '자율운항보드 경진대회' 참석하는 것도 추천 드립니다.

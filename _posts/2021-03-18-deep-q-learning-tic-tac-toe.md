@@ -13,7 +13,7 @@ toc: yes # leave empty or erase for no TOC
 ---
 
 ## RTK Real Time Kinematic
-GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..
+GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.
 
 ![RL_Connect](./assets/img/posts/20210318/RL_Connect_ui.jpg)
 <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small>
@@ -28,9 +28,9 @@ TM 좌표계로 변환 -> 점들을 포함하는 최소원을 계산하여 원�
 <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타 로거로도 적용 (위성지도 연동) </li></ul>
 
 ## Source code / Github
-### Python -> LabVIEW
+### HTTP 1.x 프로토콜 포맷 변환
 
- 참고 python 코드 깃헙 <a href="https://github.com/tridge/pyUblox/blob/master/ntrip.py">tridge/pyUblox</a> Ntrip client 소스코드. 
+ 참고 python 코드 깃헙 <a href="https://github.com/tridge/pyUblox/blob/master/ntrip.py">tridge/pyUblox</a> Ntrip client 소스코드. HTTP 1.1 ver 포맷, 
 
 ```python
 header =\
@@ -56,7 +56,7 @@ GNSS/GP 모듈은 uBlox F9P M8P, Sententrio Mosaic X5, MBC MRP, 등에 적용하
 
 After **24 hours!**, my computer 
 <a name='Model3'></a>
-### Model 3 - new network topology
+### 정밀도 분석 - GNSS accuracy test graph plot
 
 고정 지점에서 정밀도 분석을 할 경우를 참고하여 ref x1,x2,x3 원을 그래프에 표시하게 하여 현재 데이타의 상태나 품질을 확인 할 수 있음.
 
@@ -78,9 +78,9 @@ After **24 hours!**, my computer
 
 기본 Base 프로그램은 LabVIEW 언어를 활용
 
-With LabVIEW implemented, **the issue**
+With LabVIEW implemented, **FKP, VRS Mount issue**
 <a name='LabVIEW'></a>
-### LabVIEW - National Instrument programming language
+### 기준국 접속시 FKP, VRS 모드의 경우 reconnection 기능은 추가 보완이 필요
 
 Mode 를 지속적으로 카운팅 하여 정밀도 상태 표시:
 - 지정된 시간마다 모드의 상태를 카운팅 (N/A, Standalone, RTK float, RTK fixed)

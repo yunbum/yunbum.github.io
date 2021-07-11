@@ -10,6 +10,7 @@ category: theory
 author: Ybbaek
 description: "SRC 모바일로봇 이란: SRC Intro."
 ---
+## 소개/Intro
 SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:
 - [SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.](https://github.com/yunbum/SRC)
 - [10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.](https://cafe.naver.com/iltech)
@@ -19,8 +20,6 @@ SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교�
 <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small>
 
 차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.
-
-# 소개/Intro
 
 ## 모델구분 및 특징
 SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영어 약자 이면 현재 SRC-A,B,C,D 등의 타입이 있습니다.

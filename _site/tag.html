@@ -272,7 +272,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h1 id="소개intro">소개/Intro</h1> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
+						<h2 id="소개intro">소개/Intro</h2> <p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
 					</div>
 				</div>
 			
@@ -321,7 +321,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
+						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
 					</div>
 				</div>
 			
@@ -370,7 +370,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h1 id="소개intro">소개/Intro</h1> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
+						<h2 id="소개intro">소개/Intro</h2> <p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
 					</div>
 				</div>
 			
@@ -409,7 +409,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
+						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
 					</div>
 				</div>
 			
@@ -458,7 +458,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h1 id="소개intro">소개/Intro</h1> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
+						<h2 id="소개intro">소개/Intro</h2> <p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
 					</div>
 				</div>
 			
@@ -507,7 +507,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
+						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
 					</div>
 				</div>
 			
@@ -556,7 +556,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
+						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
 					</div>
 				</div>
 			
@@ -605,7 +605,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h1 id="소개intro">소개/Intro</h1> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
+						<h2 id="소개intro">소개/Intro</h2> <p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
 					</div>
 				</div>
 			
@@ -654,7 +654,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h1 id="소개intro">소개/Intro</h1> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
+						<h2 id="소개intro">소개/Intro</h2> <p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p> <ul> <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li> <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li> <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li> </ul> <p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" /> <small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p> <p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p> <h2 id="모델구분-및-특징">모델구분 및 특징</h2> <p>SRC (<strong>S</strong>elf...<a class="read-more" href="./back-to-basics.html"> read more</a>
 					</div>
 				</div>
 			
@@ -769,7 +769,7 @@
 			
 
 				<div class="post">
-					<a class="post-list-title" href="./conways-game-of-life.html">Conway's Game of Life</a>
+					<a class="post-list-title" href="./conways-game-of-life.html">GPS/GNSS Test</a>
 					
 
   <span class = "post-card-meta">
@@ -801,7 +801,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<p>I&nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.</p> <p><img src="./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg" alt="Tandy Color Computer TRS80 III" /><small>Tandy Color Computer TRS80 III</small></p> <p>For one of my starter quick programming tasks, I&nbsp;decided to code Conway's Game of Life, a very simple cellular automata that basically plays itself.</p> <ul><li>If a cell has less than 2 neighbors, meaning contiguous alive cells, the cell will die of loneliness</li><li>If a cell has more than 3 neighbors, it...<a class="read-more" href="./conways-game-of-life.html"> read more</a>
+						<h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2> <p>I&nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.</p> <p><img src="./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg" alt="Tandy Color Computer TRS80 III" /><small>Tandy Color Computer TRS80 III</small></p> <p>For one of my starter quick programming tasks, I&nbsp;decided to code Conway's Game of Life, a very simple cellular automata that basically plays itself.</p> <ul><li>If a cell has less than 2 neighbors, meaning contiguous alive cells, the cell will die of loneliness</li><li>If a cell has...<a class="read-more" href="./conways-game-of-life.html"> read more</a>
 					</div>
 				</div>
 			
@@ -987,7 +987,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
+						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
 					</div>
 				</div>
 			
@@ -1425,7 +1425,7 @@
 			
 
 				<div class="post">
-					<a class="post-list-title" href="./conways-game-of-life.html">Conway's Game of Life</a>
+					<a class="post-list-title" href="./conways-game-of-life.html">GPS/GNSS Test</a>
 					
 
   <span class = "post-card-meta">
@@ -1457,7 +1457,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<p>I&nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.</p> <p><img src="./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg" alt="Tandy Color Computer TRS80 III" /><small>Tandy Color Computer TRS80 III</small></p> <p>For one of my starter quick programming tasks, I&nbsp;decided to code Conway's Game of Life, a very simple cellular automata that basically plays itself.</p> <ul><li>If a cell has less than 2 neighbors, meaning contiguous alive cells, the cell will die of loneliness</li><li>If a cell has more than 3 neighbors, it...<a class="read-more" href="./conways-game-of-life.html"> read more</a>
+						<h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2> <p>I&nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.</p> <p><img src="./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg" alt="Tandy Color Computer TRS80 III" /><small>Tandy Color Computer TRS80 III</small></p> <p>For one of my starter quick programming tasks, I&nbsp;decided to code Conway's Game of Life, a very simple cellular automata that basically plays itself.</p> <ul><li>If a cell has less than 2 neighbors, meaning contiguous alive cells, the cell will die of loneliness</li><li>If a cell has...<a class="read-more" href="./conways-game-of-life.html"> read more</a>
 					</div>
 				</div>
 			
@@ -1702,7 +1702,7 @@
   </span>
 
 					<div class="post-excerpt">
-						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
+						<h2 id="rtk-real-time-kinematic">RTK Real Time Kinematic</h2> <p>GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.</p> <p><img src="./assets/img/posts/20210318/RL_Connect_ui.jpg" alt="RL_Connect" /> <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small></p> <p>기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원</p> <center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210318/tm_circle.png" width="310" height="320" /></center> <p>TM 좌표계로 변환 -&gt; 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시</p> <ul><li>마운트 위치 테이블 정보 수신.</li><li>FKP, VRS mount 기준국 접속 가능.</li><li>접속계정 데이타 DB로 관리</li><li>GPS NMEA 데이타...<a class="read-more" href="./deep-q-learning-tic-tac-toe.html"> read more</a>
 					</div>
 				</div>
 			
