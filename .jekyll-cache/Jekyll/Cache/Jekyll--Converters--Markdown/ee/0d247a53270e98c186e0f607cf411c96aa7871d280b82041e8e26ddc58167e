@@ -1,4 +1,4 @@
-I"�<h2 id="robot-악세사리-옵션--accessory">Robot 악세사리 옵션 / Accessory</h2>
+I"�<h2 id="robot-악세사리-옵션--accessory">Robot 악세사리 옵션 / Accessory</h2>
 <h3 id="트레일러--trailer">트레일러 / Trailer</h3>
 <p>모바일 로봇에 장착하거나 연결해서 사용할 수 있는 다양한 악세사리를 제공하고 있습니다.</p>
 <center><img src="./assets/img/posts/20210228/trailer-4.png" width="480px" /><small>SRC 관련 트레일러 (Trailer)</small></center>
@@ -23,22 +23,20 @@
 <h3 id="asv-조타-방향키">ASV 조타 방향키</h3>
 <p>ASV 보트의 방향키는 크기, 색에 따라 3가지 종류가 있습니다.:</p>
 
-<p>기본 은색과 청색 모델:</p>
-<center><img src="./assets/img/posts/20210228/keying.png" /><small>고속일때 효과가 있을 것 같습니다.</small></center>
+<center><img src="./assets/img/posts/20210228/keying.png" /><small>고속일때 효과가 있을 것ㄱ</small></center>
 
-<h3 id="log-file-analyzer--replay-driving">Log file analyzer / replay driving</h3>
-<p>동작 이후 자동으로 생성되는 로그파일은 NMEA 포맷의 GPS 값을 저장하며 이 파일을 다시 재생이 가능합니다.:</p>
+<p>Then we reshape the z array as a one dimensional array to use it to color the scatter plot:</p>
 
-<center><img src="./assets/img/posts/20210228/log-replay.jpg" /><small>고속일때 효과가 있을 것 같습니다.</small></center>
+<h3 id="log-analyzer">Log analyzer</h3>
 
-<p>LabVIEW 버전의 log file 분석툴은 아래와 같은 기능이 있습니다.:</p>
+<center><img src="./assets/img/posts/20210228/log-replay.jpg" /></center>
+
+<p>Log replay 는 실행파일로 제공되는 툴이며 기능은 아래와 같습니다.:</p>
 
 <ul>
-  <li>include multiple waypoint files (TM, gpx)</li>
-  <li>allow for multiple GPS modules (Ublox, Senptentrio, Trimble, Novatel)</li>
-  <li>Google map synch</li>
+  <li>다중 경로파일 선택 가능 / waypoint files (TM, gpx)</li>
+  <li>GPS/GNSS 모듈제조사 완 상관없이 사용 (단, NMEA format 이어야 함)</li>
+  <li>구글맵 연동하여 replay / Google map synch</li>
   <li>save and load log file</li>
 </ul>
-
-<p>I will get to it soon…</p>
 :ET

@@ -30,20 +30,17 @@ SRC 로봇 기본 프로그램에는 기본적을 아래와 같은 정보들을 
 ### ASV 조타 방향키
 ASV 보트의 방향키는 크기, 색에 따라 3가지 종류가 있습니다.:
 
+<center><img src="./assets/img/posts/20210228/keying.png"><small>고속일때 효과가 있을 것ㄱ</small></center>
 
-기본 은색과 청색 모델:
-<center><img src="./assets/img/posts/20210228/keying.png"><small>고속일때 효과가 있을 것 같습니다.</small></center>
+Then we reshape the z array as a one dimensional array to use it to color the scatter plot:
 
-### Log file analyzer / replay driving
-동작 이후 자동으로 생성되는 로그파일은 NMEA 포맷의 GPS 값을 저장하며 이 파일을 다시 재생이 가능합니다.:
+### Log analyzer
 
-<center><img src="./assets/img/posts/20210228/log-replay.jpg"><small>고속일때 효과가 있을 것 같습니다.</small></center>
+<center><img src="./assets/img/posts/20210228/log-replay.jpg"></center>
 
-LabVIEW 버전의 log file 분석툴은 아래와 같은 기능이 있습니다.:
+Log replay 는 실행파일로 제공되는 툴이며 기능은 아래와 같습니다.:
 
-- include multiple waypoint files (TM, gpx)
-- allow for multiple GPS modules (Ublox, Senptentrio, Trimble, Novatel)
-- Google map synch
+- 다중 경로파일 선택 가능 / waypoint files (TM, gpx)
+- GPS/GNSS 모듈제조사 완 상관없이 사용 (단, NMEA format 이어야 함)
+- 구글맵 연동하여 replay / Google map synch
 - save and load log file
-
-I will get to it soon...
