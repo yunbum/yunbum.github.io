@@ -10,59 +10,40 @@ tags: [accessory, trailer, speaker, led]
 author: Ybbaek
 github: amaynez/GenericNeuralNetwork/ # amaynez/GenericNeuralNetwork/
 ---
+## Robot 악세사리 옵션 / Accessory
+### 트레일러 / Trailer
 모바일 로봇에 장착하거나 연결해서 사용할 수 있는 다양한 악세사리를 제공하고 있습니다.
-<center><img src="./assets/img/posts/20210228/trailer-1-c.png" width="480px"></center>
-Let me try to explain; I am in the process of immersing myself into the world of Machine Learnin.
+<center><img src="./assets/img/posts/20210228/trailer-4.png" width="480px"><small>SRC 관련 트레일러 (Trailer)</small></center>
 
-Another benefit of doing this is that since I am also learning Python, the experiment brings along good exercise for me.
+### Dot matrix 는 R,G,B 3종류의 색이 있습니다.
 
-<center><img src="./assets/img/posts/20210228/nnet_flow.gif"></center>
+<center><img src="./assets/img/posts/20210228/dot_matrix.png"><small>8x32 led dot matrix 아두이노와 연결됨</small></center>
 
-The library started very narrowly, with just the following functionality:
-- **create** a neural network based on the following parameters:
-    - number of inputs
-    - size and number of hidden layers
-    - number of outputs
-    - learning rate
-- **forward propagate** or predict the output values when given some inputs
-- **learn** through back propagation using gradient descent
+SRC 로봇 기본 프로그램에는 기본적을 아래와 같은 정보들을 dot matirx 를 통해 표시하게 할 수 있습니다:
+선택은 조이스틱 키를 통해서 선택
+- **GNSS/GPS** :
+    - waypoint 와 현재 차량과의 거리 오차 (+- xx meter)
+    - 현재 위도 경도 값
+- **시간** 현재 로봇 운행시간
+- **IMU** heading 방향 값
 
-I restricted the model to be sequential, the only activation function I implemented was sigmoid:
+### ASV 조타 방향키
+ASV 보트의 방향키는 크기, 색에 따라 3가지 종류가 있습니다.:
 
-<center><img src="./assets/img/posts/20210228/nn_diagram.png"></center>
 
-With my neural network coded, I tested it with a very basic problem, the famous XOR problem.
+기본 은색과 청색 모델:
+<center><img src="./assets/img/posts/20210228/keying.png"><small>고속일때 효과가 있을 것 같습니다.</small></center>
 
-XOR is a logical operation that cannot be solved by a single perceptron because of its linearity restriction:
+### Log file analyzer / replay driving
+동작 이후 자동으로 생성되는 로그파일은 NMEA 포맷의 GPS 값을 저장하며 이 파일을 다시 재생이 가능합니다.:
 
-<center><img src="./assets/img/posts/20210228/xor_problem.png"></center>
+<center><img src="./assets/img/posts/20210228/log-replay.jpg"><small>고속일때 효과가 있을 것 같습니다.</small></center>
 
-As you can see, when plotted in an X,Y plane, the logical operators AND and OR have a line that can clearly separate the points that are false from the ones that are true.
+LabVIEW 버전의 log file 분석툴은 아래와 같은 기능이 있습니다.:
 
-As you can see, the z values array is reshaped as a 2d array of shape (x,y), since this is the way Matplotlib interprets it as a surface:
-
-```python
-axs1.plot_surface(x, y, z,
-                  rstride=1,
-                  cstride=1,
-                  cmap='viridis',
-                  vmin=0,
-                  vmax=1,
-                  antialiased=True)
-```
-
-The end result looks something like this:
-<center><img src="./assets/img/posts/20210228/Surface_XOR.jpg"></center>
-
-Then we reshape the z array as a one dimensional array to use it to color the scatter plot:
-
-<center><img src="./assets/img/posts/20210228/Final_XOR_Plot.jpg"></center>
-
-So my baby ML library is completed for now, but still I would like to enhance it in several ways:
-
-- include multiple activation functions (ReLu, linear, Tanh, etc.)
-- allow for multiple optimizers (Adam, RMSProp, SGD Momentum, etc.)
-- have batch and epoch training schedules functionality
-- save and load trained model to file
+- include multiple waypoint files (TM, gpx)
+- allow for multiple GPS modules (Ublox, Senptentrio, Trimble, Novatel)
+- Google map synch
+- save and load log file
 
 I will get to it soon...
