@@ -45,5 +45,5 @@ SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드
 수십 종류의 모바일 로봇들을 테스트하고 개발한 노하우를 적용하여 효과적으로 개발 및 테스트가 가능하도록 개선되었습니다.
 
 ### 지속적인 성능개선 및 알고리즘 확대
-![The Next SRC](./assets/img/posts/20210420/src-b2-back1.jpg)
+![The Next SRC](./assets/img/posts/20210420/src_models.jpg)
 <small>[The Next SRC](https://github.com/yunbum/SRC) 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .</small>
