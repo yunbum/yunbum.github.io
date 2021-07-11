@@ -5,13 +5,13 @@ show_date: true
 title:  GPS/GNSS Test 
 date:   2021-02-10 13:32:20 -0600
 description: 다양한 제조사의 GPS 제품들을 테스트 하여 비교평가 중.
-img: posts/20210210/Game_of_Life.jpg
+img: posts/20210210/GNSS_test.jpg
 tags: [coding, python]
 author: Ybbaek
 github: amaynez/GameOfLife/
 ---
 ## 다양한 GPS/GNSS 모둘 비교테스트
-<p>I&nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.</p>
+I am lately trying to take on coding again. It had always been a part of my life since my early years when 
 
 <img src="./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg" alt="Tandy Color Computer TRS80 III"/><small>Tandy Color Computer TRS80 III</small>
 
