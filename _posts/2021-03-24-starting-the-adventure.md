@@ -9,8 +9,9 @@ tags: [general blogging, thoughts, life]
 author: Ybbaek
 description: "무인 자율운항 보트/선박 ASV"
 ---
+## 무인 자율운항 선박 
+지상이나 뿐만 아니라 물 위에서 무인보트 개발을 위한 ASV, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.
 
-자율운항 선박개발 및 알고리즘 테스트 목적으로 RLmodel ASV-A1 을 출시, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.
 사양:
 - 수중모터(Thruster) 2개의 속도제어를 이용하여 방향제어
 - GPS, Lidar 를 활용하여 주행경로, 충돌회피 등에 적용
@@ -21,40 +22,37 @@ description: "무인 자율운항 보트/선박 ASV"
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PfX4jajMRxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-For my next project I think I will start to do the basic hand-written digits recognition, which is the Machine Learning Hello World, for this I think I will start to use Tensorflow already.
+SRC 와 같은 자율주행 차량보다 좀더 자유로운 제어나 운항을 테스트 해 볼 수 있으나 물 위에서 움직이는 만큼 이동궤적에 차이가 있습니다.
 
-### 자율운항 보트 대회등의 목적에 적합하도록 기본 제어 매뉴얼 및 예제 코드 제공.
+### 수중모터, 방향키 등을 쉽게 추가/ 변경이 가능
+기본 2개의 수중모터를 사용하고 있으나 추가나 좀더 높은 사양으로 쉽게 업그레이드가 가능함
 
 #### ESC Calibration instruction
 초기에 제공되는 ESC 는 기본적으로 초기 Calibration 이 필요하며 Arduino 를 활용하여 모터의 Min/Max speed 설정을 하여 사용을 해야 합니다..
 
-There is a myriad of website generators nowadays, after a lengthy search the ones I ended up considering are:
-- [wordpress](https://wordpress.com/)
-- [wix](https://www.wix.com/)
-- [squarespace](https://www.squarespace.com/)
-- [ghost](https://ghost.org/)
+인터넷상에 많은 Aruduino 기반의 ESC Calibration 소스코드를 활용 할 수 있습니다.:
+- [lobodol](https://github.com/lobodol/ESC-calibration/)
+- [jeonds1127](https://jdselectron.tistory.com/89/)
 
-I started with the web interfaced generators with included hosting in their offerings:
+<center><img src='./assets/img/posts/20210324/esc-cal.png' width="540">
+<small>ESC Calibation 연결 결선도</small></center>
 
-I have tried [wix](https://www.wix.com/) and [squarespace](https://www.squarespace.com/) before, they are fantastic for quick and easy website generation, but their free offering has ads, so again, a big no for me.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gZ6vESt1V6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Finally it came self sailing boat
-1. keep it all online, special `gh-pages` .
-2. Have a synchronized local copy of the source files for the website.
+1. 수중모터 테스트와 칼리브레이션은 무부하 상태보다 수중에서 진행하는게 바람직 합니다.
+2. 칼리브레이션 진행시 '삐'하는 동작음이 들리고 스케일에 따라 몇 번의 조정이 필요할 수 있습니다.
 
-I picked up a template, like:
-- SEO meta tags
-- Dark mode 
-- comments 'courtain' to mask the disqus interface
+주의사항(경험):
+- 배터리 파워가 부족하면 ESC가 자동으로 동작을 중지하게 하는 경우가 있습니다.
+- Calibration은 매번 할 필요없이 처음 1회만 하면 됩니다. 
+- Calibration 완료후 관련 Arduino 코드에는 테스트 코드도 같이 제공되니 바로 확인 가능합니다.
 
 ![my new blog](./assets/img/template_screenshots/homepage-responsive.jpg)
 
-![night theme toggle](./assets/img/template_screenshots/light-toggle.png)
-
 As a summary, Hugo and Gatsby might be much faster than Jekyll to build the sites.
 
-You can use the modified template yourself by [forking my repository](https://github.com/the-mvm/the-mvm.github.io/fork/). 
+#### 자율운항 보드 대회
+테스트 진행이 어느 정도 되고 개발이 마무리 되면 대한조선학회에서 주최하는 '자율운항보드 경진대회' 참석하는 것도 추천 드립니다.
 
-#### Hosting
-Since I decided on Jekyll to generate my site, the choice for hosting was quite obvious, **[Github Pages](https://pages.github.com)** is very nicely integrated with it, it is free, and it has no ads! Plus the domain name isn't too terrible ([the-mvm.github.io](https://the-mvm.github.io)).
 

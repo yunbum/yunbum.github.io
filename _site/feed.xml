@@ -1,26 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-11T07:53:36+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 모바일로봇 개발이력 / Mobile Robot History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 모바일로봇 개발이력 / Mobile Robot History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;h2 id=&quot;모바일로봇-개발-history&quot;&gt;모바일로봇 개발 History&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-11T12:42:35+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLmodel 모바일로봇 개발이력 / Mobile Robot History!</title><link href="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="RLmodel 모바일로봇 개발이력 / Mobile Robot History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/AI-and-intellectual-property.html">&lt;h2 id=&quot;모바일로봇-개발-history&quot;&gt;모바일로봇 개발 History&lt;/h2&gt;
 &lt;p&gt;초기 중고 RC가, KINEX 블록 등으로 개발 프로토 타입을 시작으로 개조,변형,튜닝등의 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 완성에 이르기까지 상당히 다양한 HW,SW 보완을 진행했고 현재도 진행중 입니다.&lt;/p&gt;
 
 &lt;p&gt;자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 &lt;a href=&quot;https://github.com/yunbum/SRC/&quot;&gt;check github repo&lt;/a&gt; .&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qJrNXtsEzZo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;700&quot; height=&quot;440&quot; src=&quot;https://www.youtube.com/embed/qJrNXtsEzZo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;초기 개발버전 (Legacy SRC Mobile robots) 테스트 차량들&lt;/p&gt;
+&lt;h3 id=&quot;모바일-로봇-모델들&quot;&gt;모바일 로봇 모델들&lt;/h3&gt;
+&lt;p&gt;초기에 적용되었던 다양한 개발버전 (Legacy SRC Mobile robots) 테스트 차량들&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/src_history.jpg&quot; alt=&quot;SRC history&quot; /&gt;
 &lt;small&gt;[SRC history] 여러종류의 RC 차량의 개조와 테스트를 거처, 모든 구성 부품들이 완전히 개조되고 보완되어 업그레이드 되어 개발되었습니다..&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;SRC 로봇은 약 소형 RC 자동차 개량으로 출발해서, 다양한 RC 차량을 별도의 모터드라이버, 아두이노, 라즈베리파이, 카메라, 라이다 등을 부착하여 튜닝하는 것을 시작으로, GPS, Lidar 등을 추가하고 Waypoint 제어등을 거쳐 현재의 완벽한 자율주행 차량으로 업그레이드 되게 되었습니다.&lt;/p&gt;
+&lt;p&gt;SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드라이버, 아두이노, 라즈베리파이, 카메라, 라이다 등을 부착하여 튜닝을 후에, 현재의 완벽한 자율주행 로봇으로 업그레이드 되게 되었습니다.&lt;/p&gt;
 
+&lt;h3 id=&quot;알루미늄-바디-프레임&quot;&gt;알루미늄 바디 프레임&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/metal_frame.jpg&quot; alt=&quot;Metal frame&quot; /&gt;
 &lt;small&gt;[Metal frame] 전체 메탈 프레임 초기 모델중 하나.&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;다양한 프레임 소재 및 차량 종류의 테스트를 거처 최종으로 전체 메탈프레임 구조를 갖추고 완성이 되게 되어 매우 강한 강성과 함께 파손우려가 없고 수리, 보완에도 용이하도록 개발이 완료되었습니다.&lt;/p&gt;
 
-&lt;p&gt;So as we currently stand, a human author is required to grant a copyright, which makes sense, there is no point of having a neural network be the beneficiary of royalties of a creative work (no bank would open an account for them anyways, lol).&lt;/p&gt;
+&lt;h3 id=&quot;자율주행-세미나-진행&quot;&gt;자율주행 세미나 진행&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/seminars.png&quot; alt=&quot;SRC history&quot; /&gt;
+&lt;small&gt;[SRC history] 수많은 자율주행 교육 및 세미나등을 진행하면서 요청사항들을 반영.&lt;/small&gt;&lt;/p&gt;
 
+&lt;p&gt;다양한 AGV 모바일 로봇등을 개발 및 테스트 하여 최종적으로 최적화된 구조와 SW로직을 SRC 반영하여 제작 및 테스트 완료.&lt;/p&gt;
+
+&lt;h3 id=&quot;자율주행-적용-agv-모델들&quot;&gt;자율주행 적용 AGV 모델들&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/agv_test.png&quot; alt=&quot;SRC history&quot; /&gt;
+&lt;small&gt;[SRC history] 다양한 종류 환경에 AGV들을 테스트 하여 SW에 반영.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;수십 종류의 모바일 로봇들을 테스트하고 개발한 노하우를 적용하여 효과적으로 개발 및 테스트가 가능하도록 개선되었습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;지속적인-성능개선-및-알고리즘-확대&quot;&gt;지속적인 성능개선 및 알고리즘 확대&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/src-b2-back1.jpg&quot; alt=&quot;The Next SRC&quot; /&gt;
-&lt;small&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;The Next SRC&lt;/a&gt; 는 보다 강력한 모터, 주행알고리즘 등으로 개량되어, 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .&lt;/small&gt;&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">모바일로봇 개발 History 초기 중고 RC가, KINEX 블록 등으로 개발 프로토 타입을 시작으로 개조,변형,튜닝등의 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 완성에 이르기까지 상당히 다양한 HW,SW 보완을 진행했고 현재도 진행중 입니다.</summary></entry><entry><title type="html">자율주행 플랫폼 SRC 란, what is SRC (Self Driving Rc Car?</title><link href="https://github.com/yunbum/yunbum.github.io/back-to-basics.html" rel="alternate" type="text/html" title="자율주행 플랫폼 SRC 란, what is SRC (Self Driving Rc Car?" /><published>2021-04-02T00:00:00+09:00</published><updated>2021-04-02T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/back-to-basics</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/back-to-basics.html">&lt;p&gt;SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:&lt;/p&gt;
+&lt;small&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;The Next SRC&lt;/a&gt; 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .&lt;/small&gt;&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">모바일로봇 개발 History 초기 중고 RC가, KINEX 블록 등으로 개발 프로토 타입을 시작으로 개조,변형,튜닝등의 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 완성에 이르기까지 상당히 다양한 HW,SW 보완을 진행했고 현재도 진행중 입니다.</summary></entry><entry><title type="html">자율주행 플랫폼 SRC 란, what is SRC (Self Driving Rc Car?</title><link href="https://github.com/yunbum/yunbum.github.io/back-to-basics.html" rel="alternate" type="text/html" title="자율주행 플랫폼 SRC 란, what is SRC (Self Driving Rc Car?" /><published>2021-04-02T00:00:00+09:00</published><updated>2021-04-02T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/back-to-basics</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/back-to-basics.html">&lt;p&gt;SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cafe.naver.com/iltech&quot;&gt;10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.&lt;/a&gt;&lt;/li&gt;
@@ -70,8 +83,10 @@
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/led-light.png&quot; alt=&quot;post7-alexa-steps&quot; /&gt;
 &lt;small&gt;야간주행 테스트를 위한 LED light&lt;/small&gt;
-추가적으로 ROS 환경에 적합하도록 패키지도 개발 중 입니다.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="theory" /><category term="Robot" /><category term="RC" /><category term="GPS" /><category term="Camera" /><category term="Lidar" /><summary type="html">SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.: SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다. 10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다. 다른 RLmodel 유투브 영상들</summary></entry><entry><title type="html">ASV 자율운항 보트 / Autonomous Surface Vehicle</title><link href="https://github.com/yunbum/yunbum.github.io/starting-the-adventure.html" rel="alternate" type="text/html" title="ASV 자율운항 보트 / Autonomous Surface Vehicle" /><published>2021-03-24T00:00:00+09:00</published><updated>2021-03-24T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/starting-the-adventure</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/starting-the-adventure.html">&lt;p&gt;자율운항 선박개발 및 알고리즘 테스트 목적으로 RLmodel ASV-A1 을 출시, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.
-사양:&lt;/p&gt;
+추가적으로 ROS 환경에 적합하도록 패키지도 개발 중 입니다.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="theory" /><category term="Robot" /><category term="RC" /><category term="GPS" /><category term="Camera" /><category term="Lidar" /><summary type="html">SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.: SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다. 10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다. 다른 RLmodel 유투브 영상들</summary></entry><entry><title type="html">ASV 자율운항 보트 / Autonomous Surface Vehicle</title><link href="https://github.com/yunbum/yunbum.github.io/starting-the-adventure.html" rel="alternate" type="text/html" title="ASV 자율운항 보트 / Autonomous Surface Vehicle" /><published>2021-03-24T00:00:00+09:00</published><updated>2021-03-24T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/starting-the-adventure</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/starting-the-adventure.html">&lt;h2 id=&quot;무인-자율운항-선박&quot;&gt;무인 자율운항 선박&lt;/h2&gt;
+&lt;p&gt;지상이나 뿐만 아니라 물 위에서 무인보트 개발을 위한 ASV, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.&lt;/p&gt;
+
+&lt;p&gt;사양:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;수중모터(Thruster) 2개의 속도제어를 이용하여 방향제어&lt;/li&gt;
   &lt;li&gt;GPS, Lidar 를 활용하여 주행경로, 충돌회피 등에 적용&lt;/li&gt;
@@ -85,48 +100,44 @@
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PfX4jajMRxE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;For my next project I think I will start to do the basic hand-written digits recognition, which is the Machine Learning Hello World, for this I think I will start to use Tensorflow already.&lt;/p&gt;
+&lt;p&gt;SRC 와 같은 자율주행 차량보다 좀더 자유로운 제어나 운항을 테스트 해 볼 수 있으나 물 위에서 움직이는 만큼 이동궤적에 차이가 있습니다.&lt;/p&gt;
 
-&lt;h3 id=&quot;자율운항-보트-대회등의-목적에-적합하도록-기본-제어-매뉴얼-및-예제-코드-제공&quot;&gt;자율운항 보트 대회등의 목적에 적합하도록 기본 제어 매뉴얼 및 예제 코드 제공.&lt;/h3&gt;
+&lt;h3 id=&quot;수중모터-방향키-등을-쉽게-추가-변경이-가능&quot;&gt;수중모터, 방향키 등을 쉽게 추가/ 변경이 가능&lt;/h3&gt;
+&lt;p&gt;기본 2개의 수중모터를 사용하고 있으나 추가나 좀더 높은 사양으로 쉽게 업그레이드가 가능함&lt;/p&gt;
 
 &lt;h4 id=&quot;esc-calibration-instruction&quot;&gt;ESC Calibration instruction&lt;/h4&gt;
 &lt;p&gt;초기에 제공되는 ESC 는 기본적으로 초기 Calibration 이 필요하며 Arduino 를 활용하여 모터의 Min/Max speed 설정을 하여 사용을 해야 합니다..&lt;/p&gt;
 
-&lt;p&gt;There is a myriad of website generators nowadays, after a lengthy search the ones I ended up considering are:&lt;/p&gt;
+&lt;p&gt;인터넷상에 많은 Aruduino 기반의 ESC Calibration 소스코드를 활용 할 수 있습니다.:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wordpress.com/&quot;&gt;wordpress&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.wix.com/&quot;&gt;wix&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.squarespace.com/&quot;&gt;squarespace&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ghost.org/&quot;&gt;ghost&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lobodol/ESC-calibration/&quot;&gt;lobodol&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jdselectron.tistory.com/89/&quot;&gt;jeonds1127&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I started with the web interfaced generators with included hosting in their offerings:&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210324/esc-cal.png&quot; width=&quot;540&quot; /&gt;
+&lt;small&gt;ESC Calibation 연결 결선도&lt;/small&gt;&lt;/center&gt;
 
-&lt;p&gt;I have tried &lt;a href=&quot;https://www.wix.com/&quot;&gt;wix&lt;/a&gt; and &lt;a href=&quot;https://www.squarespace.com/&quot;&gt;squarespace&lt;/a&gt; before, they are fantastic for quick and easy website generation, but their free offering has ads, so again, a big no for me.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gZ6vESt1V6Q&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Finally it came self sailing boat&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;keep it all online, special &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; .&lt;/li&gt;
-  &lt;li&gt;Have a synchronized local copy of the source files for the website.&lt;/li&gt;
+  &lt;li&gt;수중모터 테스트와 칼리브레이션은 무부하 상태보다 수중에서 진행하는게 바람직 합니다.&lt;/li&gt;
+  &lt;li&gt;칼리브레이션 진행시 ‘삐’하는 동작음이 들리고 스케일에 따라 몇 번의 조정이 필요할 수 있습니다.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I picked up a template, like:&lt;/p&gt;
+&lt;p&gt;주의사항(경험):&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;SEO meta tags&lt;/li&gt;
-  &lt;li&gt;Dark mode&lt;/li&gt;
-  &lt;li&gt;comments ‘courtain’ to mask the disqus interface&lt;/li&gt;
+  &lt;li&gt;배터리 파워가 부족하면 ESC가 자동으로 동작을 중지하게 하는 경우가 있습니다.&lt;/li&gt;
+  &lt;li&gt;Calibration은 매번 할 필요없이 처음 1회만 하면 됩니다.&lt;/li&gt;
+  &lt;li&gt;Calibration 완료후 관련 Arduino 코드에는 테스트 코드도 같이 제공되니 바로 확인 가능합니다.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/template_screenshots/homepage-responsive.jpg&quot; alt=&quot;my new blog&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/img/template_screenshots/light-toggle.png&quot; alt=&quot;night theme toggle&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;As a summary, Hugo and Gatsby might be much faster than Jekyll to build the sites.&lt;/p&gt;
 
-&lt;p&gt;You can use the modified template yourself by &lt;a href=&quot;https://github.com/the-mvm/the-mvm.github.io/fork/&quot;&gt;forking my repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;hosting&quot;&gt;Hosting&lt;/h4&gt;
-&lt;p&gt;Since I decided on Jekyll to generate my site, the choice for hosting was quite obvious, &lt;strong&gt;&lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;&lt;/strong&gt; is very nicely integrated with it, it is free, and it has no ads! Plus the domain name isn’t too terrible (&lt;a href=&quot;https://the-mvm.github.io&quot;&gt;the-mvm.github.io&lt;/a&gt;).&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="general blogging" /><category term="thoughts" /><category term="life" /><summary type="html">자율운항 선박개발 및 알고리즘 테스트 목적으로 RLmodel ASV-A1 을 출시, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다. 사양: 수중모터(Thruster) 2개의 속도제어를 이용하여 방향제어 GPS, Lidar 를 활용하여 주행경로, 충돌회피 등에 적용</summary></entry><entry><title type="html">RL Connect 프로그램 제공 - Free Ntrip client Network RTK</title><link href="https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe.html" rel="alternate" type="text/html" title="RL Connect 프로그램 제공 - Free Ntrip client Network RTK" /><published>2021-03-19T06:14:20+09:00</published><updated>2021-03-19T06:14:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe.html">&lt;h2 id=&quot;rtk-real-time-kinematic&quot;&gt;RTK Real Time Kinematic&lt;/h2&gt;
+&lt;h4 id=&quot;자율운항-보드-대회&quot;&gt;자율운항 보드 대회&lt;/h4&gt;
+&lt;p&gt;테스트 진행이 어느 정도 되고 개발이 마무리 되면 대한조선학회에서 주최하는 ‘자율운항보드 경진대회’ 참석하는 것도 추천 드립니다.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="general blogging" /><category term="thoughts" /><category term="life" /><summary type="html">무인 자율운항 선박 지상이나 뿐만 아니라 물 위에서 무인보트 개발을 위한 ASV, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.</summary></entry><entry><title type="html">RL Connect 프로그램 제공 - Free Ntrip client Network RTK</title><link href="https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe.html" rel="alternate" type="text/html" title="RL Connect 프로그램 제공 - Free Ntrip client Network RTK" /><published>2021-03-19T06:14:20+09:00</published><updated>2021-03-19T06:14:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/deep-q-learning-tic-tac-toe.html">&lt;h2 id=&quot;rtk-real-time-kinematic&quot;&gt;RTK Real Time Kinematic&lt;/h2&gt;
 &lt;p&gt;GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 툴을 직접 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포합니다..&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210318/RL_Connect_ui.jpg&quot; alt=&quot;RL_Connect&quot; /&gt;
