@@ -22,7 +22,7 @@
   "headline": "GPS/GNSS 모듈 비교평가 테스트 / GPS quality test",
   "abstract": "다양한 제조사의 GPS 제품들을 테스트 하여 비교평가 중.",
     "keywords": "coding, python",
-    "wordcount": "116",
+    "wordcount": "102",
     "image": ["https://github.com/yunbum/yunbum.github.io/assets/imgposts/20210210/broadcast_network-rtk.jpg"],
   "datePublished": "2021-02-11 04:32:20 +0900",
   "dateModified": "2021-02-11 04:32:20 +0900",
@@ -62,7 +62,7 @@
 <meta name="twitter:description" content="다양한 제조사의 GPS 제품들을 테스트 하여 비교평가 중.">
 <meta name="twitter:creator" content="">
 <meta data-rh="true" name="twitter:label1" content="Word count"/>
-<meta data-rh="true" name="twitter:data1" content="116"/>
+<meta data-rh="true" name="twitter:data1" content="102"/>
 <meta name="twitter:image:src" content="https://github.com/yunbum/yunbum.github.io/assets/img/posts/20210210/broadcast_network-rtk.jpg">
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#311e3e">
@@ -171,7 +171,7 @@
   </span>
 
         <div class="post-excerpt">
-            <h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2><p>현재 다양한 종류의 GPS 모듈, 환경에 따른 차이, RTK mode 안정성, 가성비에 따른 효율, 이동중 특성 등의 다양한 성능을 평가하고 모바일 로봇에 반영하고 있습니다.</p><h3 id="network-rtk-성능-테스트">Network RTK 성능 테스트</h3><p>다양한 제조사의 GNSS/GPS 모듈이 Network RTK 를 지원하나 성능이 다소 차이있기도 하고 float 일때의 성능이 차이가 있어 지속적으로 비교 평가를 하고 있습니다.</p><p><img src="./assets/img/posts/20210210/GNSS_test.jpg" alt="Tandy Color Computer TRS80 III" /><small>다양한 GPS 모듈 테스트 진행.</small></p><ul><li>안테나 조합과 RTK 안정성 비교</li><li>고정 안테나 측정시 분포 최소원의 반경수치 측정</li><li>RTK fixed mode 시, 위성지도와 비교</li><li>Ntrip client 설정 편의성</li></ul><p><img src="./assets/img/posts/20210210/GameOfLife.gif" alt="Conway's rules for the Game of Life" /><small>Conway’s rules for the Game of Life</small></p><div class="language-python highlighter-rouge"><div class="highlight"><pre...<a class="read-more" href="./GPS-test.html"> read more</a>
+            <h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2><p>현재 다양한 종류의 GPS 모듈, 환경에 따른 차이, RTK mode 안정성, 가성비에 따른 효율, 이동중 특성 등의 다양한 성능을 평가하고 모바일 로봇에 반영하고 있습니다.</p><h3 id="network-rtk-성능-테스트">Network RTK 성능 테스트</h3><p>다양한 제조사의 GNSS/GPS 모듈이 Network RTK 를 지원하나 성능이 다소 차이있기도 하고 float 일때의 성능이 차이가 있어 지속적으로 비교 평가를 하고 있습니다.</p><p><img src="./assets/img/posts/20210210/GNSS_test.jpg" alt="Tandy Color Computer TRS80 III" /><small>다양한 GPS 모듈 테스트 진행.</small></p><ul><li>안테나 조합과 RTK 안정성 비교</li><li>고정 안테나 측정시 분포 최소원의 반경수치 측정</li><li>RTK fixed mode 시, 위성지도와 비교</li><li>Ntrip client 설정 편의성</li></ul><h3 id="dual-antenna-test">Dual antenna test</h3><p>Moving Base 설정 후 Rover/Base 구성을 위한 2중 안테나 지그 구성<img src="./assets/img/posts/20210210/dual_m8p.jpg" alt="1" /><small>1</small></p><p>Moving Base 모드...<a class="read-more" href="./GPS-test.html"> read more</a>
         </div>
   </div>
 </section>
@@ -364,16 +364,11 @@
 
 <ul><li>안테나 조합과 RTK 안정성 비교</li><li>고정 안테나 측정시 분포 최소원의 반경수치 측정</li><li>RTK fixed mode 시, 위성지도와 비교</li><li>Ntrip client 설정 편의성</li></ul>
 
-<p><img src="./assets/img/posts/20210210/GameOfLife.gif" alt="Conway's rules for the Game of Life" /><small>Conway’s rules for the Game of Life</small></p>
+<h3 id="dual-antenna-test">Dual antenna test</h3>
+<p>Moving Base 설정 후 Rover/Base 구성을 위한 2중 안테나 지그 구성
+<img src="./assets/img/posts/20210210/dual_m8p.jpg" alt="1" /><small>1</small></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">cell</span> <span class="ow">in</span> <span class="n">alive_neighbors</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">alive_neighbors</span><span class="p">[</span><span class="n">cell</span><span class="p">]</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">2</span> <span class="ow">or</span> <span class="n">alive_neighbors</span><span class="p">[</span><span class="n">cell</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">alive_cells</span><span class="p">.</span><span class="n">discard</span><span class="p">(</span><span class="n">cell</span><span class="p">)</span>
-    
-    <span class="k">elif</span> <span class="n">alive_neighbors</span><span class="p">[</span><span class="n">cell</span><span class="p">]</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">alive_cells</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">cell</span><span class="p">)</span>
-</code></pre></div></div>
-<p>현재까지도 다양한 GPS/GNSS 모듈들을 테스트 하여 성능,안정성,편의성 등에 대한 비교평가도 지속적으로 진행 중입니다.</p>
+<p>Moving Base 모드 상태에서 Heading 값 확인 테스트 진행.</p>
 
         <aside class="sidebar inline" id="post-end">
     

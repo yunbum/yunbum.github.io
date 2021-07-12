@@ -20,14 +20,9 @@ github: yunbum
 
 <ul><li>안테나 조합과 RTK 안정성 비교</li><li>고정 안테나 측정시 분포 최소원의 반경수치 측정</li><li>RTK fixed mode 시, 위성지도와 비교</li><li>Ntrip client 설정 편의성</li></ul>
 
-<img src="./assets/img/posts/20210210/GameOfLife.gif" alt="Conway's rules for the Game of Life"/><small>Conway's rules for the Game of Life</small>
+### Dual antenna test
+Moving Base 설정 후 Rover/Base 구성을 위한 2중 안테나 지그 구성
+<img src="./assets/img/posts/20210210/dual_m8p.jpg" alt="1"/><small>1</small>
 
-```python
-for cell in alive_neighbors:
-    if alive_neighbors[cell] &lt; 2 or alive_neighbors[cell] > 3:
-        self.alive_cells.discard(cell)
-    
-    elif alive_neighbors[cell] == 3:
-        self.alive_cells.add(cell)
-```
-<p>현재까지도 다양한 GPS/GNSS 모듈들을 테스트 하여 성능,안정성,편의성 등에 대한 비교평가도 지속적으로 진행 중입니다.</p>
+
+<p>Moving Base 모드 상태에서 Heading 값 확인 테스트 진행.</p>
