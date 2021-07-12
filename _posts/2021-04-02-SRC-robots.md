@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title: "SRC 란 - Self driving RC car?"
+title: "SRC 란 / 자율주행 모바일 로봇 플랫폼"
 date: 2021-04-02
 img: posts/20210402/SRC-B2_2.jpg # post7-header.webp
 tags: [Robot, RC, GPS, Camera, Lidar]
@@ -40,6 +40,12 @@ SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영
 
 ![sensors & modules](./assets/img/posts/20210402/SRC-B_parts.png)
 <small>Full option 상태의 센서 및 기타 모듈 구성도</small>
+
+## 주행알고리즘
+기본으로 제공하는 SRC/ASV 로봇의 주행 로직은 Pure pursuit 로직과 PID 로직을 조향제어 로직에 연결하여 제어하고 있습니다.
+
+![Driving logic](./assets/img/posts/20210402/driving-logic.png)
+<small>PID % Pure pursuit 로직 반영</small>
 
 ## 튜닝/ 업그레이드
 각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.

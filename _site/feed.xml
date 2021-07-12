@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-12T21:48:44+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">알엘모델 소개 / RLmodel History!</title><link href="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html" rel="alternate" type="text/html" title="알엘모델 소개 / RLmodel History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/RLmodel-history</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html">&lt;h2 id=&quot;모바일로봇-개발-history&quot;&gt;모바일로봇 개발 History&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-12T22:51:26+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">알엘모델 소개 / RLmodel History!</title><link href="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html" rel="alternate" type="text/html" title="알엘모델 소개 / RLmodel History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/RLmodel-history</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html">&lt;h2 id=&quot;모바일로봇-개발-history&quot;&gt;모바일로봇 개발 History&lt;/h2&gt;
 &lt;p&gt;초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;모바일-로봇-모델들&quot;&gt;모바일 로봇 모델들&lt;/h3&gt;
@@ -28,7 +28,13 @@
 
 &lt;h3 id=&quot;지속적인-성능개선-및-알고리즘-확대&quot;&gt;지속적인 성능개선 및 알고리즘 확대&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/src_models.jpg&quot; alt=&quot;The Next SRC&quot; /&gt;
-&lt;small&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;The Next SRC&lt;/a&gt; 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .&lt;/small&gt;&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">모바일로봇 개발 History 초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.</summary></entry><entry><title type="html">SRC 란 - Self driving RC car?</title><link href="https://github.com/yunbum/yunbum.github.io/SRC-robots.html" rel="alternate" type="text/html" title="SRC 란 - Self driving RC car?" /><published>2021-04-02T00:00:00+09:00</published><updated>2021-04-02T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/SRC-robots</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/SRC-robots.html">&lt;h2 id=&quot;소개intro&quot;&gt;소개/Intro&lt;/h2&gt;
+&lt;small&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;The Next SRC&lt;/a&gt; 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .&lt;/small&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cartpole-등-강화학습-swhw-확대&quot;&gt;Cartpole 등 강화학습 SW/HW 확대&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/cartpole.jpg&quot; alt=&quot;cartpole&quot; /&gt;
+&lt;small&gt;강화학습 플랫폼으로 많이 사용하는 Cartpole&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;강확학습 공부에 대표적으로 사용되는 inverted pendulum/cartpole 제품에 대한 테스트 중입니다. Python 이 RTOS 지원이 되는 환경 제한으로 개발 중입니다.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">모바일로봇 개발 History 초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.</summary></entry><entry><title type="html">SRC 란 / 자율주행 모바일 로봇 플랫폼</title><link href="https://github.com/yunbum/yunbum.github.io/SRC-robots.html" rel="alternate" type="text/html" title="SRC 란 / 자율주행 모바일 로봇 플랫폼" /><published>2021-04-02T00:00:00+09:00</published><updated>2021-04-02T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/SRC-robots</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/SRC-robots.html">&lt;h2 id=&quot;소개intro&quot;&gt;소개/Intro&lt;/h2&gt;
 &lt;p&gt;SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.&lt;/a&gt;&lt;/li&gt;
@@ -60,6 +66,12 @@
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/SRC-B_parts.png&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
 &lt;small&gt;Full option 상태의 센서 및 기타 모듈 구성도&lt;/small&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;주행알고리즘&quot;&gt;주행알고리즘&lt;/h2&gt;
+&lt;p&gt;기본으로 제공하는 SRC/ASV 로봇의 주행 로직은 Pure pursuit 로직과 PID 로직을 조향제어 로직에 연결하여 제어하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/driving-logic.png&quot; alt=&quot;Driving logic&quot; /&gt;
+&lt;small&gt;PID % Pure pursuit 로직 반영&lt;/small&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;튜닝-업그레이드&quot;&gt;튜닝/ 업그레이드&lt;/h2&gt;
 &lt;p&gt;각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.&lt;/p&gt;

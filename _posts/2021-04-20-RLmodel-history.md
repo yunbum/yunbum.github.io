@@ -41,3 +41,9 @@ SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드
 ### 지속적인 성능개선 및 알고리즘 확대
 ![The Next SRC](./assets/img/posts/20210420/src_models.jpg)
 <small>[The Next SRC](https://github.com/yunbum/SRC) 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .</small>
+
+### Cartpole 등 강화학습 SW/HW 확대
+![cartpole](./assets/img/posts/20210420/cartpole.jpg)
+<small>강화학습 플랫폼으로 많이 사용하는 Cartpole</small>
+
+강확학습 공부에 대표적으로 사용되는 inverted pendulum/cartpole 제품에 대한 테스트 중입니다. Python 이 RTOS 지원이 되는 환경 제한으로 개발 중입니다.
