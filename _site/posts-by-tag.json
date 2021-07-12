@@ -75,16 +75,6 @@
     
       
   {
-  "tag" : "Reinforcement Learning",
-  "posts" : [
-      
-      "./RLmodel-intro.html"
-      
-    ]
-  } ,
-    
-      
-  {
   "tag" : "Robot",
   "posts" : [
       
@@ -175,20 +165,10 @@
     
       
   {
-  "tag" : "general blogging",
-  "posts" : [
-      
-      "./ASV-robot.html"
-      
-    ]
-  } ,
-    
-      
-  {
   "tag" : "gpx",
   "posts" : [
       
-      "./neural-waypoint-gpx.html"
+      "./waypoint-gpx.html"
       
     ]
   } ,
@@ -199,16 +179,6 @@
   "posts" : [
       
       "./accessory-parts.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "life",
-  "posts" : [
-      
-      "./ASV-robot.html"
       
     ]
   } ,
@@ -248,7 +218,7 @@
   "tag" : "point",
   "posts" : [
       
-      "./neural-waypoint-gpx.html"
+      "./waypoint-gpx.html"
       
     ]
   } ,
@@ -275,20 +245,10 @@
     
       
   {
-  "tag" : "thoughts",
-  "posts" : [
-      
-      "./ASV-robot.html"
-      
-    ]
-  } ,
-    
-      
-  {
   "tag" : "tm",
   "posts" : [
       
-      "./neural-waypoint-gpx.html"
+      "./waypoint-gpx.html"
       
     ]
   } ,
@@ -318,7 +278,37 @@
   "tag" : "waypoint",
   "posts" : [
       
-      "./neural-waypoint-gpx.html"
+      "./waypoint-gpx.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "무인선박",
+  "posts" : [
+      
+      "./ASV-robot.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "자율보트",
+  "posts" : [
+      
+      "./ASV-robot.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "자율운항",
+  "posts" : [
+      
+      "./ASV-robot.html"
       
     ]
   } 

@@ -1,8 +1,6 @@
 {
   "posts" : [
     
-    "./RLmodel-intro.html",
-    
     "./RLmodel-history.html",
     
     "./SRC-robots.html",
@@ -11,7 +9,7 @@
     
     "./RLConnect.html",
     
-    "./neural-waypoint-gpx.html",
+    "./waypoint-gpx.html",
     
     "./accessory-parts.html",
     

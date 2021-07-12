@@ -1,23 +1,13 @@
 [
   
     {
-      "title"       : "알엘모델 소개 - RLmodel",
-      "category"    : "theory",
-      "tags"        : "Reinforcement Learning",
-      "url"         : "./RLmodel-intro.html",
-      "date"        : "2021-05-01 00:00:00 +0900",
-      "description" : "RLmodel 이란: Intro.",
-      "content"     : "RLmodel (Reinforcement Learning model maker)알엘모델을 다양한 강화학습,머신러닝 특히 자율주행을 테스트 할 수 있는 모바일 로봇장 플랫폼을 제공하는 업체 입니다.: SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다. 10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다. 다른 RLmodel 유투브 영상들다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.제공 제품군SRC(A,B,C,D 타입), ASV(자율운항보트), Inverted pendulum, Ball Balance robot 등이 있습니다.주요특징프레임은 전체가 알루미늄, 철 등의 금속. 일반 휴대용 보조배터리 파워로 일반 USB 충전이 가능하여 편리하며. 통 고무 타이어로 구성되어 펑크날 위험이 없습니다. (source), 구조와 강성이 상당히 개량되어 전체적인 안정성은 일반 플라스틱 RC 카에 비할 수 없고, 현재 수십 km 실외 운행으로 내구성 검증도 완료:개발시간 전체 약 10여년. 최종 전체 금속기반의 구조는 2019년 완성강화학습 적용 플랫폼모든 RLmodel 로봇들은 강화학습을 적용하고 테스트 해볼 수 있는 목적으로 개발이 시작되었으며 현재도 다양한 접근으로 예제들을 검토 중입니다.SW 모듈자율주행 모바일 로봇에 적용할 수 있는 Window OS 산에 LabVIEW 언어로 개발된 RLrobotics 가 있습니다.야간주행 테스트를 위한 LED light추가적으로 ROS 환경에 적합하도록 패키지도 개발 중 입니다."
-    } ,
-  
-    {
-      "title"       : "로봇개발 이력 / History!",
+      "title"       : "알엘모델 소개 / RLmodel History!",
       "category"    : "opinion",
       "tags"        : "copyright, creativity, neural networks, machine learning, artificial intelligence",
       "url"         : "./RLmodel-history.html",
       "date"        : "2021-04-20 00:00:00 +0900",
-      "description" : "자율주행관련 Mobile robot 개발자로써 관련 알고리즘 개발, 센서퓨전 테스트 등의 개발을 하는데 있어 크고 무거운 챠량 혹은 로봇등을 사용하는데 어려움을 많이 격게되어 휴대성이 좋고 쉽게 테스트,개발을 할수 있는 플랫폼을 만들게되었습니다.",
-      "content"     : "모바일로봇 개발 History초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 check github repo .모바일 로봇 모델들초기에 적용되었던 다양한 개발버전 (Legacy SRC Mobile robots) 테스트 차량들[SRC history] 여러종류의 RC 차량의 개조와 테스트를 거처, 모든 구성 부품들이 완전히 개조되고 보완되어 업그레이드 되어 개발되었습니다..SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드라이버, 아두이노, 라즈베리파이, 카메라, 라이다 등을 부착하여 튜닝을 후에, 현재의 완벽한 자율주행 로봇으로 업그레이드 되게 되었습니다.알루미늄 바디 프레임[Metal frame] 전체 메탈 프레임 초기 모델중 하나.다양한 프레임 소재 및 차량 종류의 테스트를 거처 최종으로 전체 메탈프레임 구조를 갖추고 완성이 되게 되어 매우 강한 강성과 함께 파손우려가 없고 수리, 보완에도 용이하도록 개발이 완료되었습니다.자율주행 세미나 진행[SRC history] 수많은 자율주행 교육 및 세미나등을 진행하면서 요청사항들을 반영.다양한 AGV 모바일 로봇등을 개발 및 테스트 하여 최종적으로 최적화된 구조와 SW로직을 SRC 반영하여 제작 및 테스트 완료.자율주행 적용 AGV 모델들[SRC history] 다양한 종류 환경에 AGV들을 테스트 하여 SW에 반영.수십 종류의 모바일 로봇들을 테스트하고 개발한 노하우를 적용하여 효과적으로 개발 및 테스트가 가능하도록 개선되었습니다.지속적인 성능개선 및 알고리즘 확대The Next SRC 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. ."
+      "description" : "강화학습에 큰 매력을 느껴 관련 공부를 하면서 HW에 실제 적용하는 노력을 하던 중, 크고 무거운 챠량 혹은 로봇등을 사용하는데 어려움을 많이 격게되어, 휴대성이 좋고 쉽게 테스트나 개발을 할 수 있는 플랫폼이 필요하게되어 만들게 되었습니다.",
+      "content"     : "모바일로봇 개발 History초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.모바일 로봇 모델들초기에 적용되었던 다양한 개발버전 (Legacy SRC Mobile robots) 테스트 차량들[SRC history] 여러종류의 RC 차량의 개조와 테스트를 거처, 모든 구성 부품들이 완전히 개조되고 보완되어 업그레이드 되어 개발되었습니다..SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드라이버, 아두이노, 라즈베리파이, 카메라, 라이다 등을 부착하여 튜닝을 후에, 현재의 완벽한 자율주행 로봇으로 업그레이드 되게 되었습니다.알루미늄 바디 프레임[Metal frame] 전체 메탈 프레임 초기 모델중 하나.다양한 프레임 소재 및 차량 종류의 테스트를 거처 최종으로 전체 메탈프레임 구조를 갖추고 완성이 되게 되어 매우 강한 강성과 함께 파손우려가 없고 수리, 보완에도 용이하도록 개발이 완료되었습니다.자율주행 세미나 진행[SRC history] 수많은 자율주행 교육 및 세미나등을 진행하면서 요청사항들을 반영.다양한 AGV 모바일 로봇등을 개발 및 테스트 하여 최종적으로 최적화된 구조와 SW로직을 SRC 반영하여 제작 및 테스트 완료.자율주행 적용 AGV 모델들[SRC history] 다양한 종류 환경에 AGV들을 테스트 하여 SW에 반영.수십 종류의 모바일 로봇들을 테스트하고 개발한 노하우를 적용하여 효과적으로 개발 및 테스트가 가능하도록 개선되었습니다.지속적인 성능개선 및 알고리즘 확대The Next SRC 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. ."
     } ,
   
     {
@@ -31,9 +21,9 @@
     } ,
   
     {
-      "title"       : "ASV 란 - Autonomous Surface Vehicle",
+      "title"       : "ASV란 - 자율운항 보트/ 무인선박",
       "category"    : "",
-      "tags"        : "general blogging, thoughts, life",
+      "tags"        : "자율운항, 무인선박, 자율보트",
       "url"         : "./ASV-robot.html",
       "date"        : "2021-03-24 00:00:00 +0900",
       "description" : "무인 자율운항 보트/선박 ASV",
@@ -54,7 +44,7 @@
       "title"       : "경로파일 (waypoint) / GPX route editor",
       "category"    : "",
       "tags"        : "waypoint, gpx, tm, point",
-      "url"         : "./neural-waypoint-gpx.html",
+      "url"         : "./waypoint-gpx.html",
       "date"        : "2021-03-13 04:32:20 +0900",
       "description" : "GPX format file editor tool.",
       "content"     : "GPX 파일처리 / GPX format file handlingSRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.GPX Route editorsourceGPX route editor 실행화면위도/경도 xml 데이타 추출gpx 파일에 있는 위도/경도 데이타를 읽고 TM 좌표변환 후에 실제 주행경로 로직에 반영하여 계산합니다.GPX 파일의 위도/경도 값 읽어 TM 좌표로 표시gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.TM 좌표들의 점들을 interpolation 하여 최종경로 그래프"

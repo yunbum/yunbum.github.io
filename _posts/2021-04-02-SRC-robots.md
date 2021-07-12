@@ -44,7 +44,7 @@ SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영
 ## 튜닝/ 업그레이드
 동일 차량모델 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션으로 선택이 가능하여 등판능력, 속도 등을 높힘 모델로 선택이 가능합니다.
 
-<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210402/dual_motor.jpg' width="210" height="200"></center>
+<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210402/dual_motor.jpg' width="390" height="250"></center>
 프레임 강성을 유지하기 위해 보완 패치들로 접속부분 추가 체결함
 모바일 로봇의 종류는 기본 SRC 차량모델에 이어 ASV 보트(선박) 모델도 있으며 교육목적의 Pendulum, Ball Balance robot 등도 있습니다.
 

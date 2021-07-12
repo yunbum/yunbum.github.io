@@ -2,25 +2,19 @@
 layout: post
 read_time: true
 show_date: true
-title: "로봇개발 이력 / History!"
+title: "알엘모델 소개 / RLmodel History!"
 date: 2021-04-20
 img: posts/20210420/src_history.jpg # post8-rembrandt.jpg
 tags: [copyright, creativity, neural networks, machine learning, artificial intelligence]
 category: opinion
 author: Ybbaek
-description: "자율주행관련 Mobile robot 개발자로써 관련 알고리즘 개발, 센서퓨전 테스트 등의 개발을 하는데 있어 크고 무거운 챠량 혹은 로봇등을 사용하는데 어려움을 많이 격게되어 휴대성이 좋고 쉽게 테스트,개발을 할수 있는 플랫폼을 만들게되었습니다."
+description: "강화학습에 큰 매력을 느껴 관련 공부를 하면서 HW에 실제 적용하는 노력을 하던 중, 크고 무거운 챠량 혹은 로봇등을 사용하는데 어려움을 많이 격게되어, 휴대성이 좋고 쉽게 테스트나 개발을 할 수 있는 플랫폼이 필요하게되어 만들게 되었습니다."
 ---
-
 ## 모바일로봇 개발 History
 초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.
 
-자율주행 모바일 로봇개발 목적으로 개발한 플랫폼 [check github repo](https://github.com/yunbum/SRC/) .
-
-<iframe width="700" height="440" src="https://www.youtube.com/embed/qJrNXtsEzZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### 모바일 로봇 모델들
 초기에 적용되었던 다양한 개발버전 (Legacy SRC Mobile robots) 테스트 차량들
-
 ![SRC history](./assets/img/posts/20210420/src_history.jpg)
 <small>[SRC history] 여러종류의 RC 차량의 개조와 테스트를 거처, 모든 구성 부품들이 완전히 개조되고 보완되어 업그레이드 되어 개발되었습니다..</small>
 
