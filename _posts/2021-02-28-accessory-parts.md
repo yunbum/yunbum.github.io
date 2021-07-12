@@ -40,7 +40,7 @@ SRC 로봇 기본 프로그램에는 기본적을 아래와 같은 정보들을 
 ### 기어 타이밍 벨트
 모터와 구동사프의 파워트레인에 적용된 기어세트. 기어비 조정을 통해 속도나 토크 조절가능.
 
-<center><img src="./assets/img/posts/20210228/gear-crop.jpg"><small>ASV 미세 방향설정에 효과적</small></center>
+<center><img src="./assets/img/posts/20210228/gear-crop.jpg"><small>모터 동력을 전달하기 위한 기어풀리</small></center>
 
 ### 조향 서보모터
 조향을 제어하기위한 DC Servo 모터. 금속재질의 타입이며 방수 옵션의 digital servo
@@ -51,6 +51,11 @@ SRC 로봇 기본 프로그램에는 기본적을 아래와 같은 정보들을 
 LED 조명 등의 전원 on/off 제어를 위한 릴레이보드
 
 <center><img src="./assets/img/posts/20210228/relay.jpg"><small>금속재질의 디지탈 서보 35kg 토크</small></center>
+
+### 스피커
+시스템의 상태 알리 및 엔터테인먼트 목적으로 소리출력
+
+<center><img src="./assets/img/posts/20210228/speaker.jpg"><small>블루투스 스피커</small></center>
 
 ### ASV 조타 방향키
 ASV 보트의 방향키는 크기, 색에 따라 3가지 종류가 있습니다.:
