@@ -47,6 +47,9 @@ SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영
 ![Driving logic](./assets/img/posts/20210402/driving-logic.png)
 <small>PID % Pure pursuit 로직 반영</small>
 
+![Main UI](./assets/img/posts/20210402/main_ui.JPG)
+<small>사용자 화면 (Main UI)</small>
+
 ## 튜닝/ 업그레이드
 각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.
 

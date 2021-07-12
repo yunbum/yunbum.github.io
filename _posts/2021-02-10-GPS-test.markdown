@@ -13,31 +13,14 @@ github: yunbum
 ## 다양한 GPS/GNSS 모둘 비교테스트
 현재 다양한 종류의 GPS 모듈, 환경에 따른 차이, RTK mode 안정성, 가성비에 따른 효율, 이동중 특성 등의 다양한 성능을 평가하고 모바일 로봇에 반영하고 있습니다. 
 
+### Network RTK 성능 테스트
+다양한 제조사의 GNSS/GPS 모듈이 Network RTK 를 지원하나 성능이 다소 차이있기도 하고 float 일때의 성능이 차이가 있어 지속적으로 비교 평가를 하고 있습니다.
+
 <img src="./assets/img/posts/20210210/GNSS_test.jpg" alt="Tandy Color Computer TRS80 III"/><small>다양한 GPS 모듈 테스트 진행.</small>
 
-<p>For one of my starter quick programming tasks, I&nbsp;decided to code Conway's Game of Life, a very simple cellular automata that basically plays itself.</p>
-
-<ul><li>If a cell has less than 2 neighbors, meaning contiguous alive cells, the cell will die of loneliness</li><li>If a cell has more than 3 neighbors, it will die of overpopulation</li><li>If an empty block has exactly 3 contiguous alive neighbors, a new cell will be born in that spot</li><li>If an alive cell has 2 or 3 alive neighbors, it continues to live</li></ul>
+<ul><li>안테나 조합과 RTK 안정성 비교</li><li>고정 안테나 측정시 분포 최소원의 반경수치 측정</li><li>RTK fixed mode 시, 위성지도와 비교</li><li>Ntrip client 설정 편의성</li></ul>
 
 <img src="./assets/img/posts/20210210/GameOfLife.gif" alt="Conway's rules for the Game of Life"/><small>Conway's rules for the Game of Life</small>
-
-<p>In the end the algorithm ended up as follows:</p>
-
-<ol><li>Iterate through all the alive cells and get all of their neighbors</li></ol>
-
-```python
-def get_neighbors(self, cell):
-    neighbors = []
-
-    for x in range(-1, 2, 1):
-        for y in range(-1, 2, 1):
-            if not (x == 0 and y == 0):
-                if (0 &lt;= (cell[0] + x) &lt;= self.size_x) and (0 &lt;= (cell[1] + y) &lt;= self.size_y):
-                    neighbors.append((cell[0] + x, cell[1] + y))
-    return neighbors
-```
-
-<ol start="2"><li>Mark all the neighboring blocks as having +1 neighbor each time a particular cell is encountered. This way, for each neighboring alive cell the counter of the particular block will increase, and in the end it will contain the total number of live cells which are contiguous to it.</li></ol>
 
 ```python
 for cell in alive_neighbors:
