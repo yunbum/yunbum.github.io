@@ -10,7 +10,7 @@ category: theory
 author: Ybbaek
 description: "SRC 모바일로봇 이란: SRC Intro."
 ---
-## 소개/Intro
+## 소개 / Intro
 SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:
 - [SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.](https://github.com/yunbum/SRC)
 - [10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.](https://cafe.naver.com/iltech)
@@ -27,6 +27,16 @@ SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영
 ![SRC models](./assets/img/posts/20210402/SRC_models.png)
 <small>개발시간 전체 약 10여년. 최종 전체 금속기반의 구조는 2019년 완성</small>
 
+SRC B1  
+
+|항목|스펙|참고|
+|:---:|---:|:---:|
+|모터|12V DC motor| - |
+|동작시간|2.5 hour|배터리 기본사양 시|
+|최대속도|0.8m/s|Dual motor 옵션시 약 1.8m/s|
+|차량크기|430x190x240|라이다 포함시 높이->250mm|  
+
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OcdVl3k5qS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 주요특징
@@ -54,18 +64,17 @@ SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영
 각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.
 
 <center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210402/dual_motor.jpg' width="390" height="250"></center>
-프레임 강성을 유지하기 위해 보완 패치들로 접속부분 추가 체결함
+프레임 강성을 유지하기 위해 보완 패치들로 접속부분 추가 체결.
 모바일 로봇의 종류는 기본 SRC 차량모델에 이어 ASV 보트(선박) 모델도 있으며 교육목적의 Pendulum, Ball Balance robot 등도 있습니다.
 
 ## 강화학습 적용 플랫폼
-
 모든 RLmodel 로봇들은 강화학습을 적용하고 테스트 해볼 수 있는 목적으로 개발이 시작되었으며 현재도 다양한 접근으로 예제들을 검토 중입니다.
 
 ## 기타 편의사항
 SRC 차량은 간단한 시리얼 프로토콜 제어가 가능하고 부가 기능으로는 스피커, LED dot matrix, Light 등을 옵션으로 창작하여 테스트 시 차량의 상태나 프로그램의 동작 세부사항 확인이 쉽도록 하였습니다.
 
 ### Log analyzer
-
+기본 주행시 생성되는 로그파일이 있으며 Log analyzer 를 사용하여 재생 및 이동중의 경로추종 정밀도 통계등을 확인 할 수 있습니다.
 <center><img src="./assets/img/posts/20210228/log-replay.jpg"></center>
 
 Log replay 는 실행파일로 제공되는 툴이며 기능은 아래와 같습니다.:
@@ -73,4 +82,4 @@ Log replay 는 실행파일로 제공되는 툴이며 기능은 아래와 같습
 - 다중 경로파일 선택 가능 / waypoint files (TM, gpx)
 - GPS/GNSS 모듈제조사 완 상관없이 사용 (단, NMEA format 이어야 함)
 - 구글맵 연동하여 replay / Google map synch
-- save and load log file
+- 평가항목: +/- 오차 최대/최소/평균, 전체이동거리, 총 waypoint 거리 등

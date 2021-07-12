@@ -22,14 +22,14 @@ A Dynamic Window Approach 는 실시간으로 정해진 윈도우 영역의 cost
 
 The neuron has 3 inputs and weights to calculate its output:
     
-    input 1 is the X coordinate of the point,
-    Input 2 is the y coordinate of the point,
-    Input 3 is the bias and it is always 1
+    cost 1 is the goal distance of the agv,
+    cost 2 is the speed of the agv,
+    cost 3 is the obstacles distance
 
-    Input 3 or the bias is required for lines that do not cross the origin (0,0)
+The 현재 AGV의 속도, Goal 까지의 거리, 장애물들 과의 거리 등을 실시간으로 설정 영역안의 궤적들로 계산하여 최적 경로를 판단하여 이동.
 
-The Perceptron starts with weights all set to zero and learns by using 1,000 random points per each iteration.
+<center><img src='./assets/img/posts/20210125/dwa-trajectory.png'></center>
 
-<center><img src='./assets/img/posts/20210125/Learning_1000_points_per_iteration.jpg'></center>
+해당로직은 Python Robotics 의 파이썬 로직을 약간 수정하여 시뮬레이션 한 예제입니다. 현재는 로봇에 적용하여 여러다른 로봇들에 적용하여 튜닝작업 진행 중에 있습니다.
 
-In the end, the perceptron always converges into a solution and finds with great precision the line we are looking for.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gp4lUpIy7Jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
