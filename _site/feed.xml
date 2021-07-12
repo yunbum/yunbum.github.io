@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-12T14:27:59+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">알엘모델 소개 / RLmodel History!</title><link href="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html" rel="alternate" type="text/html" title="알엘모델 소개 / RLmodel History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/RLmodel-history</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html">&lt;h2 id=&quot;모바일로봇-개발-history&quot;&gt;모바일로봇 개발 History&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-12T21:40:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">알엘모델 소개 / RLmodel History!</title><link href="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html" rel="alternate" type="text/html" title="알엘모델 소개 / RLmodel History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/RLmodel-history</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html">&lt;h2 id=&quot;모바일로봇-개발-history&quot;&gt;모바일로봇 개발 History&lt;/h2&gt;
 &lt;p&gt;초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;모바일-로봇-모델들&quot;&gt;모바일 로봇 모델들&lt;/h3&gt;
@@ -62,7 +62,7 @@
 &lt;small&gt;Full option 상태의 센서 및 기타 모듈 구성도&lt;/small&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;튜닝-업그레이드&quot;&gt;튜닝/ 업그레이드&lt;/h2&gt;
-&lt;p&gt;동일 차량모델 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션으로 선택이 가능하여 등판능력, 속도 등을 높힘 모델로 선택이 가능합니다.&lt;/p&gt;
+&lt;p&gt;각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.&lt;/p&gt;
 
 &lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210402/dual_motor.jpg&quot; width=&quot;390&quot; height=&quot;250&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;프레임 강성을 유지하기 위해 보완 패치들로 접속부분 추가 체결함
@@ -75,9 +75,18 @@
 &lt;h2 id=&quot;기타-편의사항&quot;&gt;기타 편의사항&lt;/h2&gt;
 &lt;p&gt;SRC 차량은 간단한 시리얼 프로토콜 제어가 가능하고 부가 기능으로는 스피커, LED dot matrix, Light 등을 옵션으로 창작하여 테스트 시 차량의 상태나 프로그램의 동작 세부사항 확인이 쉽도록 하였습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210402/led-light.png&quot; alt=&quot;post7-alexa-steps&quot; /&gt;
-&lt;small&gt;야간주행 테스트를 위한 LED light&lt;/small&gt;
-추가적으로 ROS 환경에 적합하도록 패키지도 개발 중 입니다.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="theory" /><category term="Robot" /><category term="RC" /><category term="GPS" /><category term="Camera" /><category term="Lidar" /><summary type="html">소개/Intro SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.: SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다. 10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다. 다른 RLmodel 유투브 영상들</summary></entry><entry><title type="html">ASV란 - 자율운항 보트/ 무인선박</title><link href="https://github.com/yunbum/yunbum.github.io/ASV-robot.html" rel="alternate" type="text/html" title="ASV란 - 자율운항 보트/ 무인선박" /><published>2021-03-24T00:00:00+09:00</published><updated>2021-03-24T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/ASV-robot</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/ASV-robot.html">&lt;h2 id=&quot;무인-자율운항-선박&quot;&gt;무인 자율운항 선박&lt;/h2&gt;
+&lt;h3 id=&quot;log-analyzer&quot;&gt;Log analyzer&lt;/h3&gt;
+
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/log-replay.jpg&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;Log replay 는 실행파일로 제공되는 툴이며 기능은 아래와 같습니다.:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;다중 경로파일 선택 가능 / waypoint files (TM, gpx)&lt;/li&gt;
+  &lt;li&gt;GPS/GNSS 모듈제조사 완 상관없이 사용 (단, NMEA format 이어야 함)&lt;/li&gt;
+  &lt;li&gt;구글맵 연동하여 replay / Google map synch&lt;/li&gt;
+  &lt;li&gt;save and load log file&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Ybbaek</name></author><category term="theory" /><category term="Robot" /><category term="RC" /><category term="GPS" /><category term="Camera" /><category term="Lidar" /><summary type="html">소개/Intro SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.: SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다. 10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다. 다른 RLmodel 유투브 영상들</summary></entry><entry><title type="html">ASV란 - 자율운항 보트/ 무인선박</title><link href="https://github.com/yunbum/yunbum.github.io/ASV-robot.html" rel="alternate" type="text/html" title="ASV란 - 자율운항 보트/ 무인선박" /><published>2021-03-24T00:00:00+09:00</published><updated>2021-03-24T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/ASV-robot</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/ASV-robot.html">&lt;h2 id=&quot;무인-자율운항-선박&quot;&gt;무인 자율운항 선박&lt;/h2&gt;
 &lt;p&gt;지상이나 뿐만 아니라 물 위에서 무인보트 개발을 위한 ASV, 자율운항 선박(보트) 등의 주행알고리즘 개발이나 선박주행의 센서퓨전, 기타 제어로직 연구에 적합하도록 개발되었습니다.&lt;/p&gt;
 
 &lt;p&gt;사양:&lt;/p&gt;
@@ -229,14 +238,17 @@
 
 &lt;p&gt;gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.&lt;/p&gt;
 &lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210312/tm_interpolation.png&quot; width=&quot;540&quot; /&gt;
-&lt;small&gt;TM 좌표들의 점들을 interpolation 하여 최종경로 그래프&lt;/small&gt;&lt;/center&gt;</content><author><name>Ybbaek</name></author><category term="waypoint" /><category term="gpx" /><category term="tm" /><category term="point" /><summary type="html">GPX 파일처리 / GPX format file handling SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</summary></entry><entry><title type="html">Other accessory</title><link href="https://github.com/yunbum/yunbum.github.io/accessory-parts.html" rel="alternate" type="text/html" title="Other accessory" /><published>2021-03-01T03:32:20+09:00</published><updated>2021-03-01T03:32:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/accessory-parts</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/accessory-parts.html">&lt;h2 id=&quot;robot-악세사리-옵션--accessory&quot;&gt;Robot 악세사리 옵션 / Accessory&lt;/h2&gt;
-&lt;h3 id=&quot;트레일러--trailer&quot;&gt;트레일러 / Trailer&lt;/h3&gt;
+&lt;small&gt;TM 좌표들의 점들을 interpolation 하여 최종경로 그래프&lt;/small&gt;&lt;/center&gt;</content><author><name>Ybbaek</name></author><category term="waypoint" /><category term="gpx" /><category term="tm" /><category term="point" /><summary type="html">GPX 파일처리 / GPX format file handling SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</summary></entry><entry><title type="html">관련 악세사리 / Accessory parts</title><link href="https://github.com/yunbum/yunbum.github.io/accessory-parts.html" rel="alternate" type="text/html" title="관련 악세사리 / Accessory parts" /><published>2021-03-01T03:32:20+09:00</published><updated>2021-03-01T03:32:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/accessory-parts</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/accessory-parts.html">&lt;h2 id=&quot;robot-악세사리-옵션--accessory&quot;&gt;Robot 악세사리 옵션 / Accessory&lt;/h2&gt;
 &lt;p&gt;모바일 로봇에 장착하거나 연결해서 사용할 수 있는 다양한 악세사리를 제공하고 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;트레일러--trailer&quot;&gt;트레일러 / Trailer&lt;/h3&gt;
+&lt;p&gt;SRC 후면에 연결하여 추가적인 모듈이나 부품들을 싣기위해 적용가능&lt;/p&gt;
 &lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/trailer-4.png&quot; width=&quot;480px&quot; /&gt;&lt;small&gt;SRC 관련 트레일러 (Trailer)&lt;/small&gt;&lt;/center&gt;
 
-&lt;h3 id=&quot;dot-matrix-는-rgb-3종류의-색이-있습니다&quot;&gt;Dot matrix 는 R,G,B 3종류의 색이 있습니다.&lt;/h3&gt;
+&lt;h3 id=&quot;dot-matrix-3색&quot;&gt;Dot matrix 3색&lt;/h3&gt;
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/dot_matrix.png&quot; /&gt;&lt;small&gt;8x32 led dot matrix 원하는 메세지 출력가능&lt;/small&gt;&lt;/center&gt;
 
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/dot_matrix.png&quot; /&gt;&lt;small&gt;8x32 led dot matrix 아두이노와 연결됨&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/dot_matrix-3.png&quot; /&gt;&lt;small&gt;3색 R, G, B 칼라&lt;/small&gt;&lt;/center&gt;
 
 &lt;p&gt;SRC 로봇 기본 프로그램에는 기본적을 아래와 같은 정보들을 dot matirx 를 통해 표시하게 할 수 있습니다:
 선택은 조이스틱 키를 통해서 선택&lt;/p&gt;
@@ -251,25 +263,34 @@
   &lt;li&gt;&lt;strong&gt;IMU&lt;/strong&gt; heading 방향 값&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;구동-dc모터-벨트&quot;&gt;구동 DC모터 벨트&lt;/h3&gt;
+&lt;p&gt;모터와 구동사프의 파워트레인에 적용된 기어세트. 기어비 조정을 통해 속도나 토크 조절가능.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/motor.jpg&quot; /&gt;&lt;small&gt;최대 400rpm 영역대 3.7kg 토크 모터 &lt;/small&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/motor-list.jpg&quot; /&gt;&lt;small&gt;모델타입, payload, 옵션에 따라 최적 모터 장착&lt;/small&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;기어-타이밍-벨트&quot;&gt;기어 타이밍 벨트&lt;/h3&gt;
+&lt;p&gt;모터와 구동사프의 파워트레인에 적용된 기어세트. 기어비 조정을 통해 속도나 토크 조절가능.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/gear-crop.jpg&quot; /&gt;&lt;small&gt;ASV 미세 방향설정에 효과적&lt;/small&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;조향-서보모터&quot;&gt;조향 서보모터&lt;/h3&gt;
+&lt;p&gt;조향을 제어하기위한 DC Servo 모터. 금속재질의 타입이며 방수 옵션의 digital servo&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/DCservo.jpg&quot; /&gt;&lt;small&gt;금속재질의 디지탈 서보 35kg 토크&lt;/small&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;릴레이모듈&quot;&gt;릴레이모듈&lt;/h3&gt;
+&lt;p&gt;LED 조명 등의 전원 on/off 제어를 위한 릴레이보드&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/relay.jpg&quot; /&gt;&lt;small&gt;금속재질의 디지탈 서보 35kg 토크&lt;/small&gt;&lt;/center&gt;
+
 &lt;h3 id=&quot;asv-조타-방향키&quot;&gt;ASV 조타 방향키&lt;/h3&gt;
 &lt;p&gt;ASV 보트의 방향키는 크기, 색에 따라 3가지 종류가 있습니다.:&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/keying.png&quot; /&gt;&lt;small&gt;고속일때 효과가 있을 것ㄱ&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/keying.png&quot; /&gt;&lt;small&gt;ASV 미세 방향설정에 효과적&lt;/small&gt;&lt;/center&gt;
 
-&lt;p&gt;Then we reshape the z array as a one dimensional array to use it to color the scatter plot:&lt;/p&gt;
-
-&lt;h3 id=&quot;log-analyzer&quot;&gt;Log analyzer&lt;/h3&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/log-replay.jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Log replay 는 실행파일로 제공되는 툴이며 기능은 아래와 같습니다.:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;다중 경로파일 선택 가능 / waypoint files (TM, gpx)&lt;/li&gt;
-  &lt;li&gt;GPS/GNSS 모듈제조사 완 상관없이 사용 (단, NMEA format 이어야 함)&lt;/li&gt;
-  &lt;li&gt;구글맵 연동하여 replay / Google map synch&lt;/li&gt;
-  &lt;li&gt;save and load log file&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Ybbaek</name></author><category term="accessory" /><category term="trailer" /><category term="speaker" /><category term="led" /><summary type="html">Robot 악세사리 옵션 / Accessory 트레일러 / Trailer 모바일 로봇에 장착하거나 연결해서 사용할 수 있는 다양한 악세사리를 제공하고 있습니다. SRC 관련 트레일러 (Trailer)</summary></entry><entry><title type="html">GPS/GNSS 모듈 비교평가 테스트 / GPS quality test</title><link href="https://github.com/yunbum/yunbum.github.io/GPS-test.html" rel="alternate" type="text/html" title="GPS/GNSS 모듈 비교평가 테스트 / GPS quality test" /><published>2021-02-11T04:32:20+09:00</published><updated>2021-02-11T04:32:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/GPS-test</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/GPS-test.html">&lt;h2 id=&quot;다양한-gpsgnss-모둘-비교테스트&quot;&gt;다양한 GPS/GNSS 모둘 비교테스트&lt;/h2&gt;
+&lt;p&gt;조종은 DC Servo 모터로 제어하고 보조적인 미세 방향조절에 적용:&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="accessory" /><category term="trailer" /><category term="speaker" /><category term="led" /><summary type="html">Robot 악세사리 옵션 / Accessory 모바일 로봇에 장착하거나 연결해서 사용할 수 있는 다양한 악세사리를 제공하고 있습니다.</summary></entry><entry><title type="html">GPS/GNSS 모듈 비교평가 테스트 / GPS quality test</title><link href="https://github.com/yunbum/yunbum.github.io/GPS-test.html" rel="alternate" type="text/html" title="GPS/GNSS 모듈 비교평가 테스트 / GPS quality test" /><published>2021-02-11T04:32:20+09:00</published><updated>2021-02-11T04:32:20+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/GPS-test</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/GPS-test.html">&lt;h2 id=&quot;다양한-gpsgnss-모둘-비교테스트&quot;&gt;다양한 GPS/GNSS 모둘 비교테스트&lt;/h2&gt;
 &lt;p&gt;현재 다양한 종류의 GPS 모듈, 환경에 따른 차이, RTK mode 안정성, 가성비에 따른 효율, 이동중 특성 등의 다양한 성능을 평가하고 모바일 로봇에 반영하고 있습니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210210/GNSS_test.jpg&quot; alt=&quot;Tandy Color Computer TRS80 III&quot; /&gt;&lt;small&gt;다양한 GPS 모듈 테스트 진행.&lt;/small&gt;&lt;/p&gt;

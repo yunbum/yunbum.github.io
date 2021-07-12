@@ -11,7 +11,6 @@ author: Ybbaek
 github: yunbum
 toc: yes # leave empty or erase for no TOC
 ---
-
 ## RTK Real Time Kinematic
 GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.
 

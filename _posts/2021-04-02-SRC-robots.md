@@ -42,7 +42,7 @@ SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영
 <small>Full option 상태의 센서 및 기타 모듈 구성도</small>
 
 ## 튜닝/ 업그레이드
-동일 차량모델 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션으로 선택이 가능하여 등판능력, 속도 등을 높힘 모델로 선택이 가능합니다.
+각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.
 
 <center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210402/dual_motor.jpg' width="390" height="250"></center>
 프레임 강성을 유지하기 위해 보완 패치들로 접속부분 추가 체결함
@@ -55,6 +55,13 @@ SRC (**S**elf driving **R**emote control **C**ar) 는 자율주행 차량의 영
 ## 기타 편의사항
 SRC 차량은 간단한 시리얼 프로토콜 제어가 가능하고 부가 기능으로는 스피커, LED dot matrix, Light 등을 옵션으로 창작하여 테스트 시 차량의 상태나 프로그램의 동작 세부사항 확인이 쉽도록 하였습니다.
 
-![post7-alexa-steps](./assets/img/posts/20210402/led-light.png)
-<small>야간주행 테스트를 위한 LED light</small>
-추가적으로 ROS 환경에 적합하도록 패키지도 개발 중 입니다.
+### Log analyzer
+
+<center><img src="./assets/img/posts/20210228/log-replay.jpg"></center>
+
+Log replay 는 실행파일로 제공되는 툴이며 기능은 아래와 같습니다.:
+
+- 다중 경로파일 선택 가능 / waypoint files (TM, gpx)
+- GPS/GNSS 모듈제조사 완 상관없이 사용 (단, NMEA format 이어야 함)
+- 구글맵 연동하여 replay / Google map synch
+- save and load log file
