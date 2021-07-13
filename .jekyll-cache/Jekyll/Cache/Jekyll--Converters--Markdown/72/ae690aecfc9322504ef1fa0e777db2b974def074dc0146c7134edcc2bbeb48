@@ -1,0 +1,123 @@
+I"�<h2 id="소개--intro">소개 / Intro</h2>
+<p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p>
+<ul>
+  <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li>
+  <li><a href="https://cafe.naver.com/iltech">10여년 간 네이버 카페를 운영하여 관련 예제나 테스트 결과등을 공유하고 있습니다.</a></li>
+  <li><a href="https://www.youtube.com/channel/UCd23NgICe3702uqAAk4HYFQ/videos">다른 RLmodel 유투브 영상들</a></li>
+</ul>
+
+<p><img src="./assets/img/posts/20210402/src_hw-sw.png" alt="HW SW 모듈개발 및 주행테스트" />
+<small>다양한 HW 및 SW 모듈로 주행알고리즘 검증 및 센서퓨전 테스트에 적용완료 </small></p>
+
+<p>차량제어는 Python, C, 등의 컴퓨터언어와도 호환이 되도록 시리얼통신으로 제어할 수 있습니다. LabVIEW 라고하는 National Instrument 사의 프로그래밍 언어도 지원합니다.</p>
+
+<h2 id="모델구분-및-특징">모델구분 및 특징</h2>
+<p>SRC (<strong>S</strong>elf driving <strong>R</strong>emote control <strong>C</strong>ar) 는 자율주행 차량의 영어 약자 이면 현재 SRC-A,B,C,D 등의 타입이 있습니다.
+타입별 차이는 크기, 속도, 모터토크 등으로 구분되어 나누어 집니다.
+<img src="./assets/img/posts/20210402/SRC_models.png" alt="SRC models" />
+<small>개발시간 전체 약 10여년. 최종 전체 금속기반의 구조는 2019년 완성</small></p>
+
+<p>SRC B1</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">항목</th>
+      <th style="text-align: right">스펙</th>
+      <th style="text-align: center">참고</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">모터</td>
+      <td style="text-align: right">12V DC motor</td>
+      <td style="text-align: center">속도:8000rpm, 전류: 1.3~7.2A, 감속비 19</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">동작시간</td>
+      <td style="text-align: right">2.5 hour</td>
+      <td style="text-align: center">배터리 기본사양 시</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">상위제어</td>
+      <td style="text-align: right">미니 Fanless PC</td>
+      <td style="text-align: center">선택가능</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">하위제어</td>
+      <td style="text-align: right">아두이노</td>
+      <td style="text-align: center">나노 USB 연결</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">카메라</td>
+      <td style="text-align: right">일반 웹캠</td>
+      <td style="text-align: center">USB webcam</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">GPS</td>
+      <td style="text-align: right">NMEA 출력 Netwrok RTK 옵션</td>
+      <td style="text-align: center">상세사양은 변동가능</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">최대속도</td>
+      <td style="text-align: right">0.8m/s</td>
+      <td style="text-align: center">Dual motor 옵션시 약 1.8m/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">차량크기</td>
+      <td style="text-align: right">430x190x240</td>
+      <td style="text-align: center">라이다 포함시 높이-&gt;250mm</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OcdVl3k5qS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="주요특징">주요특징</h2>
+<p>프레임은 전체가 알루미늄, 철 등의 금속. 일반 휴대용 보조배터리 파워로 일반 USB 충전이 가능하여 편리하며. 통 고무 타이어로 구성되어 펑크날 위험이 없습니다. (<a href="https://www.thinkautomation.com/bots-and-ai/a-history-of-automation-the-rise-of-robots-and-ai/">source</a>), 구조와 강성이 상당히 개량되어 전체적인 안정성은 일반 플라스틱 RC 카에 비할 수 없고, 현재 수십 km 실외 운행으로 내구성 검증도 완료:</p>
+
+<p><img src="./assets/img/posts/20210402/src-b2_3.jpg" alt="Frame body" />
+<small>개발시간 전체 약 10여년. 최종 전체 금속기반의 구조는 2019년 완성</small></p>
+
+<h2 id="모듈센서">모듈/센서</h2>
+<p>개별 모듈들의 구성은 맞춤형으로 제공 될 수 있으며, 기본 모터와 모터드라이버, 상위제어기(아두이노) 만으로도 제공이 되며 제어명령은 USB 을 통한 시리얼 통신으로 제어가 가능합니다..</p>
+
+<p><img src="./assets/img/posts/20210402/SRC-B_parts.png" alt="sensors &amp; modules" />
+<small>Full option 상태의 센서 및 기타 모듈 구성도</small></p>
+
+<h2 id="주행알고리즘">주행알고리즘</h2>
+<p>기본으로 제공하는 SRC/ASV 로봇의 주행 로직은 Pure pursuit 로직과 PID 로직을 조향제어 로직에 연결하여 제어하고 있습니다.</p>
+
+<p><img src="./assets/img/posts/20210402/driving-logic.png" alt="Driving logic" />
+<small>PID % Pure pursuit 로직 반영</small></p>
+
+<p><img src="./assets/img/posts/20210402/main_ui.JPG" alt="Main UI" />
+<small>사용자 화면 (Main UI)</small></p>
+
+<h2 id="튜닝-업그레이드">튜닝/ 업그레이드</h2>
+<p>각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.</p>
+
+<center><img style="float: left;margin-right: 1em;" src="./assets/img/posts/20210402/dual_motor.jpg" width="390" height="250" /></center>
+<p>프레임 강성을 유지하기 위해 보완 패치들로 접속부분 추가 체결.
+모바일 로봇의 종류는 기본 SRC 차량모델에 이어 ASV 보트(선박) 모델도 있으며 교육목적의 Pendulum, Ball Balance robot 등도 있습니다.</p>
+
+<h2 id="강화학습-적용-플랫폼">강화학습 적용 플랫폼</h2>
+<p>모든 RLmodel 로봇들은 강화학습을 적용하고 테스트 해볼 수 있는 목적으로 개발이 시작되었으며 현재도 다양한 접근으로 예제들을 검토 중입니다.</p>
+
+<h2 id="기타-편의사항">기타 편의사항</h2>
+<p>SRC 차량은 간단한 시리얼 프로토콜 제어가 가능하고 부가 기능으로는 스피커, LED dot matrix, Light 등을 옵션으로 창작하여 테스트 시 차량의 상태나 프로그램의 동작 세부사항 확인이 쉽도록 하였습니다.</p>
+
+<h3 id="log-analyzer">Log analyzer</h3>
+<p>기본 주행시 생성되는 로그파일이 있으며 Log analyzer 를 사용하여 재생 및 이동중의 경로추종 정밀도 통계등을 확인 할 수 있습니다.</p>
+<center><img src="./assets/img/posts/20210228/log-replay.jpg" /></center>
+
+<p>Log replay 는 실행파일로 제공되는 툴이며 기능은 아래와 같습니다.:</p>
+
+<ul>
+  <li>다중 경로파일 선택 가능 / waypoint files (TM, gpx)</li>
+  <li>GPS/GNSS 모듈제조사 완 상관없이 사용 (단, NMEA format 이어야 함)</li>
+  <li>구글맵 연동하여 replay / Google map synch</li>
+  <li>평가항목: +/- 오차 최대/최소/평균, 전체이동거리, 총 waypoint 거리 등</li>
+</ul>
+:ET
