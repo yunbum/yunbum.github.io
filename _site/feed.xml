@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-13T06:42:09+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">알엘모델 소개 / RLmodel History!</title><link href="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html" rel="alternate" type="text/html" title="알엘모델 소개 / RLmodel History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/RLmodel-history</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html">&lt;h2 id=&quot;모바일로봇-개발-history&quot;&gt;모바일로봇 개발 History&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-13T10:28:24+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">알엘모델 소개 / RLmodel History!</title><link href="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html" rel="alternate" type="text/html" title="알엘모델 소개 / RLmodel History!" /><published>2021-04-20T00:00:00+09:00</published><updated>2021-04-20T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/RLmodel-history</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/RLmodel-history.html">&lt;h2 id=&quot;모바일로봇-개발-history&quot;&gt;모바일로봇 개발 History&lt;/h2&gt;
 &lt;p&gt;초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;모바일-로봇-모델들&quot;&gt;모바일 로봇 모델들&lt;/h3&gt;
@@ -67,7 +67,7 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;모터&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;12V DC motor&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;속도:8000rpm, 전류: 1.3~7.2A, 감속비 19&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;동작시간&lt;/td&gt;
