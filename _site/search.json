@@ -47,7 +47,7 @@
       "url"         : "./waypoint-gpx.html",
       "date"        : "2021-03-13 04:32:20 +0900",
       "description" : "GPX format file editor tool.",
-      "content"     : "GPX 파일처리 / GPX format file handlingSRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.GPX Route editor경로를 생성하는 툴로 GPX 파일포맷을 지원하는 ‘GPX route editor’ 추천 합니다. 무료이고 클릭만으로 경로가 생성되고 gpx 파일로 생성을 할 수 있게하는 툴입니다.sourceGPX route editor 실행화면위도/경도 xml 데이타 추출gpx 파일에 있는 위도/경도 데이타를 읽고 TM 좌표변환 후에 실제 주행경로 로직에 반영하여 계산합니다.GPX 파일의 위도/경도 값 읽어 TM 좌표로 표시gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.TM 좌표들의 점들을 interpolation 하여 최종경로 그래프"
+      "content"     : "GPX 파일처리 / GPX format file handlingSRC 경로 waypoint 파일은 GPX, NMEA, TM 등의 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.GPX Route editor경로를 생성하는 툴로 GPX 파일포맷을 지원하는 ‘GPX route editor’ 추천 합니다. 무료이고 클릭만으로 경로가 생성되고 gpx 파일로 생성을 할 수 있게하는 툴입니다.sourceGPX route editor 실행화면위도/경도 xml 데이타 추출gpx 파일에 있는 위도/경도 데이타를 읽고 TM 좌표변환 후에 실제 주행경로 로직에 반영하여 계산합니다.GPX 파일의 위도/경도 값 읽어 TM 좌표로 표시gpx 파일에서 TM 좌표 변환을 한 후에는 촘촘히 interpolation 하여 최종 실제 경로로 사용합니다.TM 좌표들의 점들을 interpolation 하여 최종경로 그래프"
     } ,
   
     {

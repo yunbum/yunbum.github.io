@@ -1,0 +1,3 @@
+I"<<h2 id="gpx-파일처리--gpx-format-file-handling">GPX 파일처리 / GPX format file handling</h2>
+<p>SRC 경로 waypoint 파일은 GPX, NMEA, TM 등의  위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.</p>
+:ET

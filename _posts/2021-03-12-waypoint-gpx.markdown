@@ -13,7 +13,7 @@ mathjax: yes # leave empty or erase to prevent the mathjax javascript from loadi
 toc: yes # leave empty or erase for no TOC
 ---
 ## GPX 파일처리 / GPX format file handling
-SRC 기본 프로그램은 실외 자율주행 경로생성을 위한 툴로 GPX editor를 사용하고 있습니다. 위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.
+SRC 경로 waypoint 파일은 GPX, NMEA, TM 등의  위성지도 혹은 일반 지도상에 이동하려는 경로를 클릭하면 해당 지점들의 정보가 xml 포맷으로 저장되어 생성됩니다.
 
 ### GPX Route editor
 경로를 생성하는 툴로 GPX 파일포맷을 지원하는 'GPX route editor' 추천 합니다. 무료이고 클릭만으로 경로가 생성되고 gpx 파일로 생성을 할 수 있게하는 툴입니다.
