@@ -6,6 +6,8 @@
   "tag" : ".net",
   "posts" : [
       
+      "./SmartFarm-Robot.html",
+      
       "./RLMap.html"
       
     ]
@@ -178,6 +180,8 @@
   "tag" : "gmap",
   "posts" : [
       
+      "./SmartFarm-Robot.html",
+      
       "./RLMap.html"
       
     ]
@@ -197,6 +201,8 @@
   {
   "tag" : "labview",
   "posts" : [
+      
+      "./SmartFarm-Robot.html",
       
       "./RLMap.html"
       
@@ -237,6 +243,8 @@
   {
   "tag" : "map",
   "posts" : [
+      
+      "./SmartFarm-Robot.html",
       
       "./RLMap.html"
       

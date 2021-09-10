@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-07-24T21:27:49+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">RLMap 소개 / LabVIEW Gmap toolkit!</title><link href="https://github.com/yunbum/yunbum.github.io/RLMap.html" rel="alternate" type="text/html" title="RLMap 소개 / LabVIEW Gmap toolkit!" /><published>2021-07-23T00:00:00+09:00</published><updated>2021-07-23T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/RLMap</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/RLMap.html">&lt;h2 id=&quot;기본기능&quot;&gt;기본기능&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-09-10T16:14:29+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">스마트팜 / Smart Farm Mobile robots!</title><link href="https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot.html" rel="alternate" type="text/html" title="스마트팜 / Smart Farm Mobile robots!" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot.html">&lt;h2 id=&quot;기본기능&quot;&gt;기본기능&lt;/h2&gt;
+&lt;p&gt;유저 Interface 상에 지도표시 기능을 구현할 수 있도록 유로모 판매하는 LabVIEW Toolkit 이며 하나의 core vi로 쉽게 구현되도록 Functional Global Variable 형태의 vi로 예제와 같이 제공합니다. 물론 기본 공개 예제는 repo 에 공개하였습니다. 기본 기능의 차이는 없습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;상세설명&quot;&gt;상세설명&lt;/h3&gt;
+&lt;p&gt;다양한 목적으로 LabVIEW Front panel UI 상에 편리한 Gmap .net 기반의(Web 기반 아님) 지도표시 및 관련기능을 구현 할 수 있도록 툴킷을 판매하고 있습니다.
+&lt;img src=&quot;./assets/img/posts/20210902/left.jpg&quot; alt=&quot;RLMap-UI&quot; /&gt;
+&lt;small&gt;[RLMap-UI] 지도표시 LabVIEW 소스코드 와 같이 제공되는 예제.&lt;/small&gt;
+&lt;img src=&quot;./assets/img/posts/20210723/project.png&quot; alt=&quot;RLMap-prj&quot; /&gt;
+&lt;small&gt;[RLMap-prj] LabVIEW Project 윈도우 화면.&lt;/small&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;예제코드&quot;&gt;예제코드&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210723/RLMap-Blockdiagram.png&quot; alt=&quot;Block-diagram&quot; /&gt;
+&lt;small&gt;[Metal frame] Gmap Dot net 을 사용하여 쉽게 사용할 수 있도록 하나의 fgv vi 로 통합 하였고 관련 예제코드도 같이 제공합니다..&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;다양한 기본적인 지도 선택/확인 및 Marker 추가, 확대, 축소, 현재이미지 저장 등의 기능을 확인 할 수 있도록 함.&lt;/p&gt;
+
+&lt;h3 id=&quot;지도-공급사-선택&quot;&gt;지도 공급사 선택&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210723/map-provider.png&quot; alt=&quot;Map provider&quot; /&gt;
+&lt;small&gt;[Map provider] ex) Street4U 화면.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;다양한 지도제공 업체를 선택하여 원하는 타입, 정밀도, 등에 따라 선택하여 적용 및 사용가능.&lt;/p&gt;
+
+&lt;h3 id=&quot;부가기능&quot;&gt;부가기능&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210723/callback.png&quot; alt=&quot;SRC history&quot; /&gt;
+&lt;small&gt;[SRC history] LabVIEW callback 함수 기능을 활용하여 지도상의 커서에 위치에 따라 실시간 위도/경도 값 표시.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;기본으로 제공하는 예제의 기능 중에는 LabVIEW callback 함수 중에 마우스 커서의 움직임과 연동하여 커서의 위치에 따라 실시간으로 위도/경도 가표시 되는 기능을 확인 할 수 있음.&lt;/p&gt;
+
+&lt;h3 id=&quot;추가-검토기능&quot;&gt;추가 검토기능&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210723/route.png&quot; alt=&quot;The Next SRC&quot; /&gt;
+&lt;small&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;The Next SRC&lt;/a&gt; 추가 보완기능으로 검색 및 경로표시 등의 기능적용을 검토 중입니다.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;현재는 포함하지 않은 검색, 경로표시 등의 기능에 대해서도 추가 검토 중 입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;응용&quot;&gt;응용&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210723/log-analysis.png&quot; alt=&quot;cartpole&quot; /&gt;
+&lt;small&gt;다양한 목적의 위치표시 &lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;자율주행 이외에도 다양한 로봇, 실외 알람위치 표시, 측정데이타 위치표시 등의 목적으로 유용하게 활용가능.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="opinion" /><category term="gmap" /><category term="labview" /><category term="map" /><category term=".net" /><summary type="html">기본기능 유저 Interface 상에 지도표시 기능을 구현할 수 있도록 유로모 판매하는 LabVIEW Toolkit 이며 하나의 core vi로 쉽게 구현되도록 Functional Global Variable 형태의 vi로 예제와 같이 제공합니다. 물론 기본 공개 예제는 repo 에 공개하였습니다. 기본 기능의 차이는 없습니다.</summary></entry><entry><title type="html">RLMap 소개 / LabVIEW Gmap toolkit!</title><link href="https://github.com/yunbum/yunbum.github.io/RLMap.html" rel="alternate" type="text/html" title="RLMap 소개 / LabVIEW Gmap toolkit!" /><published>2021-07-23T00:00:00+09:00</published><updated>2021-07-23T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/RLMap</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/RLMap.html">&lt;h2 id=&quot;기본기능&quot;&gt;기본기능&lt;/h2&gt;
 &lt;p&gt;유저 Interface 상에 지도표시 기능을 구현할 수 있도록 유로모 판매하는 LabVIEW Toolkit 이며 하나의 core vi로 쉽게 구현되도록 Functional Global Variable 형태의 vi로 예제와 같이 제공합니다. 물론 기본 공개 예제는 repo 에 공개하였습니다. 기본 기능의 차이는 없습니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;상세설명&quot;&gt;상세설명&lt;/h3&gt;
