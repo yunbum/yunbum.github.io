@@ -1,0 +1,40 @@
+I"�<h2 id="기본기능">기본기능</h2>
+<p>유저 Interface 상에 지도표시 기능을 구현할 수 있도록 유로모 판매하는 LabVIEW Toolkit 이며 하나의 core vi로 쉽게 구현되도록 Functional Global Variable 형태의 vi로 예제와 같이 제공합니다. 물론 기본 공개 예제는 repo 에 공개하였습니다. 기본 기능의 차이는 없습니다.</p>
+
+<h3 id="상세설명">상세설명</h3>
+<p>다양한 목적으로 LabVIEW Front panel UI 상에 편리한 Gmap .net 기반의(Web 기반 아님) 지도표시 및 관련기능을 구현 할 수 있도록 툴킷을 판매하고 있습니다.
+<img src="./assets/img/posts/20210902/right.jpg" alt="RLMap-UI" />
+<small>[RLMap-UI] 지도표시 LabVIEW 소스코드 와 같이 제공되는 예제.</small>
+<img src="./assets/img/posts/20210723/project.png" alt="RLMap-prj" />
+<small>[RLMap-prj] LabVIEW Project 윈도우 화면.</small></p>
+
+<h3 id="예제코드">예제코드</h3>
+<p><img src="./assets/img/posts/20210723/RLMap-Blockdiagram.png" alt="Block-diagram" />
+<small>[Metal frame] Gmap Dot net 을 사용하여 쉽게 사용할 수 있도록 하나의 fgv vi 로 통합 하였고 관련 예제코드도 같이 제공합니다..</small></p>
+
+<p>다양한 기본적인 지도 선택/확인 및 Marker 추가, 확대, 축소, 현재이미지 저장 등의 기능을 확인 할 수 있도록 함.</p>
+
+<h3 id="지도-공급사-선택">지도 공급사 선택</h3>
+<p><img src="./assets/img/posts/20210723/map-provider.png" alt="Map provider" />
+<small>[Map provider] ex) Street4U 화면.</small></p>
+
+<p>다양한 지도제공 업체를 선택하여 원하는 타입, 정밀도, 등에 따라 선택하여 적용 및 사용가능.</p>
+
+<h3 id="부가기능">부가기능</h3>
+<p><img src="./assets/img/posts/20210723/callback.png" alt="SRC history" />
+<small>[SRC history] LabVIEW callback 함수 기능을 활용하여 지도상의 커서에 위치에 따라 실시간 위도/경도 값 표시.</small></p>
+
+<p>기본으로 제공하는 예제의 기능 중에는 LabVIEW callback 함수 중에 마우스 커서의 움직임과 연동하여 커서의 위치에 따라 실시간으로 위도/경도 가표시 되는 기능을 확인 할 수 있음.</p>
+
+<h3 id="추가-검토기능">추가 검토기능</h3>
+<p><img src="./assets/img/posts/20210723/route.png" alt="The Next SRC" />
+<small><a href="https://github.com/yunbum/SRC">The Next SRC</a> 추가 보완기능으로 검색 및 경로표시 등의 기능적용을 검토 중입니다.</small></p>
+
+<p>현재는 포함하지 않은 검색, 경로표시 등의 기능에 대해서도 추가 검토 중 입니다.</p>
+
+<h3 id="응용">응용</h3>
+<p><img src="./assets/img/posts/20210723/log-analysis.png" alt="cartpole" />
+<small>다양한 목적의 위치표시 </small></p>
+
+<p>자율주행 이외에도 다양한 로봇, 실외 알람위치 표시, 측정데이타 위치표시 등의 목적으로 유용하게 활용가능.</p>
+:ET
