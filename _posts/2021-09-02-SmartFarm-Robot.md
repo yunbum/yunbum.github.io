@@ -21,7 +21,7 @@ description: "LabVIEW Front panel UI 상에 지도(위성, 하이브리드, 등)
 <small>[RLMap-prj] 다양한 환경의 오프로드 테스트 진행.</small>
 
 ### 주행설정/분석
-![GPS 관련 소프트웨어](./assets/img/posts/20210902/Seed_log.jpg)
+![GPS 관련 소프트웨어](./assets/img/posts/20210902/log.jpg)
 <small>[log file] 주행후 로그파일을 분석하여 경로확인 및 평가.</small>
 설정된 경로확인 및 실제주행 경로와의 비교. 그리고 전체 경로의 정밀도 제어값 등 다양한 정보들을 다시 분석하고 확인 할 수 있는 SW로 준비되어 있습니다.
 
