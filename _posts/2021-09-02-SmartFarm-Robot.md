@@ -21,17 +21,17 @@ description: "LabVIEW Front panel UI 상에 지도(위성, 하이브리드, 등)
 <small>[RLMap-prj] 다양한 환경의 오프로드 테스트 진행.</small>
 
 ### 주행설정/분석
-![GPS 관련 소프트웨어](./assets/img/posts/20210902/seed_log.jpg)
+![GPS 관련 소프트웨어](./assets/img/posts/20210902/Seed_log.jpg)
 <small>[log file] 주행후 로그파일을 분석하여 경로확인 및 평가.</small>
 설정된 경로확인 및 실제주행 경로와의 비교. 그리고 전체 경로의 정밀도 제어값 등 다양한 정보들을 다시 분석하고 확인 할 수 있는 SW로 준비되어 있습니다.
 
 ### 센서모듈 추가/선택
-![Map provider](./assets/img/posts/20210902/left.jpg)
+![ robot](./assets/img/posts/20210902/left.jpg)
 <small>[Map provider] ex) Street4U 화면.</small>
 기본 장착되어 있는 카메라,라이다, GPS, 등의 센서를 변경하거나 추가하여 기능을 보완이 가능.
 
 ### 부가기능
-![SRC history](./assets/img/posts/20210902/trailer.jpg)
+![SRC hw option](./assets/img/posts/20210902/trailer.jpg)
 <small>[SRC history] 모바일 로봇에 별도의 trailer 를 추가장착한 사진.</small>
 트레일러를 추가하여 배터리 확장을 비롯한 추가 장비나 물품을 실을 수 있음.
 

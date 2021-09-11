@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-09-11T09:08:26+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">스마트팜 / Smart Farm Mobile robots!</title><link href="https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot.html" rel="alternate" type="text/html" title="스마트팜 / Smart Farm Mobile robots!" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot.html">&lt;h2 id=&quot;기본기능&quot;&gt;기본기능&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://github.com/yunbum/yunbum.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/yunbum/yunbum.github.io/" rel="alternate" type="text/html" /><updated>2021-09-11T09:13:47+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">스마트팜 / Smart Farm Mobile robots!</title><link href="https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot.html" rel="alternate" type="text/html" title="스마트팜 / Smart Farm Mobile robots!" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot</id><content type="html" xml:base="https://github.com/yunbum/yunbum.github.io/SmartFarm-Robot.html">&lt;h2 id=&quot;기본기능&quot;&gt;기본기능&lt;/h2&gt;
 &lt;p&gt;알엘모델 SRC-D Smart farm 버전의 목적은 실내외 특히 야외에 있는 농작물의 다양한 발육상태, 이상유무 등을 원격에서도 최대 4대의 카메라를 통해 확인/분석/전송을  편리하게 할 수 있게하여 더운 여름이나 오지에 가야하는 불편함을 줄여줄 수 있습니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;상세설명&quot;&gt;상세설명&lt;/h3&gt;
@@ -9,17 +9,17 @@
 &lt;small&gt;[RLMap-prj] 다양한 환경의 오프로드 테스트 진행.&lt;/small&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;주행설정분석&quot;&gt;주행설정/분석&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210902/seed_log.jpg&quot; alt=&quot;GPS 관련 소프트웨어&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210902/Seed_log.jpg&quot; alt=&quot;GPS 관련 소프트웨어&quot; /&gt;
 &lt;small&gt;[log file] 주행후 로그파일을 분석하여 경로확인 및 평가.&lt;/small&gt;
 설정된 경로확인 및 실제주행 경로와의 비교. 그리고 전체 경로의 정밀도 제어값 등 다양한 정보들을 다시 분석하고 확인 할 수 있는 SW로 준비되어 있습니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;센서모듈-추가선택&quot;&gt;센서모듈 추가/선택&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210902/left.jpg&quot; alt=&quot;Map provider&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210902/left.jpg&quot; alt=&quot; robot&quot; /&gt;
 &lt;small&gt;[Map provider] ex) Street4U 화면.&lt;/small&gt;
 기본 장착되어 있는 카메라,라이다, GPS, 등의 센서를 변경하거나 추가하여 기능을 보완이 가능.&lt;/p&gt;
 
 &lt;h3 id=&quot;부가기능&quot;&gt;부가기능&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210902/trailer.jpg&quot; alt=&quot;SRC history&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210902/trailer.jpg&quot; alt=&quot;SRC hw option&quot; /&gt;
 &lt;small&gt;[SRC history] 모바일 로봇에 별도의 trailer 를 추가장착한 사진.&lt;/small&gt;
 트레일러를 추가하여 배터리 확장을 비롯한 추가 장비나 물품을 실을 수 있음.&lt;/p&gt;
 
