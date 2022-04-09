@@ -62,6 +62,15 @@ SRC B1
 ![sensors & modules](./assets/img/posts/20210402/SRC_extra-battery.jpg)
 <small>추가 확장 배터리 장착사진 - 주행시간 6시간 이상으로 연장</small>
 
+![sensors & modules](./assets/img/posts/20210402/SSRC_car-cam-mount-1.jpg)
+<small>실제차량에 사용하는 양산용 카메라 마운트 사진1</small>
+
+![sensors & modules](./assets/img/posts/20210402/SSRC_car-cam-mount-2.jpg)
+<small>실제차량에 사용하는 양산용 카메라 마운트 사진2</small>
+
+![sensors & modules](./assets/img/posts/20210402/SRC_camx3.jpg)
+<small>일반 웹캠 3개 장착 사진</small>
+
 ## 주행알고리즘
 기본으로 제공하는 SRC/ASV 로봇의 주행 로직은 Pure pursuit 로직과 PID 로직을 조향제어 로직에 연결하여 제어하고 있습니다.
 
