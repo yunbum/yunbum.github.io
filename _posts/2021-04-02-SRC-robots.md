@@ -56,6 +56,12 @@ SRC B1
 ![sensors & modules](./assets/img/posts/20210402/SRC-B_parts.png)
 <small>Full option 상태의 센서 및 기타 모듈 구성도</small>
 
+![sensors & modules](./assets/img/posts/20210402/SRC_laser.jpg)
+<small>산업용 Laser 장착사진</small>
+
+![sensors & modules](./assets/img/posts/20210402/SRC_extra-battery.jpg)
+<small>추가 확장 배터리 장착사진 - 주행시간 6시간 이상으로 연장</small>
+
 ## 주행알고리즘
 기본으로 제공하는 SRC/ASV 로봇의 주행 로직은 Pure pursuit 로직과 PID 로직을 조향제어 로직에 연결하여 제어하고 있습니다.
 
