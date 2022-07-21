@@ -15,6 +15,16 @@
     
       
   {
+  "tag" : "AHRS",
+  "posts" : [
+      
+      "./IMU-INS.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "Camera",
   "posts" : [
       
@@ -199,8 +209,30 @@
     
       
   {
+  "tag" : "imu",
+  "posts" : [
+      
+      "./IMU-INS.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "ins",
+  "posts" : [
+      
+      "./IMU-INS.html"
+      
+    ]
+  } ,
+    
+      
+  {
   "tag" : "labview",
   "posts" : [
+      
+      "./IMU-INS.html",
       
       "./SmartFarm-Robot.html",
       

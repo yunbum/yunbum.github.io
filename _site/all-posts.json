@@ -1,6 +1,8 @@
 {
   "posts" : [
     
+    "./IMU-INS.html",
+    
     "./SmartFarm-Robot.html",
     
     "./RLMap.html",
