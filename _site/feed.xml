@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-05T08:29:43+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-05T08:49:12+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
 &lt;p&gt;차선인식 테스트 후기&lt;/p&gt;
 
 &lt;h3 id=&quot;상세설명&quot;&gt;상세설명&lt;/h3&gt;
@@ -42,16 +42,16 @@ XSENS MTi-630, VectorNav VN-100, SBG Ellipse-D, Ntrex MW-AHRSv1&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20211124/SBG_Ellipse-D_simple-dual-antenna.jpg&quot; alt=&quot;INS&quot; /&gt;
 &lt;small&gt;[SBG Ellipse-D] INS 센서 및 Dual antenna 테스트 화면.&lt;/small&gt;
-&lt;img src=&quot;./assets/img/posts/20211124/SBG_Ellipse-D_scout-mini.jpg&quot; alt=&quot;Mount&quot; /&gt;
+&lt;img src=&quot;./assets/img/posts/2021/20211124/SBG_Ellipse-D_scout-mini.jpg&quot; alt=&quot;Mount&quot; /&gt;
 &lt;small&gt;[RLMap-prj] 실제 AGV 로봇에 장착하여 heading 값으로 적용.&lt;/small&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;imu-sensor-calibration&quot;&gt;IMU sensor calibration&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20211124/XSENS-calibration.png&quot; alt=&quot;센서 Calibration&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20211124/XSENS-calibration.png&quot; alt=&quot;센서 Calibration&quot; /&gt;
 &lt;small&gt;[Magfield Mapper] 사용전 초기 칼리브레이션 실행.&lt;/small&gt;
 IMU 센서 제조사들 마다 각 센서별 calibration 방법 및 프로그램을 제공하고 있으며, 최적의 동작 및 동작중 drift offset 의 누적오차 등을 최소화 하기 위해서는 calibration 을 진행하는 것이 바람직 하며 실제 마운팅한 AGV (robot) 상태에서 진행하여 노이즈나 환경의 상황에서 진행하는 것이 바람직 합니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;heading-offset-보정-로직&quot;&gt;heading offset 보정 로직&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20211124/heading.png&quot; alt=&quot; robot&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20211124/heading.png&quot; alt=&quot; robot&quot; /&gt;
 &lt;small&gt;[Map provider] 진북 및 drift offset 보정을 위한 Heading 계산결과 표시 UI.&lt;/small&gt;
 GPS 의 이동 궤적을 바탕으로 AGV 혹은 robot 의 heading 을 계산하여 imu yaw 값을 보정하여 진북 값을 보정하여 주행로직에 반영. 즉 로봇의 이동이 구간이 직선인 경우 일정 기간을 1차원 interpolation 하여 해당 기울기의 inverse tangent 형태로 degree 을 계산하고 변환하여 drift offset 혹은 진북을 찾고 초기화 하는 로직으로 적용.
 특히나 저가형 imu 인 경우 동작 중간 보정 로직의 필요성이 큰 편.&lt;/p&gt;
@@ -68,7 +68,7 @@ VN-100 모듀의 USB 커넥터는 기능을 추가하여 연결상태, 동작상
 뿐만 아니라 케이블의 길이, 견고성, 홀 크기, 재질 등 등급이나 모델에 따른 차이도 다양한 편임.&lt;/p&gt;
 
 &lt;h3 id=&quot;참고&quot;&gt;참고&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/20211124/VectorNav_tool.png&quot; alt=&quot;cartpole&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20211124/VectorNav_tool.png&quot; alt=&quot;cartpole&quot; /&gt;
 &lt;small&gt;VectorNav 사의 HW 설정 및 Calibration tool  &lt;/small&gt;
 제조사 마다 제공하는 각 회사의 제품에 대한 설정 및 테스트 툴이 있다. Visual 하게는 VectorNav 사의 툴이 시각화가 잘 되어 있는 편이고, 세세한 설정에 대해서 메뉴얼을 참고하는게 필요하며 특히나 사용목적에 따라 다양한 모드나 입력 파라미터들이 나누어져 있으니 최적의 성능을 위해서는 설정도 신경써야 한다.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="imu" /><category term="imu" /><category term="labview" /><category term="ins" /><category term="AHRS" /><summary type="html">IMU 테스트 다양한 제조사의 IMU(AHRS) 제품에 대한 비교 테스트 후기 XSENS MTi-630, VectorNav VN-100, SBG Ellipse-D, Ntrex MW-AHRSv1</summary></entry><entry><title type="html">스마트팜 / Smart Farm Mobile robots!</title><link href="www.rlmodel.com/SmartFarm-Robot.html" rel="alternate" type="text/html" title="스마트팜 / Smart Farm Mobile robots!" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>www.rlmodel.com/SmartFarm-Robot</id><content type="html" xml:base="www.rlmodel.com/SmartFarm-Robot.html">&lt;h2 id=&quot;기본기능&quot;&gt;기본기능&lt;/h2&gt;
 &lt;p&gt;알엘모델 SRC-D Smart farm 버전의 목적은 실내외 특히 야외에 있는 농작물의 다양한 발육상태, 이상유무 등을 원격에서도 최대 4대의 카메라를 통해 확인/분석/전송을  편리하게 할 수 있게하여 더운 여름이나 오지에 가야하는 불편함을 줄여줄 수 있습니다.&lt;/p&gt;
