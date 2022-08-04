@@ -18,6 +18,8 @@
   "tag" : "AHRS",
   "posts" : [
       
+      "./Track.html",
+      
       "./IMU-INS.html"
       
     ]
@@ -212,6 +214,8 @@
   "tag" : "imu",
   "posts" : [
       
+      "./Track.html",
+      
       "./IMU-INS.html"
       
     ]
@@ -222,6 +226,8 @@
   "tag" : "ins",
   "posts" : [
       
+      "./Track.html",
+      
       "./IMU-INS.html"
       
     ]
@@ -231,6 +237,8 @@
   {
   "tag" : "labview",
   "posts" : [
+      
+      "./Track.html",
       
       "./IMU-INS.html",
       
