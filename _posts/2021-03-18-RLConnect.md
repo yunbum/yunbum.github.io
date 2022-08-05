@@ -5,7 +5,7 @@ show_date: true
 title:  RL Connect - 무료 Ntrip client sw
 date:   2021-03-18 15:14:20 -0600
 description: Free Ntrip client 'RL Connect'
-img: posts/20210318/C94-M8P.png
+img: posts/2021/20210318/C94-M8P.png
 tags: [GPS, Network rtk, Ntrip client, GNSS, fkp, vrs]
 author: Ybbaek
 github: yunbum
@@ -14,13 +14,13 @@ toc: yes # leave empty or erase for no TOC
 ## RTK Real Time Kinematic
 GPS 의 정밀도를 높이기 위한 RTK mode 중 Network RTK 기능 설정을 위해 필요한 Ntrip client 로직을 개발하여 사용하고, 별로도 독립 툴로 개발하여 배포하였습니다.
 
-![RL_Connect](./assets/img/posts/20210318/RL_Connect_ui.jpg)
+![RL_Connect](./assets/img/posts/2021/20210318/RL_Connect_ui.jpg)
 <small>[RL_Connect] Netwrok RTK 모드 설정을 위한 Ntrip client..</small>
 
 기본적으로 RLmodel 의 자율주행 차량과 자율운항 보트에는 기본 내장된 기능
 일반 Ntrip client 에는 없는 모드별 분포, 비율을 계산하여 상태를 분석할 수 있도록 지원
 
-<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/20210318/tm_circle.png' width="310" height="320"></center>
+<center><img style="float: left;margin-right: 1em;" src='./assets/img/posts/2021/20210318/tm_circle.png' width="310" height="320"></center>
 
 TM 좌표계로 변환 -> 점들을 포함하는 최소원을 계산하여 원의 반경 계산하여 표시
 
@@ -50,7 +50,7 @@ static const char encodingTable [64] = {
 ```
 GNSS/GP 모듈은 uBlox F9P M8P, Sententrio Mosaic X5, MBC MRP, 등에 적용하여 테스트.
 
-<center><img src='./assets/img/posts/20210318/hw_block.JPG' width="540">
+<center><img src='./assets/img/posts/2021/20210318/hw_block.JPG' width="540">
 <small>RL Connect Hardware Function block</small></center>
 
 <a name='Model3'></a>
@@ -84,7 +84,7 @@ Mode 를 지속적으로 카운팅 하여 정밀도 상태 표시:
 - 지정된 시간마다 모드의 상태를 카운팅 (N/A, Standalone, RTK float, RTK fixed)
 - 카운팅 된 회수를 바탕으로 백분율로 계산하여 % 스케일로도 표시 
 
-![tcp_block](./assets/img/posts/20210318/statistics.JPG)
+![tcp_block](./assets/img/posts/2021/20210318/statistics.JPG)
 <small>[tcp_block] LabVIEW TCP Function Block Diagram code.</small>
 
 현재 지원하는 윈도우 버전 뿐만 아니라, [I converting RC Connect to Linux / Ubuntu version](https://github.com/yunbum/NtripClient), Linux Ubuntu 버전 변화작업도 진행예정. 
