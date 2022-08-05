@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-05T10:49:28+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-05T11:12:05+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
 &lt;p&gt;차선인식 테스트 후기&lt;/p&gt;
 
 &lt;h3 id=&quot;상세설명&quot;&gt;상세설명&lt;/h3&gt;
@@ -263,19 +263,19 @@ VN-100 모듀의 USB 커넥터는 기능을 추가하여 연결상태, 동작상
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/SRC-B_parts.png&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
 &lt;small&gt;Full option 상태의 센서 및 기타 모듈 구성도&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/SRC_laser.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/20210822_laser.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
 &lt;small&gt;산업용 Laser 장착사진&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/SRC_extra-battery.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/20211114_battery.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
 &lt;small&gt;추가 확장 배터리 장착사진 - 주행시간 6시간 이상으로 연장&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/SSRC_car-cam-mount-1.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/20220323_carcam1.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
 &lt;small&gt;실제차량에 사용하는 양산용 카메라 마운트 사진1&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/SSRC_car-cam-mount-2.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/20220323_carcam2.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
 &lt;small&gt;실제차량에 사용하는 양산용 카메라 마운트 사진2&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/SRC_camx3.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/20210810_camx3.jpg&quot; alt=&quot;sensors &amp;amp; modules&quot; /&gt;
 &lt;small&gt;일반 웹캠 3개 장착 사진&lt;/small&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;주행알고리즘&quot;&gt;주행알고리즘&lt;/h2&gt;

@@ -56,19 +56,19 @@ SRC B1
 ![sensors & modules](./assets/img/posts/2021/20210402/SRC-B_parts.png)
 <small>Full option 상태의 센서 및 기타 모듈 구성도</small>
 
-![sensors & modules](./assets/img/posts/2021/20210402/SRC_laser.jpg)
+![sensors & modules](./assets/img/posts/2021/20210402/20210822_laser.jpg)
 <small>산업용 Laser 장착사진</small>
 
-![sensors & modules](./assets/img/posts/2021/20210402/SRC_extra-battery.jpg)
+![sensors & modules](./assets/img/posts/2021/20210402/20211114_battery.jpg)
 <small>추가 확장 배터리 장착사진 - 주행시간 6시간 이상으로 연장</small>
 
-![sensors & modules](./assets/img/posts/2021/20210402/SSRC_car-cam-mount-1.jpg)
+![sensors & modules](./assets/img/posts/2021/20210402/20220323_carcam1.jpg)
 <small>실제차량에 사용하는 양산용 카메라 마운트 사진1</small>
 
-![sensors & modules](./assets/img/posts/2021/20210402/SSRC_car-cam-mount-2.jpg)
+![sensors & modules](./assets/img/posts/2021/20210402/20220323_carcam2.jpg)
 <small>실제차량에 사용하는 양산용 카메라 마운트 사진2</small>
 
-![sensors & modules](./assets/img/posts/2021/20210402/SRC_camx3.jpg)
+![sensors & modules](./assets/img/posts/2021/20210402/20210810_camx3.jpg)
 <small>일반 웹캠 3개 장착 사진</small>
 
 ## 주행알고리즘
