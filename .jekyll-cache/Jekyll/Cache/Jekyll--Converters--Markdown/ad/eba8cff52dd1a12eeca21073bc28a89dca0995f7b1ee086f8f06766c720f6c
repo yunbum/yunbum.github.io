@@ -1,4 +1,4 @@
-I"�<h2 id="차선인식-테스트">차선인식 테스트</h2>
+I"�	<h2 id="차선인식-테스트">차선인식 테스트</h2>
 <p>차선인식 테스트 후기</p>
 
 <h3 id="상세설명">상세설명</h3>
@@ -27,4 +27,6 @@
 <p><img src="./assets/img/posts/2022/20220222/20220317_signal2.jpg" alt="VN-100 USB connector" />
 <small>[적용사진] 반복적으로 녹색/황색/적색 이 켜지도록 구성.</small></p>
 
+<p><img src="./assets/img/posts/2022/20220222/multi_cars.png" alt="VN-100 USB connector" />
+<small>[군집 주행] 동시에 여러대의 차량이 이동하면서 충돌방지 및 안정적 운행 테스트.</small></p>
 :ET
