@@ -1,38 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-05T09:40:44+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-05T10:49:28+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
 &lt;p&gt;차선인식 테스트 후기&lt;/p&gt;
 
 &lt;h3 id=&quot;상세설명&quot;&gt;상세설명&lt;/h3&gt;
 &lt;p&gt;자율주행을 위한 차선인식 적용 이미지프로세싱 주행알고리즘 반영.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20220222/20220209_143744.jpg&quot; alt=&quot;INS&quot; /&gt;
-&lt;small&gt;[SBG Ellipse-D] INS 센서 및 Dual antenna 테스트 화면.&lt;/small&gt;
-&lt;img src=&quot;./assets/img/posts/2011/20211124/SBG_Ellipse-D_scout-mini.jpg&quot; alt=&quot;Mount&quot; /&gt;
-&lt;small&gt;[RLMap-prj] 실제 AGV 로봇에 장착하여 heading 값으로 적용.&lt;/small&gt;&lt;/p&gt;
+&lt;small&gt;[실내 트랙] 교차로가 있는 기본 원형트랙.&lt;/small&gt;
+&lt;img src=&quot;./assets/img/posts/2022/20220222/20220210_front.jpg&quot; alt=&quot;Mount&quot; /&gt;
+&lt;small&gt;[추가 미션] 긴급정지/ 이미지처리 등의 미션을 하기위한 동적장애물과 신호등 .&lt;/small&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;grayscale-이미지-추출-binary-convertion-기울기-및-폭-계산-clamp&quot;&gt;Grayscale 이미지 추출, Binary convertion, 기울기 및 폭 계산 (Clamp)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20211124/XSENS-calibration.png&quot; alt=&quot;센서 Calibration&quot; /&gt;
-&lt;small&gt;[Magfield Mapper] 사용전 초기 칼리브레이션 실행.&lt;/small&gt;
-IMU 센서 제조사들&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20220222/lv_vision_1.png&quot; alt=&quot;센서 Calibration&quot; /&gt;
+&lt;small&gt;[image processing] Vision toolkit 을 사용하여 image processing 적용.&lt;/small&gt;
+다양한 비젼 image processing 중 간단한 grayscale 추출 후 흑/백 이미지의 threshold 를 설정하여 2개의 차선의 폭을 계산하고 추가로 2개 혹은 1개의 차선의 기울기를 계산하여 값을 조향제어에 반영&lt;/p&gt;
 
 &lt;h3 id=&quot;동적장애물-적용&quot;&gt;동적장애물 적용&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20211124/20220210_obstacle.jpg&quot; alt=&quot; robot&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20220222/20220210_obstacle.jpg&quot; alt=&quot; robot&quot; /&gt;
 &lt;small&gt;[Moving Obstacle] 횡당보도에서 사람이 건너가는 상황모사를 위한 동적 장애물.&lt;/small&gt;
 이동하는 물체를 인식하고 긴급정지하는 기능을 검증하기 위해 횡단보도 등을 모사해서 라이다에 검지영역을 설정하고 멈출수 있도록 하는 기능 테스트&lt;/p&gt;
 
 &lt;h3 id=&quot;신호등-인식-비전인식&quot;&gt;신호등 인식 비전인식&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20211124/VN-100_USB-connector_1.jpg&quot; alt=&quot;VN-100 USB connector&quot; /&gt;
-&lt;small&gt;[USB indicator] VN-100 모듈의 기능성 USB 커넥터.&lt;/small&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20220222/20220412_signal.jpg&quot; alt=&quot;VN-100 USB connector&quot; /&gt;
+&lt;small&gt;[모형신호등] 자동/수동 모드로 구성하여 불이들어오도록 구성.&lt;/small&gt;
 추가적인 카메라 이미지 처리를 위해 신호등의 색/모양 등을 검출하여 반영할 수 있도록 구성&lt;/p&gt;
 
-&lt;h3 id=&quot;교차로-구성&quot;&gt;교차로 구성&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20211124/VN-100_hole.jpg&quot; alt=&quot;The Next SRC&quot; /&gt;
-&lt;small&gt;&lt;a href=&quot;https://github.com/yunbum/SRC&quot;&gt;The Next SRC&lt;/a&gt; 마운트 홀, 견고성 및 재질 확인.&lt;/small&gt;
-기본적으로 원형으로 시계/반시계 방향으로 이동하고 조건에 따라서는 삼거리 교차로에서 선택적으로 우회전 및 좌회전을 할 수 있도록 교차로 구성을 하여 제공하고 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;참고&quot;&gt;참고&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20211124/VectorNav_tool.png&quot; alt=&quot;cartpole&quot; /&gt;
-&lt;small&gt;VectorNav 사의 HW 설정 및 Calibration tool  &lt;/small&gt;
-동시에 여러대의 차량이 군집으로 주행하고 충돌이나 정체되는 상황에 대응할 수 있는 로직도 개발하여 테스트 할 수 있도록 준비중에 있습니다.&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="vision" /><category term="imu" /><category term="labview" /><category term="ins" /><category term="AHRS" /><summary type="html">차선인식 테스트 차선인식 테스트 후기</summary></entry><entry><title type="html">IMU 센서 테스트 / IMU sensor test!</title><link href="www.rlmodel.com/IMU-INS.html" rel="alternate" type="text/html" title="IMU 센서 테스트 / IMU sensor test!" /><published>2021-11-24T00:00:00+09:00</published><updated>2021-11-24T00:00:00+09:00</updated><id>www.rlmodel.com/IMU-INS</id><content type="html" xml:base="www.rlmodel.com/IMU-INS.html">&lt;h2 id=&quot;imu-테스트&quot;&gt;IMU 테스트&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2022/20220222/20220317_signal2.jpg&quot; alt=&quot;VN-100 USB connector&quot; /&gt;
+&lt;small&gt;[적용사진] 반복적으로 녹색/황색/적색 이 켜지도록 구성.&lt;/small&gt;&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="vision" /><category term="imu" /><category term="labview" /><category term="ins" /><category term="AHRS" /><summary type="html">차선인식 테스트 차선인식 테스트 후기</summary></entry><entry><title type="html">IMU 센서 테스트 / IMU sensor test!</title><link href="www.rlmodel.com/IMU-INS.html" rel="alternate" type="text/html" title="IMU 센서 테스트 / IMU sensor test!" /><published>2021-11-24T00:00:00+09:00</published><updated>2021-11-24T00:00:00+09:00</updated><id>www.rlmodel.com/IMU-INS</id><content type="html" xml:base="www.rlmodel.com/IMU-INS.html">&lt;h2 id=&quot;imu-테스트&quot;&gt;IMU 테스트&lt;/h2&gt;
 &lt;p&gt;다양한 제조사의 IMU(AHRS) 제품에 대한 비교 테스트 후기
 XSENS MTi-630, VectorNav VN-100, SBG Ellipse-D, Ntrex MW-AHRSv1&lt;/p&gt;
 
@@ -297,7 +290,7 @@ VN-100 모듀의 USB 커넥터는 기능을 추가하여 연결상태, 동작상
 &lt;h2 id=&quot;튜닝-업그레이드&quot;&gt;튜닝/ 업그레이드&lt;/h2&gt;
 &lt;p&gt;각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.&lt;/p&gt;
 
-&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210402/dual_motor.jpg&quot; width=&quot;390&quot; height=&quot;250&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/2021/20210402/dual_motor.jpg&quot; width=&quot;390&quot; height=&quot;250&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;프레임 강성을 유지하기 위해 보완 패치들로 접속부분 추가 체결.
 모바일 로봇의 종류는 기본 SRC 차량모델에 이어 ASV 보트(선박) 모델도 있으며 교육목적의 Pendulum, Ball Balance robot 등도 있습니다.&lt;/p&gt;
 

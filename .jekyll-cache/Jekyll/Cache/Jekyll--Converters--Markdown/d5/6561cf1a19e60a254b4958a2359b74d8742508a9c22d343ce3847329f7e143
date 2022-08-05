@@ -1,4 +1,4 @@
-I"<h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2>
+I"�<h2 id="다양한-gpsgnss-모둘-비교테스트">다양한 GPS/GNSS 모둘 비교테스트</h2>
 <p>현재 다양한 종류의 GPS 모듈, 환경에 따른 차이, RTK mode 안정성, 가성비에 따른 효율, 이동중 특성 등의 다양한 성능을 평가하고 모바일 로봇에 반영하고 있습니다.</p>
 
 <h3 id="network-rtk-성능-테스트">Network RTK 성능 테스트</h3>
@@ -10,7 +10,8 @@
 
 <h3 id="dual-antenna-test">Dual antenna test</h3>
 <p>Moving Base 설정 후 Rover/Base 구성을 위한 2중 안테나 지그 구성하여 동시에 2 GPS 모듈의 성능 비교 및 Heading 값 계산
-<img src="./assets/img/posts/2021/20210210/dual_m8p.jpg" alt="1" /><small>uBlox C94-M8P 2ea 테스트 지그사진</small></p>
+<img src="./assets/img/posts/2021/20210210/dual_m8p.jpg" alt="1" /><small>uBlox C94-M8P 2ea 테스트 지그사진</small>
+<img src="./assets/img/posts/2021/20210210/20220614_novatel.jpg" alt="1" /><small>Novatel INS antenna install</small></p>
 
 <h3 id="gps-안정성-테스트">GPS 안정성 테스트</h3>
 <p>고정 위치에 위성신호 반복을 수신을 통하여 정해진 수의 TM 변환 위치값들의 편차폭 비교/평가 테스트 진행.
