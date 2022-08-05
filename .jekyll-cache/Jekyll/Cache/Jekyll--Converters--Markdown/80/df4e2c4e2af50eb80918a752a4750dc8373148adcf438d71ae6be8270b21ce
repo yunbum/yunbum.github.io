@@ -20,13 +20,14 @@
 이동하는 물체를 인식하고 긴급정지하는 기능을 검증하기 위해 횡단보도 등을 모사해서 라이다에 검지영역을 설정하고 멈출수 있도록 하는 기능 테스트</p>
 
 <h3 id="신호등-인식-비전인식">신호등 인식 비전인식</h3>
-<p><img src="./assets/img/posts/2022/20220222/20220412_signal.jpg" alt="VN-100 USB connector" />
+<p><img src="./assets/img/posts/2022/20220222/20220412_signal.jpg" alt="신호등1" />
 <small>[모형신호등] 자동/수동 모드로 구성하여 불이들어오도록 구성.</small>
 추가적인 카메라 이미지 처리를 위해 신호등의 색/모양 등을 검출하여 반영할 수 있도록 구성</p>
 
-<p><img src="./assets/img/posts/2022/20220222/20220317_signal2.jpg" alt="VN-100 USB connector" />
+<p><img src="./assets/img/posts/2022/20220222/20220317_signal2.jpg" alt="신호등2" />
 <small>[적용사진] 반복적으로 녹색/황색/적색 이 켜지도록 구성.</small></p>
 
-<p><img src="./assets/img/posts/2022/20220222/multi_cars.png" alt="VN-100 USB connector" />
+<h3 id="기타">기타</h3>
+<p><img src="./assets/img/posts/2022/20220222/multi_cars.png" alt="군집주행" />
 <small>[군집 주행] 동시에 여러대의 차량이 이동하면서 충돌방지 및 안정적 운행 테스트.</small></p>
 :ET
