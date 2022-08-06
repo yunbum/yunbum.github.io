@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "알엘모델 소개 / RLmodel History!"
 date: 2021-04-20
-img: posts/2021/20210420/src_history.jpg # post8-rembrandt.jpg
+img: posts/2021/20210420/20220318_KICT.jpg # post8-rembrandt.jpg
 tags: [copyright, creativity, neural networks, machine learning, artificial intelligence]
 category: opinion
 author: Ybbaek
@@ -13,18 +13,18 @@ description: "강화학습에 큰 매력을 느껴 관련 공부를 하면서 HW
 ## 모바일로봇 개발 History
 초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.
 
-### 모바일 로봇 모델들
-초기에 적용되었던 다양한 개발버전 (Legacy SRC Mobile robots) 테스트 차량들
-![SRC history](./assets/img/posts/2021/20210420/src_history.jpg)
-<small>[SRC history] 여러종류의 RC 차량의 개조와 테스트를 거처, 모든 구성 부품들이 완전히 개조되고 보완되어 업그레이드 되어 개발되었습니다..</small>
+### 자율주행 모바일로봇 / Self-Driving Mobile robots
+다양한 형태/서비스 기능을 하는 특히나 실외 자율주행 서비스 로봇등을 개발 
+![SRC history](./assets/img/posts/2021/20210420/20220318_KICT.jpg)
+<small>[SRC history] 여러 제조사들의 모바일 로봇들을 적용/개발하면서 주행알고리즘 및 서비스 기능들을 개발..</small>
 
-SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드라이버, 아두이노, 라즈베리파이, 카메라, 라이다 등을 부착하여 튜닝을 후에, 현재의 완벽한 자율주행 로봇으로 업그레이드 되게 되었습니다.
+GPS 의 위도/경도 데이타를 바탕으로 정해전 Waypoint 를 따라 다양항 주행알고리즘등을 반영하여 현재의 완벽한 자율주행 로봇으로 업그레이드 되게 되었습니다.
 
-### 알루미늄 바디 프레임
-![Metal frame](./assets/img/posts/2021/20210420/metal_frame.jpg)
-<small>[Metal frame] 전체 메탈 프레임 초기 모델중 하나.</small>
+### 스마트팜 및 험지 자율주행 로봇 개발
+![Metal frame](./assets/img/posts/2021/20210420/20220513_bunker.jpg)
+<small>[Metal frame] 탱크형태의 무한괘도 기반의 자율주행 모바일 로봇.</small>
 
-다양한 프레임 소재 및 차량 종류의 테스트를 거처 최종으로 전체 메탈프레임 구조를 갖추고 완성이 되게 되어 매우 강한 강성과 함께 파손우려가 없고 수리, 보완에도 용이하도록 개발이 완료되었습니다.
+기본 주행 동작과 동시에 다양한 측정센서, 카메라영상 처리 등의 서비스기능들을 추가하여 맞춤형 로봇으로 개발이 되어가면서 업그레이드 되어가고 있습니다.
 
 ### 자율주행 세미나 진행
 ![SRC history](./assets/img/posts/2021/20210420/seminars.png)
@@ -32,9 +32,12 @@ SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드
 
 다양한 AGV 모바일 로봇등을 개발 및 테스트 하여 최종적으로 최적화된 구조와 SW로직을 SRC 반영하여 제작 및 테스트 완료.
 
-### 자율주행 적용 AGV 모델들
-![SRC history](./assets/img/posts/2021/20210420/agv_test.png)
-<small>[SRC history] 다양한 종류 환경에 AGV들을 테스트 하여 SW에 반영.</small>
+### 원격제어 및 영상전송을 통한 응용로봇
+![SRC history](./assets/img/posts/2021/20210420/20210119_scoutmini.jpg)
+<small>[Joystick remote contro] 고객 요청에 따라 원격에서 영상을 보면서 사용자가 직접 제어 하도록 개발.</small>
+
+![SRC history](./assets/img/posts/2021/20210420/20220126_KITECH.jpg)
+<small>[Air monitoring] 대기질 및 위험가스등을 자율주행하면서 측정 - 건설기술연구원.</small>
 
 수십 종류의 모바일 로봇들을 테스트하고 개발한 노하우를 적용하여 효과적으로 개발 및 테스트가 가능하도록 개선되었습니다.
 
@@ -42,8 +45,8 @@ SRC 로봇은 약 소형 RC자동차 버전부터, 다양한 부품들 모터드
 ![The Next SRC](./assets/img/posts/2021/20210420/src_models.jpg)
 <small>[The Next SRC](https://github.com/yunbum/SRC) 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .</small>
 
-### Cartpole 등 강화학습 SW/HW 확대
-![cartpole](./assets/img/posts/2021/20210420/cartpole.jpg)
-<small>강화학습 플랫폼으로 많이 사용하는 Cartpole</small>
+###  감시 순찰로봇으로의 기능확대
+![cartpole](./assets/img/posts/2021/20210420/20220318_ips.jpg)
+<small>많이 사용하는 순찰 및 감시등의 로봇으로 항만등에 적용 중</small>
 
-강확학습 공부에 대표적으로 사용되는 inverted pendulum/cartpole 제품에 대한 테스트 중입니다. Python 이 RTOS 지원이 되는 환경 제한으로 개발 중입니다.
+Machine Learning 기반의 Object detection 을 활용한 주행 및 부가기능을 적용하기 위한 개발을 진행중에 있습니다.
