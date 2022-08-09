@@ -80,7 +80,7 @@ SRC B1
 ![Main UI](./assets/img/posts/2021/20210402/main_ui.JPG)
 <small>사용자 화면 (Main UI)</small>
 
-![yg delivery](./assets/img/posts/2021/20210402/20211231_class.JPG)
+![yg delivery](./assets/img/posts/2021/20210402/20211231_class.jpg)
 <small>고등학교 등 트랙에 주행 셋업</small>
 
 ## 튜닝/ 업그레이드
