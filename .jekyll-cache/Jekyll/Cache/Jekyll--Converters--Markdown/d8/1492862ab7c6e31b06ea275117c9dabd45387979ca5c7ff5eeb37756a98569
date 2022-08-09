@@ -1,4 +1,4 @@
-I"�!<h2 id="소개--intro">소개 / Intro</h2>
+I"�!<h2 id="소개--intro">소개 / Intro</h2>
 <p>SRC 은 GPS, Camera, Lidar, IMU, 등의 센서를 기반으로 자율주행 교육 및 주행알고리즘, 센서퓨전 등을 쉽고 효과적으로 개발 할 수 있는 자율주행 모바일로봇 플랫폼 입니다.:</p>
 <ul>
   <li><a href="https://github.com/yunbum/SRC">SRC 는 자율주행 알고리즘 및 교육목적으로 개발 되었습니다.</a></li>
@@ -115,7 +115,7 @@
 <p><img src="./assets/img/posts/2021/20210402/main_ui.JPG" alt="Main UI" />
 <small>사용자 화면 (Main UI)</small></p>
 
-<p><img src="./assets/img/posts/2021/20210402/20211231_class.JPG" alt="Main UI" />
+<p><img src="./assets/img/posts/2021/20210402/20211231_class.JPG" alt="yg delivery" />
 <small>고등학교 등 트랙에 주행 셋업</small></p>
 
 <h2 id="튜닝-업그레이드">튜닝/ 업그레이드</h2>
