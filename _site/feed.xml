@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-06T23:43:18+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-09T10:16:59+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
 &lt;p&gt;차선인식 테스트 후기&lt;/p&gt;
 
 &lt;h3 id=&quot;상세설명&quot;&gt;상세설명&lt;/h3&gt;
@@ -293,6 +293,9 @@ VN-100 모듀의 USB 커넥터는 기능을 추가하여 연결상태, 동작상
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/main_ui.JPG&quot; alt=&quot;Main UI&quot; /&gt;
 &lt;small&gt;사용자 화면 (Main UI)&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/img/posts/2021/20210402/20211231_class.JPG&quot; alt=&quot;Main UI&quot; /&gt;
+&lt;small&gt;고등학교 등 트랙에 주행 셋업&lt;/small&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;튜닝-업그레이드&quot;&gt;튜닝/ 업그레이드&lt;/h2&gt;
 &lt;p&gt;각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.&lt;/p&gt;

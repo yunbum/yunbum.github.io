@@ -80,6 +80,9 @@ SRC B1
 ![Main UI](./assets/img/posts/2021/20210402/main_ui.JPG)
 <small>사용자 화면 (Main UI)</small>
 
+![Main UI](./assets/img/posts/2021/20210402/20211231_class.JPG)
+<small>고등학교 등 트랙에 주행 셋업</small>
+
 ## 튜닝/ 업그레이드
 각 SRC 모델에 (A,B,C,D) 에 속도, 토크를 2배로 향상할 수 있는 듀얼모터 (Dual moter) 옵션 가능.
 
