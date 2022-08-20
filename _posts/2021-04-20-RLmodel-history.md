@@ -46,7 +46,11 @@ GPS 의 위도/경도 데이타를 바탕으로 정해전 Waypoint 를 따라 �
 <small>[The Next SRC](https://github.com/yunbum/SRC) 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .</small>
 
 ###  감시 순찰로봇으로의 기능확대
-![cartpole](./assets/img/posts/2021/20210420/20220318_ips.jpg)
+![Patrol robot](./assets/img/posts/2021/20210420/20220318_ips.jpg)
 <small>많이 사용하는 순찰 및 감시등의 로봇으로 항만등에 적용 중</small>
+
+###  다양한 AGV 테스트 및 적용
+![AGV robots](./assets/img/posts/2021/20210420/agilex_scout.jpg)
+<small>다양한 종류의 AGV 테스트 및 최적 로봇 적용</small>
 
 Machine Learning 기반의 Object detection 을 활용한 주행 및 부가기능을 적용하기 위한 개발을 진행중에 있습니다.

@@ -1,4 +1,4 @@
-I"�<h2 id="모바일로봇-개발-history">모바일로봇 개발 History</h2>
+I"�<h2 id="모바일로봇-개발-history">모바일로봇 개발 History</h2>
 <p>초기 중고 RC가, KINEX 블록 등으로 개발 프로토타입을 시작으로 다양한 테스트와 보완을 거처 최종 수십 km 자율주행 완료하여 SRC모델에 반영하여 현재도 진행중 입니다.</p>
 
 <h3 id="자율주행-모바일로봇--self-driving-mobile-robots">자율주행 모바일로봇 / Self-Driving Mobile robots</h3>
@@ -34,8 +34,12 @@
 <small><a href="https://github.com/yunbum/SRC">The Next SRC</a> 커리큘럼 및 예제와 함께 (Python, LabVIEW 등) 모바일 버전으로도 준비중에 있습니다. .</small></p>
 
 <h3 id="감시-순찰로봇으로의-기능확대">감시 순찰로봇으로의 기능확대</h3>
-<p><img src="./assets/img/posts/2021/20210420/20220318_ips.jpg" alt="cartpole" />
+<p><img src="./assets/img/posts/2021/20210420/20220318_ips.jpg" alt="Patrol robot" />
 <small>많이 사용하는 순찰 및 감시등의 로봇으로 항만등에 적용 중</small></p>
+
+<h3 id="다양한-agv-테스트-및-적용">다양한 AGV 테스트 및 적용</h3>
+<p><img src="./assets/img/posts/2021/20210420/agilex_scout.jpg" alt="AGV robots" />
+<small>다양한 종류의 AGV 테스트 및 최적 로봇 적용</small></p>
 
 <p>Machine Learning 기반의 Object detection 을 활용한 주행 및 부가기능을 적용하기 위한 개발을 진행중에 있습니다.</p>
 :ET

@@ -5,7 +5,7 @@ show_date: true
 title:  RL Connect - 무료 Ntrip client sw
 date:   2021-03-18 15:14:20 -0600
 description: Free Ntrip client 'RL Connect'
-img: posts/2021/20210318/C94-M8P.png
+img: posts/2021/20210318/C94-M8P.jpg
 tags: [GPS, Network rtk, Ntrip client, GNSS, fkp, vrs]
 author: Ybbaek
 github: yunbum
