@@ -5,7 +5,7 @@ show_date: true
 title:  관련 악세사리 / Accessory parts
 date:   2021-02-28 12:32:20 -0600
 description: 다양한 모바일 로봇 악세사리.
-img: posts/2021/20210228/trailer-1-c.png 
+img: posts/2021/20210228/trailer-1-c.jpg 
 tags: [accessory, trailer, speaker, led]
 author: Ybbaek
 github: yunbum # amaynez/GenericNeuralNetwork/
@@ -15,12 +15,12 @@ github: yunbum # amaynez/GenericNeuralNetwork/
 
 ### 트레일러 / Trailer
 SRC 후면에 연결하여 추가적인 모듈이나 부품들을 싣기위해 적용가능
-<center><img src="./assets/img/posts/2021/20210228/trailer-4.png" width="480px"><small>SRC 관련 트레일러 (Trailer)</small></center>
+<center><img src="./assets/img/posts/2021/20210228/trailer-4.jpg" width="480px"><small>SRC 관련 트레일러 (Trailer)</small></center>
 
 ### Dot matrix 3색 
-<center><img src="./assets/img/posts/2021/20210228/dot_matrix.png"><small>8x32 led dot matrix 원하는 메세지 출력가능</small></center>
+<center><img src="./assets/img/posts/2021/20210228/dot_matrix.jpg"><small>8x32 led dot matrix 원하는 메세지 출력가능</small></center>
 
-<center><img src="./assets/img/posts/2021/20210228/dot_matrix-3.png"><small>3색 R, G, B 칼라</small></center>
+<center><img src="./assets/img/posts/2021/20210228/dot_matrix-3.jpg"><small>3색 R, G, B 칼라</small></center>
 
 SRC 로봇 기본 프로그램에는 기본적을 아래와 같은 정보들을 dot matirx 를 통해 표시하게 할 수 있습니다:
 선택은 조이스틱 키를 통해서 선택
@@ -60,6 +60,6 @@ LED 조명 등의 전원 on/off 제어를 위한 릴레이보드
 ### ASV 조타 방향키
 ASV 보트의 방향키는 크기, 색에 따라 3가지 종류가 있습니다.:
 
-<center><img src="./assets/img/posts/2021/20210228/keying.png"><small>ASV 미세 방향설정에 효과적</small></center>
+<center><img src="./assets/img/posts/2021/20210228/keying.jpg"><small>ASV 미세 방향설정에 효과적</small></center>
 
 조종은 DC Servo 모터로 제어하고 보조적인 미세 방향조절에 적용:

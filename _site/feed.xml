@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-20T15:24:10+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.rlmodel.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.rlmodel.com/" rel="alternate" type="text/html" /><updated>2022-08-20T15:46:47+09:00</updated><id>www.rlmodel.com/feed.xml</id><title type="html">RLmodel</title><subtitle>Reinforcement Learning model maker</subtitle><author><name>Ybbaek</name></author><entry><title type="html">주행 테스트 / Mini Track!</title><link href="www.rlmodel.com/Track.html" rel="alternate" type="text/html" title="주행 테스트 / Mini Track!" /><published>2022-02-22T00:00:00+09:00</published><updated>2022-02-22T00:00:00+09:00</updated><id>www.rlmodel.com/Track</id><content type="html" xml:base="www.rlmodel.com/Track.html">&lt;h2 id=&quot;차선인식-테스트&quot;&gt;차선인식 테스트&lt;/h2&gt;
 &lt;p&gt;차선인식 테스트 후기&lt;/p&gt;
 
 &lt;h3 id=&quot;상세설명&quot;&gt;상세설명&lt;/h3&gt;
@@ -483,12 +483,12 @@ VN-100 모듀의 USB 커넥터는 기능을 추가하여 연결상태, 동작상
 
 &lt;h3 id=&quot;트레일러--trailer&quot;&gt;트레일러 / Trailer&lt;/h3&gt;
 &lt;p&gt;SRC 후면에 연결하여 추가적인 모듈이나 부품들을 싣기위해 적용가능&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/2021/20210228/trailer-4.png&quot; width=&quot;480px&quot; /&gt;&lt;small&gt;SRC 관련 트레일러 (Trailer)&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/2021/20210228/trailer-4.jpg&quot; width=&quot;480px&quot; /&gt;&lt;small&gt;SRC 관련 트레일러 (Trailer)&lt;/small&gt;&lt;/center&gt;
 
 &lt;h3 id=&quot;dot-matrix-3색&quot;&gt;Dot matrix 3색&lt;/h3&gt;
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/2021/20210228/dot_matrix.png&quot; /&gt;&lt;small&gt;8x32 led dot matrix 원하는 메세지 출력가능&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/2021/20210228/dot_matrix.jpg&quot; /&gt;&lt;small&gt;8x32 led dot matrix 원하는 메세지 출력가능&lt;/small&gt;&lt;/center&gt;
 
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/2021/20210228/dot_matrix-3.png&quot; /&gt;&lt;small&gt;3색 R, G, B 칼라&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/2021/20210228/dot_matrix-3.jpg&quot; /&gt;&lt;small&gt;3색 R, G, B 칼라&lt;/small&gt;&lt;/center&gt;
 
 &lt;p&gt;SRC 로봇 기본 프로그램에는 기본적을 아래와 같은 정보들을 dot matirx 를 통해 표시하게 할 수 있습니다:
 선택은 조이스틱 키를 통해서 선택&lt;/p&gt;
@@ -533,6 +533,6 @@ VN-100 모듀의 USB 커넥터는 기능을 추가하여 연결상태, 동작상
 &lt;h3 id=&quot;asv-조타-방향키&quot;&gt;ASV 조타 방향키&lt;/h3&gt;
 &lt;p&gt;ASV 보트의 방향키는 크기, 색에 따라 3가지 종류가 있습니다.:&lt;/p&gt;
 
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/2021/20210228/keying.png&quot; /&gt;&lt;small&gt;ASV 미세 방향설정에 효과적&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;./assets/img/posts/2021/20210228/keying.jpg&quot; /&gt;&lt;small&gt;ASV 미세 방향설정에 효과적&lt;/small&gt;&lt;/center&gt;
 
 &lt;p&gt;조종은 DC Servo 모터로 제어하고 보조적인 미세 방향조절에 적용:&lt;/p&gt;</content><author><name>Ybbaek</name></author><category term="accessory" /><category term="trailer" /><category term="speaker" /><category term="led" /><summary type="html">Robot 악세사리 옵션 / Accessory 모바일 로봇에 장착하거나 연결해서 사용할 수 있는 다양한 악세사리를 제공하고 있습니다.</summary></entry></feed>
