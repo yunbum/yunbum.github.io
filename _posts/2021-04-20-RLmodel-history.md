@@ -27,6 +27,9 @@ GPS 의 위도/경도 데이타를 바탕으로 정해전 Waypoint 를 따라 �
 ![Metal frame](./assets/img/posts/2021/20210420/20220513_bunker.jpg)
 <small>[Metal frame] 탱크형태의 무한괘도 기반의 자율주행 모바일 로봇.</small>
 
+![Metal frame](./assets/img/posts/2021/20210420/bunker2.jpg)
+<small>[Metal frame] Dual antenna 적용으로 cm급 정밀주행 및 Heading(방향) 측위 .</small>
+
 기본 주행 동작과 동시에 다양한 측정센서, 카메라영상 처리 등의 서비스기능들을 추가하여 맞춤형 로봇으로 개발이 되어가면서 업그레이드 되어가고 있습니다.
 
 ### 자율주행 세미나 진행
@@ -53,7 +56,7 @@ GPS 의 위도/경도 데이타를 바탕으로 정해전 Waypoint 를 따라 �
 <small>많이 사용하는 순찰 및 감시등의 로봇으로 항만등에 적용 중</small>
 
 ###  다양한 UGV 테스트 및 적용
-![AGV robots](./assets/img/posts/2021/20210420/agilex_tracer.jpg)
+![AGV robots](./assets/img/posts/2021/20210420/tracer.jpg)
 <small>다양한 종류의 UGV 테스트 및 최적 로봇 적용</small>
 
 객체인식등의 Machine learning 강화학습 등의 목적으로 적용하고 있습니다.
