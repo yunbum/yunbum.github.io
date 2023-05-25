@@ -51,9 +51,9 @@ GPS 의 위도/경도 데이타를 바탕으로 정해전 Waypoint 를 따라 �
 
 ###  배송 및 물류 자동화 / 대형 오프로드 타입 UGV 
 ![UGV robots](./assets/img/posts/2021/20210420/tracer.jpg)
-<small>다양한 종류의 UGV 테스트 및 최적 로봇 적용</small>
+<small>스마트 팩토리 물류 자동화 UGV 로봇</small>
 
 ![UGV robots](./assets/img/posts/2021/20210420/warthog.jpg)
-<small>다양한 종류의 UGV 테스트 및 최적 로봇 적용</small>
+<small>대형 오프로드 타입 4륜 로봇</small>
 
 객체인식등의 Machine learning 강화학습 등의 목적으로 적용하고 있습니다.
