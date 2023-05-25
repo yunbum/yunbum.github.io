@@ -53,7 +53,7 @@ GPS 의 위도/경도 데이타를 바탕으로 정해전 Waypoint 를 따라 �
 
 ###  감시 순찰로봇으로의 기능확대
 ![Patrol robot](./assets/img/posts/2021/20210420/20220318_ips.jpg)
-<small>많이 사용하는 순찰 및 감시등의 로봇으로 항만등에 적용 중</small>
+<small>거동수상자, 사각지대 순찰 및 감시등의 로봇으로 항만등에 적용 중</small>
 
 ###  대형 오프로드 타입 UGV 테스트 및 적용
 ![UGV robots](./assets/img/posts/2021/20210420/tracer.jpg)
