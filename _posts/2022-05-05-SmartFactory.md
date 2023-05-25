@@ -11,23 +11,24 @@ author: Ybbaek
 description: "ROS2"
 ---
 ## SLAM, Navigation
-차선인식 테스트 후기
+ROS2 기반의 지도생성, 로봇제어, Nav2 파라미터 튜닝 
 
 ### 상세설명
-실내 자율주행 SLAM, Navigation 적용을 위한 모바일로봇 테스트.
+ROS2 기반의 실내 자율주행 SLAM, Navigation 적용을 위한 모바일로봇 테스트.
+TF를 비롯한 센서퓨전 검증, SLAM 지도 결과물 확인, 최적 Navigation 을 위한 파라미터 수정
 
-![INS](./assets/img/posts/2023/20220505/20230504_200538.jpg)
+![UGV](./assets/img/posts/2023/20220505/20230504_200538.jpg)
 <small>[Tracer] 공장 물류 로봇.</small>
 ![Mount](./assets/img/posts/2023/20230505/20230504_200633.jpg)
 <small>[Tracer] PC, Lidar, IMU, Camera 부착 .</small>
 
 ### Gmapping, Slam toolbox / SLAM 패키지 적용
-![센서 Calibration](./assets/img/posts/2023/20230505/ROS2 SLAM Navigation 0-8 screenshot.png)
+![mapping](./assets/img/posts/2023/20230505/ROS2 SLAM Navigation 0-8 screenshot.png)
 <small>[mapping] gmapping 패키지를 사용하여 지도생성.</small>
 ROS2 환경에서 Slam 패키지로 많이 사용되는 slam toolbox 를 사용하여 지도생성
 
 ### 최종 맵 파일
-![ robot](./assets/img/posts/2023/20230505/B2011_2023-05-07-4.jpg)
+![robot](./assets/img/posts/2023/20230505/B2011_2023-05-07-4.jpg)
 <small>[pgm 파일] 최종 지도 파일 pgm yaml.</small>
 지도를 생성하고 최종 지도파일을 저장하여 활용 pgm, yaml 파일
 
