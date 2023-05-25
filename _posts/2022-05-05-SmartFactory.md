@@ -17,7 +17,7 @@ ROS2 기반의 지도생성, 로봇제어, Nav2 파라미터 튜닝
 ROS2 기반의 실내 자율주행 SLAM, Navigation 적용을 위한 모바일로봇 테스트.
 TF를 비롯한 센서퓨전 검증, SLAM 지도 결과물 확인, 최적 Navigation 을 위한 파라미터 수정
 
-![UGV](./assets/img/posts/2023/20220505/20230504_200538.jpg)
+![UGV](./assets/img/posts/2023/20230505/20230504_200538.jpg)
 <small>[Tracer] 공장 물류 로봇.</small>
 ![Mount](./assets/img/posts/2023/20230505/20230504_200633.jpg)
 <small>[Tracer] PC, Lidar, IMU, Camera 부착 .</small>
